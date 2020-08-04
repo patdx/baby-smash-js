@@ -1,15 +1,16 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+// import Link from 'next/link';
+// import Layout from '../components/Layout';
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">
-        <a>About</a>
-      </Link>
-    </p>
-  </Layout>
-)
+import dynamic from 'next/dynamic';
+// import { Game } from '../components/Game';
 
-export default IndexPage
+const Game = dynamic(
+  () => import('../components/Game').then((m) => m.Game) as any,
+  {
+    ssr: false,
+  }
+);
+
+const IndexPage = () => <Game></Game>;
+
+export default IndexPage;
