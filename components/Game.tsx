@@ -20,7 +20,7 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
 
   // Set the drag hook and define component movement based on gesture data
   const bind = useDrag(
-    ({ down, movement: [mx, my], offset: [x, y] }) => {
+    ({ offset: [x, y] }) => {
       set({ position: [initialX + x, -y, 0] });
     },
     {
