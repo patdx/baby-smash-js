@@ -1,15 +1,14 @@
 // import { useWindowSize } from '@react-hook/window-size';
-import { Text } from 'drei';
-import React, { FC, useCallback, useRef, useState } from 'react';
-import { Canvas } from 'react-three-fiber';
-import { Vector3 } from 'three';
 import { useSpring } from '@react-spring/core';
 import { animated } from '@react-spring/three';
+import { Text } from 'drei';
+import React, { FC, useRef } from 'react';
+import { Canvas } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 
 const AnimatedText = animated(Text);
 
-type V3 = [number, number, number];
+// type V3 = [number, number, number];
 
 const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   // const three = useThree();
