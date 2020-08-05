@@ -1,14 +1,31 @@
-// import { useWindowSize } from '@react-hook/window-size';
-import { useSpring } from 'react-spring';
-import { animated } from 'react-spring/three';
+import { useSpring } from '@react-spring/core';
+import { animated } from '@react-spring/three';
 import { Text } from 'drei';
-import React, { FC, useRef } from 'react';
-import { Canvas } from 'react-three-fiber';
+import React, { FC, useRef, useEffect } from 'react';
+import { Canvas, useThree } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 
 const AnimatedText = animated(Text);
 
+declare const __THREE_DEVTOOLS__: any;
+
 type V3 = [number, number, number];
+
+const DevTools: FC = () => {
+  const { scene, gl } = useThree();
+
+  useEffect(() => {
+    if (typeof __THREE_DEVTOOLS__ !== 'undefined') {
+      __THREE_DEVTOOLS__.dispatchEvent(
+        new CustomEvent('observe', { detail: scene })
+      );
+      __THREE_DEVTOOLS__.dispatchEvent(
+        new CustomEvent('observe', { detail: gl })
+      );
+    }
+  });
+  return null;
+};
 
 const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   const [{ position }, set] = useSpring(() => ({
@@ -33,7 +50,8 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
     <AnimatedText
       fontSize={200}
       color="black"
-      position={position as any}
+      position={position}
+      // position={position as any}
       {...bind()}
     >
       {children}
@@ -55,6 +73,7 @@ export const Game: FC = () => {
         position: [0, 0, 100],
       }}
     >
+      <DevTools></DevTools>
       <Letter initialX={-50}>A</Letter>
       <Letter initialX={50}>B</Letter>
     </Canvas>

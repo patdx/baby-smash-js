@@ -5,7 +5,8 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc"
+    "type-check": "tsc",
+    "postinstall": "patch-package"
   },
   "dependencies": {
     "@inlet/react-pixi": "^5.0.3",
@@ -28,6 +29,7 @@
     "@types/node": "^12.12.21",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
+    "patch-package": "^6.2.2",
     "typescript": "3.7.3"
   },
   "license": "ISC"
