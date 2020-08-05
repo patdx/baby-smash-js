@@ -2,11 +2,11 @@
 // import Layout from '../components/Layout';
 
 import dynamic from 'next/dynamic';
-import { Layout } from '../components/layout-tmp';
+import { Layout } from '../components/layout';
 // import { Game } from '../components/Game';
 
 const Game = dynamic(
-  () => import('../components/game-tmp').then((m) => m.Game) as any,
+  () => import('../components/game').then((m) => m.Game) as any,
   {
     ssr: false,
   }
