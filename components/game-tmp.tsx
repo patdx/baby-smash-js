@@ -1,6 +1,6 @@
 // import { useWindowSize } from '@react-hook/window-size';
-import { useSpring } from '@react-spring/core';
-import { animated } from '@react-spring/three';
+import { useSpring, animated } from 'react-spring';
+import 'react-spring/three';
 import { Text } from 'drei';
 import React, { FC, useRef } from 'react';
 import { Canvas } from 'react-three-fiber';
@@ -8,20 +8,22 @@ import { useDrag } from 'react-use-gesture';
 
 const AnimatedText = animated(Text);
 
-// type V3 = [number, number, number];
+type V3 = [number, number, number];
 
 const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   // const three = useThree();
   // console.log(three);
 
   const [{ position }, set] = useSpring(() => ({
-    position: [initialX, 0, 0] as [number, number, number],
+    position: ([initialX, 0, 0] as V3) as any,
   }));
 
   // Set the drag hook and define component movement based on gesture data
   const bind = useDrag(
     ({ offset: [x, y] }) => {
-      set({ position: [initialX + x, -y, 0] });
+      set({
+        position: [initialX + x, -y, 0] as any,
+      });
     },
     {
       eventOptions: {
@@ -31,12 +33,7 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   );
 
   return (
-    <AnimatedText
-      fontSize={200}
-      color="black"
-      position={position as any}
-      {...bind()}
-    >
+    <AnimatedText fontSize={200} color="black" position={position as any} {...bind()}>
       {children}
     </AnimatedText>
   );
