@@ -1,12 +1,10 @@
 // import { useWindowSize } from '@react-hook/window-size';
-import { useSpring, animated as _animatedRegular } from 'react-spring';
-import { animated as _animatedThree } from 'react-spring/three';
+import { useSpring } from 'react-spring';
+import { animated } from 'react-spring/three';
 import { Text } from 'drei';
 import React, { FC, useRef } from 'react';
 import { Canvas } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
-
-const animated = _animatedThree as typeof _animatedRegular;
 
 const AnimatedText = animated(Text);
 
