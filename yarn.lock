@@ -2370,12 +2370,13 @@ __metadata:
     normalize.css: ^8.0.1
     react: ^16.13.1
     react-dom: ^16.13.1
-    react-spring: ^8.0.27
     react-three-fiber: ^4.2.18
     react-use-gesture: ^7.0.15
     three: ^0.119.1
     troika-three-text: ^0.30.2
     typescript: 3.9.7
+    use-cannon: ^0.5.0
+    zustand: ^2.2.3
   dependenciesMeta:
     next:
       unplugged: true
@@ -7043,7 +7044,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"prop-types@npm:15.7.2, prop-types@npm:^15.5.8, prop-types@npm:^15.6.2":
+"prop-types@npm:15.7.2, prop-types@npm:^15.6.2":
   version: 15.7.2
   resolution: "prop-types@npm:15.7.2"
   dependencies:
@@ -7262,19 +7263,6 @@ fsevents@~2.1.2:
   version: 0.8.3
   resolution: "react-refresh@npm:0.8.3"
   checksum: 38f06df8e0a20701b96e5d680838a3528d66cfb53db79843d30cb9517df3262ec596607147439975267bf0634bee77101db37298ea79b5742cc28664632f3c76
-  languageName: node
-  linkType: hard
-
-"react-spring@npm:^8.0.27":
-  version: 8.0.27
-  resolution: "react-spring@npm:8.0.27"
-  dependencies:
-    "@babel/runtime": ^7.3.1
-    prop-types: ^15.5.8
-  peerDependencies:
-    react: ">= 16.8.0"
-    react-dom: ">= 16.8.0"
-  checksum: 8f041fd3037df9b610deeb5eb12d035ed9188ee0be4d2882b017db6074e7ab66ec9a990506e687274576516557d427a9199497b5559d3409ec38986dba987587
   languageName: node
   linkType: hard
 
@@ -8798,6 +8786,18 @@ typescript@3.9.7:
   languageName: node
   linkType: hard
 
+"use-cannon@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "use-cannon@npm:0.5.0"
+  peerDependencies:
+    react: ">=16.13"
+    react-dom: ">=16.13"
+    react-three-fiber: ">=4.2"
+    typescript: ">=3.9"
+  checksum: a1efaa157675890a09a190f6c2fa75dbf8e68c3d50ab65a0b4dab47929569e9c4cdeef91421ab5a7863be55ab24d54d0e4cbc8bba6b881cb63f28ba59059172c
+  languageName: node
+  linkType: hard
+
 "use-memo-one@npm:^1.1.0":
   version: 1.1.1
   resolution: "use-memo-one@npm:1.1.1"
@@ -9068,5 +9068,14 @@ typescript@3.9.7:
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: a2960ef879af6ee67a76cae29bac9d8bffeb6e9e366c217dbd21464e7fce071933705544724f47e90ba5209cf9c83c17d5582dd04415d86747a826b2a231efb8
+  languageName: node
+  linkType: hard
+
+"zustand@npm:^2.2.3":
+  version: 2.2.3
+  resolution: "zustand@npm:2.2.3"
+  peerDependencies:
+    react: ">=16.8"
+  checksum: 66cc97fbf6c7c5c51be4701176428eb74354512d26734e0f978d8d6a93f16e3befe98e692a3210e192e540f545ced3a8ce8384a988296fa8d4426ade29e4f4cb
   languageName: node
   linkType: hard

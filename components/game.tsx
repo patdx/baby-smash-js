@@ -1,11 +1,9 @@
-import { useSpring } from '@react-spring/core';
-import { animated } from '@react-spring/three';
 import { Text } from 'drei';
-import React, { FC, useRef, useEffect } from 'react';
+import React, { FC, useEffect, useRef, useState } from 'react';
 import { Canvas, useThree } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
-
-const AnimatedText = animated(Text);
+import { Vector3 } from 'three';
+// import { Physics, useBox } from 'use-cannon';
 
 declare const __THREE_DEVTOOLS__: any;
 
@@ -28,16 +26,13 @@ const DevTools: FC = () => {
 };
 
 const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
-  const [{ position }, set] = useSpring(() => ({
-    position: ([initialX, 0, 0] as V3) as any,
-  }));
+  const [position, setPosition] = useState(new Vector3(initialX, 0, 0));
 
-  // Set the drag hook and define component movement based on gesture data
+  // const text = useRef<Text>();
+
   const bind = useDrag(
     ({ offset: [x, y] }) => {
-      set({
-        position: [initialX + x, -y, 0] as any,
-      });
+      setPosition(new Vector3(x, -y, 0));
     },
     {
       eventOptions: {
@@ -46,16 +41,24 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
     }
   );
 
+  // const [ref, api] = useBox(() => ({ mass: 1 }));
+
   return (
-    <AnimatedText
+    // <Physics>
+    /* <mesh ref={ref} {...bind()}>
+        <boxBufferGeometry attach="geometry" args={[1, 1, 1]} />
+        <meshStandardMaterial attach="material" color={'hotpink'} />
+      </mesh> */
+    <Text
+      // ref={ref}
       fontSize={200}
       color="black"
       position={position}
-      // position={position as any}
       {...bind()}
     >
       {children}
-    </AnimatedText>
+    </Text>
+    // </Physics>
   );
 };
 export const Game: FC = () => {
