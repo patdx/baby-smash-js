@@ -7,7 +7,7 @@ import { Vector3 } from 'three';
 
 declare const __THREE_DEVTOOLS__: any;
 
-type V3 = [number, number, number];
+// type V3 = [number, number, number];
 
 const DevTools: FC = () => {
   const { scene, gl } = useThree();
