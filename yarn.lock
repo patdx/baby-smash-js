@@ -2376,6 +2376,9 @@ __metadata:
     three: ^0.119.1
     troika-three-text: ^0.30.2
     typescript: 3.9.7
+  dependenciesMeta:
+    next:
+      unplugged: true
   languageName: unknown
   linkType: soft
 
