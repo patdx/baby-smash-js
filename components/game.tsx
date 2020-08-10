@@ -1,4 +1,7 @@
-import { Text, Html } from 'drei';
+import {
+  Text,
+  // Html
+} from 'drei';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
 import { Canvas, useThree, useFrame } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';

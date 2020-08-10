@@ -1644,13 +1644,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^16.9.44":
+"@types/react@npm:*":
   version: 16.9.44
   resolution: "@types/react@npm:16.9.44"
   dependencies:
     "@types/prop-types": "*"
     csstype: ^3.0.2
   checksum: a0c0ff7710e148434d926584b4b83632d503cd680a939e92d7e13a4b49c847daa54fdb189ffdae406cf189ee3a59cf12750d3ed90630de359fe0e7bde538ae36
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^16.9.45":
+  version: 16.9.45
+  resolution: "@types/react@npm:16.9.45"
+  dependencies:
+    "@types/prop-types": "*"
+    csstype: ^3.0.2
+  checksum: 285b9f607d2789ea2810a303b52496f8561e8352362372a84bcb069128ddb6c5a000a372067a5b456054f6680c5c922e8875fafdb97935a5814afa74ea906868
   languageName: node
   linkType: hard
 
@@ -2362,22 +2372,22 @@ __metadata:
     "@react-spring/core": ^9.0.0-rc.3
     "@react-spring/three": ^9.0.0-rc.3
     "@types/node": ^12.12.54
-    "@types/react": ^16.9.44
+    "@types/react": ^16.9.45
     "@types/react-dom": ^16.9.8
     "@yarnpkg/pnpify": ^2.1.0
-    drei: 0.0.71
+    drei: 0.0.72
     next: ^9.5.1
     normalize.css: ^8.0.1
     pepjs: ^0.5.2
     react: ^16.13.1
     react-dom: ^16.13.1
-    react-three-fiber: ^4.2.18
+    react-three-fiber: ^4.2.20
     react-use-gesture: ^7.0.15
     three: ^0.119.1
     troika-three-text: ^0.30.2
     typescript: 3.9.7
     use-cannon: ^0.5.0
-    zustand: ^2.2.3
+    zustand: ^2.2.4
   dependenciesMeta:
     next:
       unplugged: true
@@ -3771,9 +3781,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"drei@npm:0.0.71":
-  version: 0.0.71
-  resolution: "drei@npm:0.0.71"
+"drei@npm:0.0.72":
+  version: 0.0.72
+  resolution: "drei@npm:0.0.72"
   dependencies:
     "@babel/runtime": ^7.10.5
     glsl-noise: ^0.0.0
@@ -3788,7 +3798,7 @@ __metadata:
     react: ">=16.13"
     react-dom: ">=16.13"
     react-three-fiber: ">=4.2"
-  checksum: fad9a480f50d8320e30aa49e533a9d43153e429f7405d0a12acda2c6a8ca9201735944937e8b51817c45206e08062ef3ad40b670aa3ce6855e41424a952c88ca
+  checksum: 2c23a16bcb397c7ee62686b8e21f9c179fc6d279de649c1c0ad75f30b70a9a4f3d39365dfc4cc32934ba23f924a46bc6c2b99ec517ec3aff477366a31860d1eb
   languageName: node
   linkType: hard
 
@@ -7274,9 +7284,9 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"react-three-fiber@npm:^4.2.18":
-  version: 4.2.18
-  resolution: "react-three-fiber@npm:4.2.18"
+"react-three-fiber@npm:^4.2.20":
+  version: 4.2.20
+  resolution: "react-three-fiber@npm:4.2.20"
   dependencies:
     "@babel/runtime": ^7.9.2
     "@juggle/resize-observer": ^3.1.3
@@ -7292,7 +7302,7 @@ fsevents@~2.1.2:
     react: ">=16.13"
     react-dom: ">=16.13"
     three: ">=0.115"
-  checksum: 38670b1f4b77aa021164dedfaea34b67667e873ee58e70fa8dc515964b9578c7a2ec2b6e315ef2359b8737e918d864ed9399ed890b6c4e6d4032f80f06dc0c28
+  checksum: f8b91768f296a45f466303622cdf5278395d9d612b45d5ee11885b0e21cd4e8d12ac2033c17ba5d3818fae5254e512bd88a7d9df853ccbcf5c4ecf5203d7f490
   languageName: node
   linkType: hard
 
@@ -9079,11 +9089,11 @@ typescript@3.9.7:
   languageName: node
   linkType: hard
 
-"zustand@npm:^2.2.3":
-  version: 2.2.3
-  resolution: "zustand@npm:2.2.3"
+"zustand@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "zustand@npm:2.2.4"
   peerDependencies:
     react: ">=16.8"
-  checksum: 66cc97fbf6c7c5c51be4701176428eb74354512d26734e0f978d8d6a93f16e3befe98e692a3210e192e540f545ced3a8ce8384a988296fa8d4426ade29e4f4cb
+  checksum: 6210628f413bfba1821fd63eaac403e7d248a0c524e29abb32ef23dec072a08df22973a69a1f9fc34f277793eefed8ebd9f24ed55cfe7b89a3f78418cbd464f3
   languageName: node
   linkType: hard
