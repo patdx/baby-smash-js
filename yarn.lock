@@ -2368,6 +2368,7 @@ __metadata:
     drei: 0.0.71
     next: ^9.5.1
     normalize.css: ^8.0.1
+    pepjs: ^0.5.2
     react: ^16.13.1
     react-dom: ^16.13.1
     react-three-fiber: ^4.2.18
@@ -6480,6 +6481,13 @@ fsevents@~2.1.2:
     safe-buffer: ^5.0.1
     sha.js: ^2.4.8
   checksum: 780dd6d50e750d302651638ff1edfe899d3a345e702f6c36fbdbdef3cfefd12d3d76698565022f4cd97d3f8ced5098f4ae2fdd067d3e1fca2849a70eb60e7620
+  languageName: node
+  linkType: hard
+
+"pepjs@npm:^0.5.2":
+  version: 0.5.2
+  resolution: "pepjs@npm:0.5.2"
+  checksum: bc44db87f7ed864c98f7493669c0e14d509642777f03461041f1fb87acbff04d79954c5ae57afd4d82d23625b3f283e31b084d90753f5dacee2feddb274c7f4f
   languageName: node
   linkType: hard
 

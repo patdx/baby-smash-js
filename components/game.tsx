@@ -1,9 +1,10 @@
-import { Text } from 'drei';
+import { Text, Html } from 'drei';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
-import { Canvas, useThree } from 'react-three-fiber';
+import { Canvas, useThree, useFrame } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
 import { Physics, useBox, usePlane } from 'use-cannon';
+import 'pepjs'; // may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
 
 declare const __THREE_DEVTOOLS__: any;
 
@@ -52,7 +53,6 @@ const Plane: FC<{ position: Position }> = (props) => {
   // use the number from the camera
   const factor = Math.abs((three.camera as OrthographicCamera)[props.position]);
 
-  console.log(three);
   const [ref] = usePlane(() => ({
     rotation,
     position: new Vector3(...realPosition).multiplyScalar(factor).toArray(),
@@ -80,16 +80,13 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   const [ref, api] = useBox(() => ({
     mass: 1,
     position: [initialX, 0, 0],
+    velocity: [10, 0, 0],
     args: [100, 100, 100],
   }));
 
   useEffect(() => {
     api.position.subscribe((value) => (mutable.position = value));
   });
-
-  // const [position, setPosition] = useState(new Vector3(initialX, 0, 0));
-
-  // const text = useRef<Text>();
 
   const bind = useDrag(
     (props) => {
@@ -103,8 +100,14 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
         api.velocity.set(0, 0, 0);
       }
 
+      // console.log(dx, dy);
+
       // api.position.set(x, -y, 0);
-      api.position.set(mutable.initial![0] + dx, mutable.initial![1] - dy, 0);
+      api.position.set(
+        (mutable.initial?.[0] ?? 0) + dx,
+        (mutable.initial?.[1] ?? 0) - dy,
+        0
+      );
 
       if (props.last) {
         api.velocity.set(vx * 1000, -vy * 1000, 0);
@@ -119,17 +122,36 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
     }
   );
 
+  // if we use useFrame it seems to trigger?
+  useFrame(() => {
+    // console.log(JSON.stringify(mutable));
+  });
+
+  // const debug = (
+  //   <Html>
+  //     <button
+  //       onClick={() => {
+  //         api.position.set(100, 100, 0);
+  //         api.velocity.set(10, 10, 0);
+  //       }}
+  //     >
+  //       {mutable.position}
+  //     </button>
+  //   </Html>
+  // );
+
+  // return (
+  //   <mesh ref={ref} {...bind()}>
+  //     <sphereGeometry attach="geometry" args={[100, 100, 100]} />
+  //     <meshStandardMaterial attach="material" color="hotpink" transparent />
+  //     {debug}
+  //   </mesh>
+  // );
+
   return (
     <Text ref={ref} fontSize={200} color="pink" {...bind()}>
       {children}
     </Text>
-  );
-
-  return (
-    <mesh {...bind()} ref={ref}>
-      <boxBufferGeometry attach="geometry" args={[100, 100, 100]} />
-      <meshStandardMaterial attach="material" color={'hotpink'} />
-    </mesh>
   );
 };
 export const Game: FC = () => {
@@ -147,6 +169,7 @@ export const Game: FC = () => {
         position: [0, 0, 100],
       }}
       pixelRatio={window.devicePixelRatio || 2}
+      touch-action="none"
     >
       <Physics gravity={[0, 0, 0]}>
         <DevTools></DevTools>
