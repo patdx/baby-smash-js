@@ -10,6 +10,7 @@
   "dependencies": {
     "@react-hook/window-size": "^3.0.7",
     "@yarnpkg/pnpify": "^2.1.0",
+    "cannon-es": "^0.15.1",
     "drei": "0.0.72",
     "next": "^9.5.1",
     "normalize.css": "^8.0.1",

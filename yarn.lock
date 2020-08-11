@@ -2013,6 +2013,11 @@ caniuse-lite@^1.0.30001093, caniuse-lite@^1.0.30001111:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001113.tgz#22016ab55b5a8b04fa00ca342d9ee1b98df48065"
   integrity sha512-qMvjHiKH21zzM/VDZr6oosO6Ri3U0V2tC015jRXjOecwQCJtsU5zklTNTk31jQbIOP8gha0h1ccM/g0ECP+4BA==
 
+cannon-es@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/cannon-es/-/cannon-es-0.15.1.tgz#c5185e7efc19ca8b3b494eccd257256425b1642f"
+  integrity sha512-NkrU8OkM5K4q7Ljj69nfwC5UmPuoiAga6v98Aus0QHTdgJFwBfPTDXRkc3qpGGOixdUisFzmJo0DpKWIi6N+4g==
+
 chalk@4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.0.0.tgz#6e98081ed2d17faab615eb52ac66ec1fe6209e72"

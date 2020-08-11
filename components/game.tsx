@@ -1,36 +1,22 @@
-import {
-  Text,
-  // Html
-} from 'drei';
+import { Text } from 'drei';
 import React, { FC, useEffect, useMemo, useRef } from 'react';
 import { Canvas, useThree, useFrame } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
 import { Physics, useBox, usePlane } from 'use-cannon';
 import 'pepjs'; // may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
-
-declare const __THREE_DEVTOOLS__: any;
-
-type V3 = [number, number, number];
-
-const DevTools: FC = () => {
-  const { scene, gl } = useThree();
-
-  useEffect(() => {
-    if (typeof __THREE_DEVTOOLS__ !== 'undefined') {
-      __THREE_DEVTOOLS__.dispatchEvent(
-        new CustomEvent('observe', { detail: scene })
-      );
-      __THREE_DEVTOOLS__.dispatchEvent(
-        new CustomEvent('observe', { detail: gl })
-      );
-    }
-  });
-  return null;
-};
+import { DevTools } from './dev-tools';
+import { PhysicsProvider, useCannon } from './cannon';
+import * as CANNON from 'cannon-es';
 
 const Position = ['bottom', 'top', 'left', 'right'] as const;
 type Position = typeof Position[number];
+
+// NOTE: due to issues with use-cannon, try to replace with our own physics
+// https://github.com/react-spring/use-cannon/issues/63
+// https://github.com/react-spring/react-three-fiber/blob/master/examples/src/demos/Physics.js
+// TODO: try adding the cannon wireframe
+// https://github.com/codynova/action-game/tree/master/src/debug
 
 const rotations: Record<
   Position,
@@ -56,10 +42,23 @@ const Plane: FC<{ position: Position }> = (props) => {
   // use the number from the camera
   const factor = Math.abs((three.camera as OrthographicCamera)[props.position]);
 
-  const [ref] = usePlane(() => ({
-    rotation,
-    position: new Vector3(...realPosition).multiplyScalar(factor).toArray(),
-  }));
+  const [ref] = useCannon(
+    {
+      // position: new CANNON.Vec3(
+      //   ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
+      // ),
+      // quaternion: (new CANNON.Quaternion().setFromEuler as any)(...rotation),
+    },
+    (body) => {
+      body.addShape(new CANNON.Plane());
+      body.position.copy(new CANNON.Vec3(
+        ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
+      ))
+      body.quaternion.copy((new CANNON.Quaternion().setFromEuler as any)(...rotation))
+      // body.position.set(...position);
+    },
+    []
+  );
 
   return (
     <mesh ref={ref}>
@@ -80,16 +79,17 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
     initial?: number[];
   }>(() => ({}), []);
 
-  const [ref, api] = useBox(() => ({
-    mass: 1,
-    position: [initialX, 0, 0],
-    velocity: [10, 0, 0],
-    args: [100, 100, 100],
-  }));
-
-  useEffect(() => {
-    api.position.subscribe((value) => (mutable.position = value));
-  });
+  const [ref, api] = useCannon(
+    {
+      mass: 1,
+    },
+    (body) => {
+      body.addShape(new CANNON.Box(new CANNON.Vec3(50, 50, 50)));
+      body.position.set(initialX, 0, 0);
+      body.velocity.set(-initialX, 0, 0);
+    },
+    []
+  );
 
   const bind = useDrag(
     (props) => {
@@ -99,13 +99,10 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
       } = props;
 
       if (props.first) {
-        mutable.initial = mutable.position;
+        mutable.initial = api.position.toArray();
         api.velocity.set(0, 0, 0);
       }
 
-      // console.log(dx, dy);
-
-      // api.position.set(x, -y, 0);
       api.position.set(
         (mutable.initial?.[0] ?? 0) + dx,
         (mutable.initial?.[1] ?? 0) - dy,
@@ -115,8 +112,6 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
       if (props.last) {
         api.velocity.set(vx * 1000, -vy * 1000, 0);
       }
-
-      // setPosition(new Vector3(x, -y, 0));
     },
     {
       eventOptions: {
@@ -124,32 +119,6 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
       },
     }
   );
-
-  // if we use useFrame it seems to trigger?
-  useFrame(() => {
-    // console.log(JSON.stringify(mutable));
-  });
-
-  // const debug = (
-  //   <Html>
-  //     <button
-  //       onClick={() => {
-  //         api.position.set(100, 100, 0);
-  //         api.velocity.set(10, 10, 0);
-  //       }}
-  //     >
-  //       {mutable.position}
-  //     </button>
-  //   </Html>
-  // );
-
-  // return (
-  //   <mesh ref={ref} {...bind()}>
-  //     <sphereGeometry attach="geometry" args={[100, 100, 100]} />
-  //     <meshStandardMaterial attach="material" color="hotpink" transparent />
-  //     {debug}
-  //   </mesh>
-  // );
 
   return (
     <Text ref={ref} fontSize={200} color="pink" {...bind()}>
@@ -174,15 +143,15 @@ export const Game: FC = () => {
       pixelRatio={window.devicePixelRatio || 2}
       touch-action="none"
     >
-      <Physics gravity={[0, 0, 0]}>
+      <PhysicsProvider>
         <DevTools></DevTools>
         <Plane position={'bottom'}></Plane>
         <Plane position={'left'}></Plane>
         <Plane position={'right'}></Plane>
         <Plane position={'top'}></Plane>
-        <Letter initialX={-100}>A</Letter>
-        <Letter initialX={100}>B</Letter>
-      </Physics>
+        <Letter initialX={-200}>A</Letter>
+        <Letter initialX={200}>B</Letter>
+      </PhysicsProvider>
     </Canvas>
   );
 };
