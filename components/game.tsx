@@ -1,5 +1,5 @@
 import { Text } from 'drei';
-import React, { FC, useEffect, useMemo, useRef } from 'react';
+import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
 import { Canvas, useThree, useFrame } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
@@ -50,11 +50,18 @@ const Plane: FC<{ position: Position }> = (props) => {
       // quaternion: (new CANNON.Quaternion().setFromEuler as any)(...rotation),
     },
     (body) => {
+      const material = new CANNON.Material();
+      material.friction = 10;
+      body.material = material;
       body.addShape(new CANNON.Plane());
-      body.position.copy(new CANNON.Vec3(
-        ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
-      ))
-      body.quaternion.copy((new CANNON.Quaternion().setFromEuler as any)(...rotation))
+      body.position.copy(
+        new CANNON.Vec3(
+          ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
+        )
+      );
+      body.quaternion.copy(
+        (new CANNON.Quaternion().setFromEuler as any)(...rotation)
+      );
       // body.position.set(...position);
     },
     []
@@ -73,18 +80,22 @@ const Plane: FC<{ position: Position }> = (props) => {
   );
 };
 
-const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
-  const mutable = useMemo<{
-    position?: number[];
-    initial?: number[];
-  }>(() => ({}), []);
+const Letter: FC<{ initialX: number; mass?: number }> = ({
+  children,
+  initialX,
+  mass = 1,
+}) => {
+  const [dragging, setDragging] = useState(false);
 
   const [ref, api] = useCannon(
     {
-      mass: 1,
+      mass,
     },
     (body) => {
-      body.addShape(new CANNON.Box(new CANNON.Vec3(50, 50, 50)));
+      const material = new CANNON.Material();
+      material.friction = 0.3;
+      body.material = material;
+      body.addShape(new CANNON.Sphere(70));
       body.position.set(initialX, 0, 0);
       body.velocity.set(-initialX, 0, 0);
     },
@@ -94,31 +105,50 @@ const Letter: FC<{ initialX: number }> = ({ children, initialX }) => {
   const bind = useDrag(
     (props) => {
       const {
-        movement: [dx, dy],
+        movement: [mx, my],
         velocities: [vx, vy],
       } = props;
 
       if (props.first) {
-        mutable.initial = api.position.toArray();
+        setDragging(true);
         api.velocity.set(0, 0, 0);
+        api.mass = 0;
       }
 
-      api.position.set(
-        (mutable.initial?.[0] ?? 0) + dx,
-        (mutable.initial?.[1] ?? 0) - dy,
-        0
-      );
+      api.position.set(mx, -my, 0);
 
       if (props.last) {
+        setDragging(false);
         api.velocity.set(vx * 1000, -vy * 1000, 0);
+        api.mass = mass;
       }
     },
     {
       eventOptions: {
         pointer: true,
       },
+      initial: () => [api.position.x, -api.position.y],
     }
   );
+
+  useFrame(() => {
+    // reset any out of plane
+    api.position.z = 0;
+
+    // only allow rotation in z axis
+    // const temp = new CANNON.Vec3();
+    // api.quaternion.toEuler(temp);
+    // temp.x = 0;
+    // temp.y = 0;
+    // api.quaternion.setFromEuler(temp.x, temp.y, temp.z);
+
+    // api.angularVelocity.x = 0;
+    // api.angularVelocity.y = 0;
+
+    if (dragging) {
+      api.velocity.set(0, 0, 0);
+    }
+  });
 
   return (
     <Text ref={ref} fontSize={200} color="pink" {...bind()}>
@@ -149,8 +179,10 @@ export const Game: FC = () => {
         <Plane position={'left'}></Plane>
         <Plane position={'right'}></Plane>
         <Plane position={'top'}></Plane>
-        <Letter initialX={-200}>A</Letter>
-        <Letter initialX={200}>B</Letter>
+        <Letter initialX={-300}>A</Letter>
+        <Letter initialX={-100}>B</Letter>
+        <Letter initialX={100}>C</Letter>
+        <Letter initialX={300}>D</Letter>
       </PhysicsProvider>
     </Canvas>
   );

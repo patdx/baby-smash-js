@@ -18,7 +18,11 @@ export const PhysicsProvider: FC = ({ children }) => {
   useEffect(() => {
     world.broadphase = new CANNON.NaiveBroadphase();
     (world.solver as any).iterations = 10;
-    world.gravity.set(0, -100, 0);
+    world.gravity.set(0, 0, 10);
+    // https://github.com/schteppe/cannon.js/issues/224#issuecomment-131398643
+    // in cannon-js, if gravity is 0, friction is also zero!
+    // so we set z-axis to a random gravity value, we always force z-axis position
+    // to 0 every frame so we do not use gravity directly
   }, [world]);
 
   // Run world stepper every frame
