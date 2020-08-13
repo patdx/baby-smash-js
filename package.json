@@ -14,7 +14,7 @@
     "@yarnpkg/pnpify": "2.1.0",
     "cannon-es": "0.15.1",
     "drei": "0.0.72",
-    "lodash": "4.17.19",
+    "lodash": "4.17.20",
     "next": "9.5.2",
     "normalize.css": "8.0.1",
     "pepjs": "0.5.2",
