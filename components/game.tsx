@@ -1,13 +1,22 @@
+import * as CANNON from 'cannon-es';
 import { Text } from 'drei';
-import React, { FC, useEffect, useMemo, useRef, useState } from 'react';
-import { Canvas, useThree, useFrame } from 'react-three-fiber';
+import React, { FC, useRef, useState } from 'react';
+import { Canvas, useFrame, useThree } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
-import { Physics, useBox, usePlane } from 'use-cannon';
-import 'pepjs'; // may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
-import { DevTools } from './dev-tools';
+import { LETTERS } from '../utils/letter-range';
 import { PhysicsProvider, useCannon } from './cannon';
-import * as CANNON from 'cannon-es';
+import { DevTools } from './dev-tools';
+import { sample } from 'lodash';
+
+// may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
+// import 'pepjs';
+// touch-action="none"
+// NOTE: if I just set the css style it seems to work alright
+
+const COLORS = ['red', 'blue', 'yellow', 'pink'];
+
+const getColor = () => sample(COLORS);
 
 const Position = ['bottom', 'top', 'left', 'right'] as const;
 type Position = typeof Position[number];
@@ -43,12 +52,7 @@ const Plane: FC<{ position: Position }> = (props) => {
   const factor = Math.abs((three.camera as OrthographicCamera)[props.position]);
 
   const [ref] = useCannon(
-    {
-      // position: new CANNON.Vec3(
-      //   ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
-      // ),
-      // quaternion: (new CANNON.Quaternion().setFromEuler as any)(...rotation),
-    },
+    {},
     (body) => {
       const material = new CANNON.Material();
       material.friction = 10;
@@ -62,7 +66,6 @@ const Plane: FC<{ position: Position }> = (props) => {
       body.quaternion.copy(
         (new CANNON.Quaternion().setFromEuler as any)(...rotation)
       );
-      // body.position.set(...position);
     },
     []
   );
@@ -80,12 +83,15 @@ const Plane: FC<{ position: Position }> = (props) => {
   );
 };
 
-const Letter: FC<{ initialX: number; mass?: number }> = ({
+const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
   children,
   initialX,
+  initialY,
   mass = 1,
 }) => {
   const [dragging, setDragging] = useState(false);
+
+  const [color] = useState(() => getColor());
 
   const [ref, api] = useCannon(
     {
@@ -96,8 +102,8 @@ const Letter: FC<{ initialX: number; mass?: number }> = ({
       material.friction = 0.3;
       body.material = material;
       body.addShape(new CANNON.Sphere(70));
-      body.position.set(initialX, 0, 0);
-      body.velocity.set(-initialX, 0, 0);
+      body.position.set(initialX, initialY, 0);
+      body.velocity.set(0, 0, 0);
     },
     []
   );
@@ -108,6 +114,11 @@ const Letter: FC<{ initialX: number; mass?: number }> = ({
         movement: [mx, my],
         velocities: [vx, vy],
       } = props;
+
+      // TODO: would like to add multi touch support
+      // seems that event is created by react-three-fiber
+
+      console.log(props.pointerId, props.event, props.touches);
 
       if (props.first) {
         setDragging(true);
@@ -151,27 +162,64 @@ const Letter: FC<{ initialX: number; mass?: number }> = ({
   });
 
   return (
-    <Text ref={ref} fontSize={200} color="pink" {...bind()}>
+    <Text ref={ref} fontSize={200} color={color} {...bind()}>
       {children}
     </Text>
   );
 };
+
+export const TouchBackground: FC<{
+  onClick?: (x: number, y: number) => any;
+}> = (props) => {
+  return (
+    <mesh
+      onClick={(event) =>
+        props.onClick?.(event.unprojectedPoint.x, event.unprojectedPoint.y)
+      }
+      position={[0, 0, -100]}
+    >
+      <boxBufferGeometry attach="geometry" args={[1000, 1000, 1]} />
+      {/* <meshStandardMaterial attach="material" color='white' /> */}
+    </mesh>
+  );
+};
+
 export const Game: FC = () => {
   const camera = useRef();
   (window as any).camera = camera;
 
   // default camera has same width as canvas
 
+  const [letters, setLetters] = useState<
+    {
+      index: number;
+      x: number;
+      y: number;
+    }[]
+  >([
+    {
+      index: 0,
+      x: 0,
+      y: 0,
+    },
+  ]);
+
   return (
     <Canvas
-      style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0 }}
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        touchAction: 'none',
+      }}
       orthographic
       concurrent
       camera={{
         position: [0, 0, 100],
       }}
       pixelRatio={window.devicePixelRatio || 2}
-      touch-action="none"
     >
       <PhysicsProvider>
         <DevTools></DevTools>
@@ -179,10 +227,23 @@ export const Game: FC = () => {
         <Plane position={'left'}></Plane>
         <Plane position={'right'}></Plane>
         <Plane position={'top'}></Plane>
-        <Letter initialX={-300}>A</Letter>
-        <Letter initialX={-100}>B</Letter>
-        <Letter initialX={100}>C</Letter>
-        <Letter initialX={300}>D</Letter>
+        <TouchBackground
+          onClick={(x, y) =>
+            setLetters((letters) => [
+              ...letters,
+              {
+                index: letters.length,
+                x,
+                y,
+              },
+            ])
+          }
+        ></TouchBackground>
+        {letters.map(({ index, x, y }) => (
+          <Letter key={index} initialX={x} initialY={y}>
+            {LETTERS[index]}
+          </Letter>
+        ))}
       </PhysicsProvider>
     </Canvas>
   );
