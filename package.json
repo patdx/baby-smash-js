@@ -10,11 +10,11 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.0.7",
-    "@types/lodash": "^4.14.159",
+    "@types/lodash": "4.14.159",
     "@yarnpkg/pnpify": "2.1.0",
     "cannon-es": "0.15.1",
     "drei": "0.0.72",
-    "lodash": "^4.17.19",
+    "lodash": "4.17.19",
     "next": "9.5.2",
     "normalize.css": "8.0.1",
     "pepjs": "0.5.2",
@@ -24,7 +24,7 @@
     "react-use-gesture": "7.0.15",
     "three": "0.119.1",
     "use-cannon": "0.5.0",
-    "use-yarn": "^2.2.0",
+    "use-yarn": "2.2.0",
     "zustand": "2.2.4"
   },
   "devDependencies": {
