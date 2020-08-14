@@ -51,18 +51,13 @@ const Plane: FC<{ position: Position }> = (props) => {
   // use the number from the camera
   const factor = Math.abs((three.camera as OrthographicCamera)[props.position]);
 
-  const [ref] = useCannon(
+  const [ref, api] = useCannon(
     {},
     (body) => {
       const material = new CANNON.Material();
       material.friction = 10;
       body.material = material;
       body.addShape(new CANNON.Plane());
-      body.position.copy(
-        new CANNON.Vec3(
-          ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
-        )
-      );
       body.quaternion.copy(
         (new CANNON.Quaternion().setFromEuler as any)(...rotation)
       );
@@ -70,15 +65,24 @@ const Plane: FC<{ position: Position }> = (props) => {
     []
   );
 
+  api.position.copy(
+    new CANNON.Vec3(
+      ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
+    )
+  );
+
+  console.log(api.position);
+
   return (
     <mesh ref={ref}>
-      {['top', 'bottom'].includes(props.position) ? (
+      {/* let the walls be invisible */}
+      {/* {['top', 'bottom'].includes(props.position) ? (
         <boxBufferGeometry attach="geometry" args={[1000, 1, 1]} />
       ) : (
         <boxBufferGeometry attach="geometry" args={[1, 1000, 1]} />
       )}
 
-      <meshStandardMaterial attach="material" color={'hotpink'} />
+      <meshStandardMaterial attach="material" color={'hotpink'} /> */}
     </mesh>
   );
 };
