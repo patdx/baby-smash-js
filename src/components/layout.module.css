@@ -1,0 +1,4 @@
+.headerIos {
+  height: env(safe-area-inset-top, 20px);
+  background-color: gray;
+}

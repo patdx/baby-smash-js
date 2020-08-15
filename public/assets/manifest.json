@@ -17,6 +17,6 @@
   ],
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "start_url": "https://baby-smash-js.vercel.app",
-  "display": "standalone"
+  "start_url": "/",
+  "display": "fullscreen"
 }
