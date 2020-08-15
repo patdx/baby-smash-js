@@ -1,4 +1,66 @@
-.headerIos {
-  height: env(safe-area-inset-top, 20px);
-  background-color: gray;
+.container {
+  
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  touch-action: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* Seems like iOS, at least iOS 13, with the following
+meta tag, standalone mode actually stretches from top to
+bottom. Whereas the 100% height seems be missing the height
+of the status bar, at least until you have done one rotation
+portrait -> landscape -> portrait.
+/* <meta
+name="apple-mobile-web-app-status-bar-style"
+content="black-translucent"
+/> */
+.containerIosStandaloneSizing {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+.containerRegularSizing {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  /* todo, these two styles make the header
+  overlap instead of pushing away the canvas,
+  see if they can be simplified */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* end todo */
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* todo: not supported to blur on top of canvas in Safari,
+  it seems... */
+  backdrop-filter: blur(10px);
+}
+
+@media (orientation: portrait) {
+  .headerIos {
+    /*  */
+    height: 20px;
+    height: max(env(safe-area-inset-top), 20px);
+  }
+}
+
+.content {
+  flex: 1;
+
+  position: relative;
 }
