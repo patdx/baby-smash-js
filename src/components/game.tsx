@@ -8,6 +8,7 @@ import { LETTERS } from '../utils/letter-range';
 import { PhysicsProvider, useCannon } from './cannon';
 import { DevTools } from './dev-tools';
 import { sample } from 'lodash';
+import { useSpring } from 'framer-motion';
 
 // may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
 // import 'pepjs';
@@ -97,6 +98,15 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
 
   const [color] = useState(() => getColor());
 
+  const springX = useSpring(initialX, {
+    stiffness: 500,
+    damping: 25,
+  });
+  const springY = useSpring(initialY, {
+    stiffness: 500,
+    damping: 25,
+  });
+
   const [ref, api] = useCannon(
     {
       mass,
@@ -106,7 +116,7 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
       material.friction = 0.3;
       body.material = material;
       body.addShape(new CANNON.Sphere(70));
-      body.position.set(initialX, initialY, 0);
+      body.position.set(springX.get(), springY.get(), 0);
       body.velocity.set(0, 0, 0);
     },
     []
@@ -132,9 +142,15 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
 
       api.position.set(mx, -my, 0);
 
+      // also set to the spring, this is
+      // used to calculate an average velocity value
+      // TODO: might be buggy in cases of too fast tap and release
+      // seems like it needs to be set every frame
+
       if (props.last) {
         setDragging(false);
-        api.velocity.set(vx * 1000, -vy * 1000, 0);
+        api.velocity.set(springX.getVelocity(), springY.getVelocity(), 0);
+        // api.velocity.set(vx * 1000, -vy * 1000, 0);
         api.mass = mass;
       }
     },
@@ -163,6 +179,9 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
     if (dragging) {
       api.velocity.set(0, 0, 0);
     }
+
+    springX.set(api.position.x);
+    springY.set(api.position.y);
   });
 
   return (
