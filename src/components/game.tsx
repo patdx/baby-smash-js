@@ -1,6 +1,6 @@
 import * as CANNON from 'cannon-es';
 import { Text } from 'drei';
-import React, { FC, useRef, useState } from 'react';
+import React, { FC, useRef, useState, useEffect } from 'react';
 import { Canvas, useFrame, useThree } from 'react-three-fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
@@ -9,6 +9,8 @@ import { PhysicsProvider, useCannon } from './cannon';
 import { DevTools } from './dev-tools';
 import { sample } from 'lodash';
 import { useSpring } from 'framer-motion';
+
+const getLetter = () => sample(LETTERS)!;
 
 // may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
 // import 'pepjs';
@@ -88,12 +90,22 @@ const Plane: FC<{ position: Position }> = (props) => {
   );
 };
 
-const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
-  children,
-  initialX,
-  initialY,
-  mass = 1,
-}) => {
+const Letter: FC<{
+  initialX: number;
+  initialY: number;
+  mass?: number;
+  letter: string;
+}> = ({ letter, initialX, initialY, mass = 1 }) => {
+  const speak = () => {
+    try {
+      window.speechSynthesis.speak(new SpeechSynthesisUtterance(letter));
+    } catch (err) {}
+  };
+
+  useEffect(() => {
+    speak();
+  }, []);
+
   const [dragging, setDragging] = useState(false);
 
   const [color] = useState(() => getColor());
@@ -138,6 +150,7 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
         setDragging(true);
         api.velocity.set(0, 0, 0);
         api.mass = 0;
+        speak();
       }
 
       api.position.set(mx, -my, 0);
@@ -186,7 +199,7 @@ const Letter: FC<{ initialX: number; initialY: number; mass?: number }> = ({
 
   return (
     <Text ref={ref} fontSize={200} color={color} {...bind()}>
-      {children}
+      {letter}
     </Text>
   );
 };
@@ -215,13 +228,13 @@ export const Game: FC = () => {
 
   const [letters, setLetters] = useState<
     {
-      index: number;
+      letter: string;
       x: number;
       y: number;
     }[]
   >([
     {
-      index: 0,
+      letter: getLetter(),
       x: 0,
       y: 0,
     },
@@ -255,17 +268,15 @@ export const Game: FC = () => {
             setLetters((letters) => [
               ...letters,
               {
-                index: letters.length,
+                letter: getLetter(),
                 x,
                 y,
               },
             ])
           }
         ></TouchBackground>
-        {letters.map(({ index, x, y }) => (
-          <Letter key={index} initialX={x} initialY={y}>
-            {LETTERS[index]}
-          </Letter>
+        {letters.map(({ letter, x, y }, index) => (
+          <Letter key={index} initialX={x} initialY={y} letter={letter} />
         ))}
       </PhysicsProvider>
     </Canvas>
