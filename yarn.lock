@@ -3118,16 +3118,15 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drei@0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-0.0.72.tgz#7ae9396371b9c5b358fdad3ec3d48fa42db510ca"
-  integrity sha512-rovaX6jr3Yghj5B4Aw+Do5JfR7gQLTTXdVID0oRt2tV4onmpPoIEVoI5GsO150qF6+JrNOstjpeQPiHnUcOC7A==
+drei@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-1.0.0.tgz#7857a0073e319b634f47c82cc1b9a65ed3e34184"
+  integrity sha512-Jur4heMo4ZbEgnv7kpUbRNddgQVQyjrTSR0njg2Rd/Eye+wiUd9KNGXWqc3qZ7JDBjiOPbELDbPMZcwvazncjg==
   dependencies:
     "@babel/runtime" "^7.10.5"
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
-    postprocessing "^6.16.0"
     react-merge-refs "^1.0.0"
     stats.js "^0.17.0"
     troika-three-text "^0.30.2"
@@ -5400,11 +5399,6 @@ postcss@7.0.32, postcss@^7.0.14, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
-
-postprocessing@^6.16.0:
-  version "6.16.0"
-  resolved "https://registry.yarnpkg.com/postprocessing/-/postprocessing-6.16.0.tgz#9028c3db08805193d8dc9a5d765122d40976edbb"
-  integrity sha512-hw79kzQjSiQhYlHTyRECJMotQ1yRhkzw9tHprxSJF0z/qMx5e9TS4jpAAQOfSbnIr+0vqQG2K0HO23JA/9t3hw==
 
 prepend-http@^1.0.0:
   version "1.0.4"
