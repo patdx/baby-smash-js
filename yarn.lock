@@ -3118,10 +3118,10 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drei@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-1.1.0.tgz#1a85f0784046682db720f5e178d17a2df2c28acd"
-  integrity sha512-mEKZnIaQSSs0GSVJOfudhNmzfTzoycg2hQPlWB5aneGXOTp3tK7rkmKCIZZTnSqOg/5Vk0lVBR1vcCI4yG5VTw==
+drei@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-1.2.0.tgz#3cb951f08decaed0b4b5bc707d5d1c0f93c74218"
+  integrity sha512-dyooRXlbrsmHWKrozpUyzmC4vKn14boupJ4hIvt7GXlv24U6RzN6VHc+FaysH8vk3J8+DPbW6xasB/y0Er72LQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     glsl-noise "^0.0.0"
