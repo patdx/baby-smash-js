@@ -3168,16 +3168,17 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drei@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.0.tgz#345e4c233f0712d9bfa1845215affc791c9ca812"
-  integrity sha512-T7z/9KjvD6JD1PFX3OoqKCcd8Wti79zk3UygMDr1+qYyjjOnnQg9jOF3Y7obzNlxAvDuItZnqXxsWU94P8i5pA==
+drei@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.2.tgz#73e74f9b82374ed76126666757901260c68089c3"
+  integrity sha512-4oPMvqyiMmsyuDxxl81iuy/bAM8Pq8c8XQpV5+6L86Keg6CgA6WOU7J/Lpi3D/GqmegxifPh+HdCHoy6nAPblw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/web" "^9.0.0-rc.3"
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
+    r3f-troika "^0.31.1"
     react-merge-refs "^1.0.0"
     stats.js "^0.17.0"
     troika-three-text "^0.31.0"
@@ -5572,6 +5573,14 @@ quick-lru@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/quick-lru/-/quick-lru-5.1.1.tgz#366493e6b3e42a3a6885e2e99d18f80fb7a8c932"
   integrity sha512-WuyALRjWPDGtt/wzJiadO5AXY+8hZ80hVpe6MyivgraREW751X3SbhRvG3eLKOYN+8VEvqLcf3wdnt44Z4S4SA==
+
+r3f-troika@^0.31.1:
+  version "0.31.1"
+  resolved "https://registry.yarnpkg.com/r3f-troika/-/r3f-troika-0.31.1.tgz#456228c63b524a20489a1f4be90015e9b345d3d3"
+  integrity sha512-d0AI2ZCpU5u9axqJ3I+KI786ltQNOJKimeuq+96Sir/sg0Nl2m5JNA9fBg+YEZ6fOR7+kcbyaycQcTbfTpYDDQ==
+  dependencies:
+    troika-three-utils "^0.31.0"
+    troika-worker-utils "^0.31.0"
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
