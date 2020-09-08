@@ -33,7 +33,7 @@
     "react-three-fiber": "4.2.21",
     "react-use-gesture": "7.0.16",
     "three": "0.120.1",
-    "use-cannon": "0.5.0",
+    "use-cannon": "0.5.1",
     "use-resize-observer": "6.1.0",
     "use-yarn": "2.2.0",
     "zustand": "3.1.0"
