@@ -3168,10 +3168,10 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drei@1.5.3:
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.3.tgz#a8cca18600ae05682ad8e039b6eb757737c30f75"
-  integrity sha512-xtVzxAyo7uSYA23diaealIskmQeb6Q+RGBjhxTMPoepDNERIHiqaE685reyAZE5UIDgUv1XIy5DL2VkZQUViLg==
+drei@1.5.5:
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.5.tgz#72ebf11c513d84670e37a454e5de4915c23b2e57"
+  integrity sha512-D2E4K59Egs5mKhmuwPkh32JpAhSOgjBi93X3NRP3hD0uTkFYSviag6JvVF5j0ExZ1O+9iPl2/hZqc3RenGkKsQ==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/web" "^9.0.0-rc.3"
