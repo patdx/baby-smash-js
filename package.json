@@ -44,6 +44,6 @@
     "@types/react-dom": "16.9.8",
     "http-proxy": "1.18.1",
     "pwa-asset-generator": "3.2.2",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   }
 }
