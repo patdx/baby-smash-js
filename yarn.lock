@@ -3063,6 +3063,18 @@ des.js@^1.0.0:
     inherits "^2.0.1"
     minimalistic-assert "^1.0.0"
 
+detect-gpu@^1.3.0:
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/detect-gpu/-/detect-gpu-1.4.1.tgz#a30bb1a7ce6a6044d84b4850810f1b248a669372"
+  integrity sha512-joUURxxAwgAvJxj4Y9px6tfcHJlCdBBi/Lg3OmqhfgwihdxzLMTHds+q0LBcu5O1oC/ACQ+OqqDkbUSmd2ilBQ==
+  dependencies:
+    detect-ua "^1.0.1"
+
+detect-ua@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/detect-ua/-/detect-ua-1.0.1.tgz#001086a755dbfae509de51e71df580b2090cd704"
+  integrity sha512-FzBaVpuMBcuJkSS/r3bHmnhiAe0SMipQ3SJez/Gmq/ALzoxen1LgfukL556o8rgMUDyLfOXj9MvNnwkqJ35Fwg==
+
 devtools-protocol@0.0.799653:
   version "0.0.799653"
   resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.799653.tgz#86fc95ce5bf4fdf4b77a58047ba9d2301078f119"
@@ -3168,13 +3180,14 @@ domutils@^1.5.1:
     dom-serializer "0"
     domelementtype "1"
 
-drei@1.5.6:
-  version "1.5.6"
-  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.6.tgz#b4b9636a7613aca237cf58496cb1581f2c137b56"
-  integrity sha512-e3ZjCmuzWZ8B8vpMzAUjePEK/ENLtkCvKB2tupR2eRmM8/GmNTKC5uX9WIAxl8tbue2juYAOBeSEOhSCtYF1RA==
+drei@1.5.7:
+  version "1.5.7"
+  resolved "https://registry.yarnpkg.com/drei/-/drei-1.5.7.tgz#ec6bf88f01d297eec6e09fb75f326b0cc78b9fa7"
+  integrity sha512-x7PQfvoSI1OqOwghZuZBhrNtaxMHh0bpVBLFYu39qwDghnBYgNIpNhoRtqK5FzRbcS1Rjdq0KWP0leSGKG/rsA==
   dependencies:
     "@babel/runtime" "^7.11.2"
     "@react-spring/web" "^9.0.0-rc.3"
+    detect-gpu "^1.3.0"
     glsl-noise "^0.0.0"
     lodash.omit "^4.5.0"
     lodash.pick "^4.4.0"
