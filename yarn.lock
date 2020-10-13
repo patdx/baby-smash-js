@@ -1867,10 +1867,10 @@
     "@yarnpkg/fslib" "^2.3.0"
     tslib "^1.13.0"
 
-"@yarnpkg/pnpify@2.3.2":
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/@yarnpkg/pnpify/-/pnpify-2.3.2.tgz#5bae763a9c6f25979adc888a0be2b09fce46d6fb"
-  integrity sha512-PQEz0NN4U7M6YZSV5jHslsCfS2ppoezqkqiEkI0wK1lIJKzUKjV62ZExZV5EdU16abzbQCbXP3EcbsvcgjjUPA==
+"@yarnpkg/pnpify@2.3.3":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@yarnpkg/pnpify/-/pnpify-2.3.3.tgz#c65f7b5c33961e4efc23d26c379aac9402478177"
+  integrity sha512-tPhkRbSUut0jdv1SKVHaJT5VcKJEaNQAMnviIGn4kh0WAkDDHLdIvkbTDl5BkGiCkHf2Pynlvi106mJ1XGoYrw==
   dependencies:
     "@yarnpkg/core" "^2.3.1"
     "@yarnpkg/fslib" "^2.3.0"
