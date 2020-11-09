@@ -5908,10 +5908,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-three-fiber@5.1.8:
-  version "5.1.8"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.1.8.tgz#480997032f9b24b854e4970bd457ab18a120b1c4"
-  integrity sha512-jlN6PV8BrFehlpc1Bh/TRPmQ6jMfB6pl80OacwpM9moPCMFfQB7MODNaeuFaMsRRhYXqj90oqBfIJgsE0WKv6A==
+react-three-fiber@5.1.9:
+  version "5.1.9"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.1.9.tgz#58e9c8cfd6f4cf9ed735f6d7839f5d7a000f2ee6"
+  integrity sha512-Gw6sQ1CR5WceuVN6di+vormJCCEaJtKIqWsNxW+iaN77HPNdhICOwtHS96j8+3u/BB7j4nOl4rIBDE36+hk8qA==
   dependencies:
     "@babel/runtime" "^7.12.1"
     "@juggle/resize-observer" "^3.2.0"
