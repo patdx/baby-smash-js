@@ -7572,10 +7572,10 @@ yauzl@^2.10.0:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
 
-zustand@3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/zustand/-/zustand-3.1.4.tgz#684bb863e27b5a04b551c621a0aa73a5ccafc368"
-  integrity sha512-DB/r73Dm3YsUEo9KilbGWsKXQLOrM41aYItznvD68f44P2hYo+FY65D7N8m2ojKVzg6eIPgXZWqkFO60Utko8A==
+zustand@3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-3.2.0.tgz#a718a964440796d44edda3073b69e78b95f4c8f5"
+  integrity sha512-MBYFrnUdgFVi38tdQNSzVN9cPpRDf7w2HhdHGDSgBRHN7vIbUGUR3aBdVQykelXzSFR7iVj3YNBuq7B9ceMI5w==
 
 zustand@^3.0.3:
   version "3.0.3"
