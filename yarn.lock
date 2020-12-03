@@ -5647,10 +5647,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-three-fiber@5.3.5:
-  version "5.3.5"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.5.tgz#567f00c9b9082b71074754b03a0ca9a0b6ef33eb"
-  integrity sha512-fT4ewGTS+41jZgy0ekXaekF6AW5GYHxgr57Y6aPWRCT+qSmWDHep4XFF+bqku/AxOlN/6sP0QAb3JlbmsRyPbw==
+react-three-fiber@5.3.6:
+  version "5.3.6"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.6.tgz#917ecd4aa056e3bbf73f1fa97c68a57f9eb5dce9"
+  integrity sha512-xZrKo8vCTct+ciR72FlLGs3BMeID5rb5XCl8tz05ZGLnSQLK4O60rLJMh1YioarsCWf0nxy+ZsIQ3jKw5WQ/Og==
   dependencies:
     "@babel/runtime" "^7.12.1"
     react-merge-refs "^1.1.0"
