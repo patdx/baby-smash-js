@@ -5529,10 +5529,10 @@ puppeteer-core@5.5.0:
     unbzip2-stream "^1.3.3"
     ws "^7.2.3"
 
-pwa-asset-generator@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/pwa-asset-generator/-/pwa-asset-generator-4.0.0.tgz#0bef63cee6938ab796d72210a45d5cb01de655b9"
-  integrity sha512-RRRV/pZG7uR76aBsGr0ziZA2UQbM+aMh0PiFpUShRqAAYXO1Ea1XqR7y5mgUhDZUoclruMoHxxB9WSplSp1MaA==
+pwa-asset-generator@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/pwa-asset-generator/-/pwa-asset-generator-4.0.1.tgz#3dfdd1d3a8e9e468059ffd226bca9a6037261072"
+  integrity sha512-inMDobLV06AEZLEPxcuHUFGLYX0Hd2TT/e3h5/3EV+/DjfVUEtRM1W1JVPErkCcWTY8AlEn5clubvAs+6NWscw==
   dependencies:
     chalk "4.1.0"
     cheerio "1.0.0-rc.3"
