@@ -19,7 +19,7 @@
     "@yarnpkg/pnpify": "2.4.0",
     "cannon-es": "0.15.1",
     "classnames": "2.2.6",
-    "drei": "2.2.10",
+    "drei": "2.2.12",
     "framer-motion": "2.9.5",
     "lodash": "4.17.20",
     "next": "10.0.3",
