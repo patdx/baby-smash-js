@@ -144,7 +144,7 @@ const Letter: FC<{
       // TODO: would like to add multi touch support
       // seems that event is created by react-three-fiber
 
-      console.log(props.pointerId, props.event, props.touches);
+      console.log(props.event, props.touches);
 
       if (props.first) {
         setDragging(true);
@@ -207,6 +207,12 @@ const Letter: FC<{
 export const TouchBackground: FC<{
   onClick?: (x: number, y: number) => any;
 }> = (props) => {
+  const three = useThree();
+  // use the number from the camera
+  const camera = three.camera as OrthographicCamera;
+
+  console.log(camera);
+
   return (
     <mesh
       onClick={(event) =>
@@ -214,8 +220,12 @@ export const TouchBackground: FC<{
       }
       position={[0, 0, -100]}
     >
-      <boxBufferGeometry attach="geometry" args={[1000, 1000, 1]} />
-      {/* <meshStandardMaterial attach="material" color='white' /> */}
+      {/* TODO: figure out how to set color */}
+      <boxBufferGeometry
+        attach="geometry"
+        args={[camera.right - camera.left, camera.top - camera.bottom, 1]}
+      />
+      {/* <meshStandardMaterial attach="material" color='blue' /> */}
     </mesh>
   );
 };
