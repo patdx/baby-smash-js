@@ -36,7 +36,7 @@
     "use-cannon": "0.5.3",
     "use-resize-observer": "7.0.0",
     "use-yarn": "2.2.0",
-    "zustand": "3.2.0"
+    "zustand": "3.3.0"
   },
   "devDependencies": {
     "@types/node": "12.12.54",
