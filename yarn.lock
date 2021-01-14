@@ -4815,10 +4815,10 @@ react-refresh@0.8.3:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.8.3.tgz#721d4657672d400c5e3c75d063c4a85fb2d5d68f"
   integrity sha512-X8jZHc7nCMjaCqoU+V2I0cOhNW+QMBwSUkeXnTi8IPe6zaRWfn60ZzvFDZqWPfmSJfjub7dDW1SP0jaHWLu/hg==
 
-react-three-fiber@5.3.12:
-  version "5.3.12"
-  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.12.tgz#63372fb3251fbf09a4dc6fe5804156495decf5bf"
-  integrity sha512-/aTUCP1zy5tJNTUHRfQs0WjQN1HHvoAPSu9z469zuU/1gQ04uwWY3lOx3OcbRWe3a/1Vy0xVzg8gGWp/GmdbDA==
+react-three-fiber@5.3.13:
+  version "5.3.13"
+  resolved "https://registry.yarnpkg.com/react-three-fiber/-/react-three-fiber-5.3.13.tgz#c28d8672693bd622de41146efceff3d584a5d6a2"
+  integrity sha512-oc12HxYc5FkU0INbD4NRqEUo7g0c/ETyCfF6sxUrnkHYVpx5DGv4VZqmudOtsOFD+XZ0nMtW94ffzwgcSqqrrQ==
   dependencies:
     "@babel/runtime" "^7.12.1"
     react-merge-refs "^1.1.0"
@@ -4827,7 +4827,7 @@ react-three-fiber@5.3.12:
     resize-observer-polyfill "^1.5.1"
     scheduler "0.20.1"
     tiny-emitter "^2.1.0"
-    use-asset "^0.1.5"
+    use-asset "^0.2.0"
     utility-types "^3.10.0"
 
 react-use-gesture@9.0.0:
@@ -5863,10 +5863,10 @@ urix@^0.1.0:
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
 
-use-asset@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-0.1.5.tgz#196b6edf9f162bb900e0990888da3215514dec29"
-  integrity sha512-h1SDwd1OTbFPM076CiDrTOGk+9xVKBO6WRBo8Max/Bi9QxkNZqjOLO5VGEXwFPeXv2hkyDZv2V3RFI2cbkWLHw==
+use-asset@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/use-asset/-/use-asset-0.2.0.tgz#e626f5d16e0ac5861f35d098fa224a6b3067049d"
+  integrity sha512-vNZlJJjzIU+ChWTuJmI3cZKH9oO1QacV0EaRrNUoNPaP5M91NyuWcRy7yWAG4BFyQqkpmzhnw1ahA0B3HgHcZw==
   dependencies:
     fast-deep-equal "^3.1.3"
 
