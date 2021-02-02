@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@types/node": "12.12.54",
-    "@types/react": "17.0.0",
+    "@types/react": "17.0.1",
     "@types/react-dom": "17.0.0",
     "http-proxy": "1.18.1",
     "pwa-asset-generator": "4.1.1",
