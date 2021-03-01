@@ -32,7 +32,7 @@
     "react-dom": "17.0.1",
     "react-three-fiber": "5.3.19",
     "react-use-gesture": "9.0.4",
-    "three": "0.124.0",
+    "three": "0.126.0",
     "use-cannon": "0.5.3",
     "use-resize-observer": "7.0.0",
     "use-yarn": "2.2.0",
