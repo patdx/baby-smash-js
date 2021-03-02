@@ -4830,10 +4830,10 @@ react-three-fiber@5.3.19:
     use-asset "^1.0.2"
     utility-types "^3.10.0"
 
-react-use-gesture@9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-9.0.4.tgz#7e0428007df31b6d8daae37c2fb01e9f40283623"
-  integrity sha512-G0sbQY+HSm2gSVIlD+LE1unpVpG7YZRTr8TI72vo0Nu1lecJtvjbcY3ZLonEZLTtODJgLL6nBllMRXyy0bRSQA==
+react-use-gesture@9.1.1:
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/react-use-gesture/-/react-use-gesture-9.1.1.tgz#ea51156f68da111f39e1bd249807c5f88561f70b"
+  integrity sha512-RhZ3cfISasL/45XOI5Q+KlvXHKsJ1bUw6hTjJ7k/2RVqxDimVFFGCblcBUVWxbm9lsgD4smoXCSuEaMSrZTdzA==
 
 react-use-measure@^2.0.3:
   version "2.0.3"
