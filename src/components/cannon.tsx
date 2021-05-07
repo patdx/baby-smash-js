@@ -7,7 +7,7 @@ import React, {
   useState,
   FC,
 } from 'react';
-import { useFrame } from 'react-three-fiber';
+import { useFrame } from '@react-three/fiber';
 import { Mesh, Vector3, Quaternion } from 'three';
 
 const WorldContext = createContext<CANNON.World>(undefined as any);

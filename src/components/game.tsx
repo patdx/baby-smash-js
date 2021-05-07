@@ -1,18 +1,18 @@
 import * as CANNON from 'cannon-es';
-import { Text } from 'drei';
+import { Text } from '@react-three/drei';
 import React, { FC, useRef, useState, useEffect } from 'react';
-import { Canvas, useFrame, useThree } from 'react-three-fiber';
+import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { useDrag } from 'react-use-gesture';
 import { OrthographicCamera, Vector3 } from 'three';
 import { LETTERS } from '../utils/letter-range';
 import { PhysicsProvider, useCannon } from './cannon';
 import { DevTools } from './dev-tools';
-import { sample } from 'lodash';
+import sample from 'lodash/sample';
 import { useSpring } from 'framer-motion';
 
 const getLetter = () => sample(LETTERS)!;
 
-// may help with safari? https://github.com/react-spring/react-three-fiber/issues/190
+// may help with safari? https://github.com/react-spring/@react-three/fiber/issues/190
 // import 'pepjs';
 // touch-action="none"
 // NOTE: if I just set the css style it seems to work alright
@@ -26,7 +26,7 @@ type Position = typeof Position[number];
 
 // NOTE: due to issues with use-cannon, try to replace with our own physics
 // https://github.com/react-spring/use-cannon/issues/63
-// https://github.com/react-spring/react-three-fiber/blob/master/examples/src/demos/Physics.js
+// https://github.com/react-spring/@react-three/fiber/blob/master/examples/src/demos/Physics.js
 // TODO: try adding the cannon wireframe
 // https://github.com/codynova/action-game/tree/master/src/debug
 
@@ -99,7 +99,7 @@ const Letter: FC<{
   const speak = () => {
     try {
       window.speechSynthesis.speak(new SpeechSynthesisUtterance(letter));
-    } catch (err) {}
+    } catch (err) { }
   };
 
   useEffect(() => {
@@ -142,7 +142,7 @@ const Letter: FC<{
       } = props;
 
       // TODO: would like to add multi touch support
-      // seems that event is created by react-three-fiber
+      // seems that event is created by @react-three/fiber
 
       console.log(props.event, props.touches);
 
@@ -198,7 +198,7 @@ const Letter: FC<{
   });
 
   return (
-    <Text ref={ref} fontSize={200} color={color} {...bind()}>
+    <Text ref={ref} fontSize={200} color={color} {...bind() as any}>
       {letter}
     </Text>
   );
@@ -220,12 +220,12 @@ export const TouchBackground: FC<{
       }
       position={[0, 0, -100]}
     >
-      {/* TODO: figure out how to set color */}
+      {/* TODO: figure out how to set pure white color */}
       <boxBufferGeometry
         attach="geometry"
         args={[camera.right - camera.left, camera.top - camera.bottom, 1]}
       />
-      {/* <meshStandardMaterial attach="material" color='blue' /> */}
+      <meshBasicMaterial attach="material" color="black" />
     </mesh>
   );
 };
@@ -261,12 +261,14 @@ export const Game: FC = () => {
         touchAction: 'none',
       }}
       orthographic
-      concurrent
+      mode="concurrent"
       camera={{
         position: [0, 0, 100],
       }}
-      pixelRatio={window.devicePixelRatio || 2}
+    // sounds like it should be automatic from now on
+    // pixelRatio={window.devicePixelRatio || 2}
     >
+      <color attach="background" args={["red"]} />
       <PhysicsProvider>
         <DevTools></DevTools>
         <Plane position={'bottom'}></Plane>
