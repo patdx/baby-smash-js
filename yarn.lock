@@ -2550,7 +2550,7 @@ __metadata:
     "@yarnpkg/pnpify": 3.0.0-rc.3
     cannon-es: 0.17.0
     classnames: 2.3.1
-    framer-motion: 4.1.13
+    framer-motion: 4.1.15
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 10.2.0
@@ -3993,14 +3993,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:4.1.13":
-  version: 4.1.13
-  resolution: "framer-motion@npm:4.1.13"
+"framer-motion@npm:4.1.15":
+  version: 4.1.15
+  resolution: "framer-motion@npm:4.1.15"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 5.3.0
     hey-listen: ^1.0.8
-    popmotion: 9.3.5
+    popmotion: 9.3.6
     style-value-types: 4.1.4
     tslib: ^2.1.0
   peerDependencies:
@@ -4009,7 +4009,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: 253e9072fc386f85fbb25b1dc218c116486c5beef0007ab434b997f8aad744363d6f770d224ef2fc95c19eb214feaf19a337386af78d3c3031a41d6df7b47b10
+  checksum: 3d9ca7b8cd1c509a547a2e4645da80d8c2a7e92903c4fff5fc67cf22b489263c67dcdb58101984e14ef2b04ab0ae92d4025e4934209ad571607043ead11e1bf6
   languageName: node
   linkType: hard
 
@@ -6079,15 +6079,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"popmotion@npm:9.3.5":
-  version: 9.3.5
-  resolution: "popmotion@npm:9.3.5"
+"popmotion@npm:9.3.6":
+  version: 9.3.6
+  resolution: "popmotion@npm:9.3.6"
   dependencies:
     framesync: 5.3.0
     hey-listen: ^1.0.8
     style-value-types: 4.1.4
     tslib: ^2.1.0
-  checksum: b78d79a8eaf8614d3fe07544f400932447fc68c84c6fa91e67c1dd2d40dbf91b45034b4c067ead52b25eea5de4493dae3532e01dfc78fcb785f826cd8c8a6705
+  checksum: b2ff30e647e4184ddb98778294f1fa856934af389cda9a43a58ccbaaff4b29f5dfa5cbe8c446b58fdbe3e4a3757afa7690c497ad30f15c5edd47a02cb7dc9646
   languageName: node
   linkType: hard
 
