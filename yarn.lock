@@ -1858,10 +1858,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.127.1":
-  version: 0.127.1
-  resolution: "@types/three@npm:0.127.1"
-  checksum: 9e17f928b7d65fe041cf831da142ea87edb0d6dc3562b6907524f1444231ae75f959b1c6caf9af0ce4702182cd7e7eafa4dc4afa49037273ade205f118c37be5
+"@types/three@npm:0.128.0":
+  version: 0.128.0
+  resolution: "@types/three@npm:0.128.0"
+  checksum: 866e16b55a60941560df629a20fe005034058b25d41fa03a0c4363ef94f580768bae6d6065573ac6b3a5326d0c349ff5920d095f0ed66303a0785f56e88d5bfa
   languageName: node
   linkType: hard
 
@@ -2546,7 +2546,7 @@ __metadata:
     "@types/platform": 1.3.3
     "@types/react": 17.0.5
     "@types/react-dom": 17.0.4
-    "@types/three": 0.127.1
+    "@types/three": 0.128.0
     "@yarnpkg/pnpify": 3.0.0-rc.3
     cannon-es: 0.17.0
     classnames: 2.3.1
