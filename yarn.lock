@@ -2555,7 +2555,7 @@ __metadata:
     "@types/react-dom": 17.0.5
     "@types/three": 0.128.0
     "@yarnpkg/pnpify": 3.0.0-rc.3
-    cannon-es: 0.17.0
+    cannon-es: 0.17.1
     classnames: 2.3.1
     framer-motion: 4.1.16
     http-proxy: 1.18.1
@@ -2906,10 +2906,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cannon-es@npm:0.17.0":
-  version: 0.17.0
-  resolution: "cannon-es@npm:0.17.0"
-  checksum: 43c758632344d7e5540ce5b98e37481d320a5e07001302fcd0f2a6dd30638532a00323dd71e71bcff1c245831750a0e57b637c07a9d1eb48f6d04676095fecd0
+"cannon-es@npm:0.17.1":
+  version: 0.17.1
+  resolution: "cannon-es@npm:0.17.1"
+  checksum: 8a62d94aa11411063e33a867b9a173542a2a88103fcd24091c731b268c82380ca205fcc8499210a229b5aa226b76459972ac2fc6abcb26aa007f435cbab2de36
   languageName: node
   linkType: hard
 
