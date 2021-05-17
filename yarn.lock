@@ -5,13 +5,6 @@ __metadata:
   version: 4
   cacheKey: 7
 
-"@alloc/types@npm:^1.2.1":
-  version: 1.3.0
-  resolution: "@alloc/types@npm:1.3.0"
-  checksum: ad1d5e2a0eb317093e2abd4261a818b3e442ef5b22bb33a1f3aefb056df61343bd21fe176b65f804dd846192f9fdbbd64bca5e5e9cb4d98ec2839ee45d76c0f2
-  languageName: node
-  linkType: hard
-
 "@arcanis/slice-ansi@npm:^1.0.2":
   version: 1.0.2
   resolution: "@arcanis/slice-ansi@npm:1.0.2"
@@ -1108,7 +1101,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.13.17, @babel/runtime@npm:^7.3.1, @babel/runtime@npm:^7.8.4":
+"@babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.13.17, @babel/runtime@npm:^7.8.4":
   version: 7.14.0
   resolution: "@babel/runtime@npm:7.14.0"
   dependencies:
@@ -1439,64 +1432,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-spring/animated@npm:9.0.0-rc.3":
-  version: 9.0.0-rc.3
-  resolution: "@react-spring/animated@npm:9.0.0-rc.3"
-  dependencies:
-    "@babel/runtime": ^7.3.1
-    "@react-spring/shared": 9.0.0-rc.3
-    react-layout-effect: ^1.0.1
-  checksum: 736744867029fb6de193b0571a2a47d91adef101742fae4113d3eb419cd3ffd3679666f2d6bf87d59e05691203fbd01280a974afb5083409aca0a37f3b9977e7
-  languageName: node
-  linkType: hard
-
-"@react-spring/core@npm:9.0.0-rc.3":
-  version: 9.0.0-rc.3
-  resolution: "@react-spring/core@npm:9.0.0-rc.3"
-  dependencies:
-    "@babel/runtime": ^7.3.1
-    "@react-spring/animated": 9.0.0-rc.3
-    "@react-spring/shared": 9.0.0-rc.3
-    react-layout-effect: ^1.0.1
-    use-memo-one: ^1.1.0
-  checksum: b053f3a7d084ca74d01e6747900f6a591ee4be9428c388688f7dd8a502930c01ae112d2e7b628032d8e9cd33f4e6b0b8b9b8c7b6ba7f9fe93be6b4d72ede1597
-  languageName: node
-  linkType: hard
-
-"@react-spring/shared@npm:9.0.0-rc.3":
-  version: 9.0.0-rc.3
-  resolution: "@react-spring/shared@npm:9.0.0-rc.3"
-  dependencies:
-    "@alloc/types": ^1.2.1
-    "@babel/runtime": ^7.3.1
-    fluids: ^0.1.6
-    tslib: ^1.11.1
-  checksum: 98b0842d49790b2ca58ae2055f23bb032247d318154bd125ace8f624f1e2942fcb64c7c04b110b1571faa6259cbd8f10158725fc707b9a3716c4e7c56b3f107b
-  languageName: node
-  linkType: hard
-
-"@react-spring/web@npm:^9.0.0-rc.3":
-  version: 9.0.0-rc.3
-  resolution: "@react-spring/web@npm:9.0.0-rc.3"
-  dependencies:
-    "@babel/runtime": ^7.3.1
-    "@react-spring/animated": 9.0.0-rc.3
-    "@react-spring/core": 9.0.0-rc.3
-    "@react-spring/shared": 9.0.0-rc.3
-  peerDependencies:
-    react: ">=16.8"
-    react-dom: ">=16.8"
-  checksum: dc55162afd13c84204be9ed9966f9288db9a76db1c9099ad5ee4ea9d001846140dc83f4c5c91714594d693c40c77f809ef5e1a0778b8b90b0decddb7ee06c7e1
-  languageName: node
-  linkType: hard
-
-"@react-three/drei@npm:4.3.3":
-  version: 4.3.3
-  resolution: "@react-three/drei@npm:4.3.3"
+"@react-three/drei@npm:5.0.0":
+  version: 5.0.0
+  resolution: "@react-three/drei@npm:5.0.0"
   dependencies:
     "@babel/runtime": ^7.11.2
-    "@react-spring/web": ^9.0.0-rc.3
-    blob-polyfill: ^4.0.20200601
+    blob-polyfill: ^5.0.20210201
     detect-gpu: ^3.0.0
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
@@ -1504,10 +1445,10 @@ __metadata:
     react-merge-refs: ^1.0.0
     stats.js: ^0.17.0
     three-stdlib: ^2.0.1
-    troika-three-text: 0.38.1
+    troika-three-text: ^0.42.0
     use-asset: ^1.0.4
     utility-types: ^3.10.0
-    zustand: ^3.0.3
+    zustand: ^3.5.1
   peerDependencies:
     "@react-three/fiber": ">=6.0"
     react: ">=17.0"
@@ -1516,7 +1457,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 3588496915c2d3e3b5a80c18fbc3fb7b65c1cc8b815d89af22d4ee67e88d98433d1a5e5103a68eb4a4b8f9370f289f99b4ca359f051639da581c0c9b1fb1d3f0
+  checksum: e3fafcf19b019efc0c451587dfdb97f1927685e238398a5c9d70e21190cccf3d3accfbb7b37fa33243a6d3115942b8a8eab73b7b419e407d403c36a19b5ce862
   languageName: node
   linkType: hard
 
@@ -2546,7 +2487,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 4.3.3
+    "@react-three/drei": 5.0.0
     "@react-three/fiber": 6.1.4
     "@types/lodash": 4.14.169
     "@types/node": 15.3.0
@@ -2594,6 +2535,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bidi-js@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "bidi-js@npm:1.0.2"
+  dependencies:
+    require-from-string: ^2.0.2
+  checksum: d91d5d7551f28bfd2b3b84bf04f5c2289791977461812dade58773c194e34948a5169454f401d9135ae9e67a59e09c57e2e12771085d4f875ff85037207fb613
+  languageName: node
+  linkType: hard
+
 "big.js@npm:^5.2.2":
   version: 5.2.2
   resolution: "big.js@npm:5.2.2"
@@ -2619,10 +2569,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"blob-polyfill@npm:^4.0.20200601":
-  version: 4.0.20200601
-  resolution: "blob-polyfill@npm:4.0.20200601"
-  checksum: d6c101d0afc4f571b6df7d21f6b36a29b156d46d919871cefce543d03bac225c53c65907aa825ba2cb149a00b00589117fc334ab3d5445b88f01996d50637b8c
+"blob-polyfill@npm:^5.0.20210201":
+  version: 5.0.20210201
+  resolution: "blob-polyfill@npm:5.0.20210201"
+  checksum: 27885b5be2de405aa90e2d07201eb77f7b98f3d6bdd802e8ccfb7a1e32284ab09c50287b4a59d7c2e54b4fe45d46c329acdc7a298997fe3dd81e036266567f3c
   languageName: node
   linkType: hard
 
@@ -3976,13 +3926,6 @@ __metadata:
     locate-path: ^5.0.0
     path-exists: ^4.0.0
   checksum: d612d28e02eaca6cd7128fc9bc9b456e2547a3f9875b2b2ae2dbdc6b8cec52bc2885efcb3ac6c18954e838f4c8e20565d196784b190e1d38565f9dc39aade722
-  languageName: node
-  linkType: hard
-
-"fluids@npm:^0.1.6":
-  version: 0.1.9
-  resolution: "fluids@npm:0.1.9"
-  checksum: 331b812d73c0c3ada83caf1d3a593024210658c17d80afa04691e454b30dcc777d7e4fdb6e3a56254d8e180efda189b6406653c02af2e0572ea16446b5ca641f
   languageName: node
   linkType: hard
 
@@ -6372,15 +6315,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-layout-effect@npm:^1.0.1":
-  version: 1.0.5
-  resolution: "react-layout-effect@npm:1.0.5"
-  peerDependencies:
-    react: ">=16.8"
-  checksum: b67917326729f20eaef093f994e4f31e203adacd0c1c95a5e85a27c2956cd908596ebc60bc7575806ff9887d78f095e6dcf8fdcf5f1d735bd73cbd3e67b86b9f
-  languageName: node
-  linkType: hard
-
 "react-merge-refs@npm:^1.0.0, react-merge-refs@npm:^1.1.0":
   version: 1.1.0
   resolution: "react-merge-refs@npm:1.1.0"
@@ -6589,6 +6523,13 @@ fsevents@~2.3.1:
   version: 1.6.1
   resolution: "repeat-string@npm:1.6.1"
   checksum: 99c431ba7bef7a5d39819d562ebca89206368b45f73213677a3b562e25b5dd272d9e6a2ca8105001df14b6fc8cc71f0b10258c86e16cf8a256318fac1ddc8a77
+  languageName: node
+  linkType: hard
+
+"require-from-string@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "require-from-string@npm:2.0.2"
+  checksum: 74fc30353e5d526879b28d480c3f25ca95e9c22dfe7ac10ca0650e03407b3aeed352ff8ca706ea145617b6482a582e4a3bd65a884fc50133ebe586d47fa085c6
   languageName: node
   linkType: hard
 
@@ -7554,29 +7495,32 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"troika-three-text@npm:0.38.1":
-  version: 0.38.1
-  resolution: "troika-three-text@npm:0.38.1"
+"troika-three-text@npm:^0.42.0":
+  version: 0.42.0
+  resolution: "troika-three-text@npm:0.42.0"
   dependencies:
-    troika-three-utils: ^0.38.1
-    troika-worker-utils: ^0.38.1
-  checksum: be828f38885c7bae8dc2480799f4b9771e1d8899b2b358a06c1cde90e43cc9195a64a19b7577279fc371876aa9e6b516c43b7ef166da29b86b159cc725cd726e
-  languageName: node
-  linkType: hard
-
-"troika-three-utils@npm:^0.38.1":
-  version: 0.38.1
-  resolution: "troika-three-utils@npm:0.38.1"
+    bidi-js: ^1.0.2
+    troika-three-utils: ^0.42.0
+    troika-worker-utils: ^0.42.0
   peerDependencies:
-    three: 0.103.x - 0.125.x
-  checksum: 4c631c4714abebd026fcb2b7bba772a418e26223570869eb7137398e70c30d462e512ac413a7faee37e78be0aa249391579777a9158d5de6f463106765afc1f4
+    three: ">=0.103.0"
+  checksum: 737db904b368a9a3e3b03c87a4c1f599fad15ad874316aea5536864be33f98e49a5fb69fa16ae19619a04d612355a9cc844938f8712a439ff8e2e0bb917379c5
   languageName: node
   linkType: hard
 
-"troika-worker-utils@npm:^0.38.1":
-  version: 0.38.1
-  resolution: "troika-worker-utils@npm:0.38.1"
-  checksum: 79de67aaef18cbb5a5c7dfda71f31dffeb5015c040f381d295d791b625851426af6d281d942df1e54ac21f1cce98041ab020901e7685d0947151ad47979c1757
+"troika-three-utils@npm:^0.42.0":
+  version: 0.42.0
+  resolution: "troika-three-utils@npm:0.42.0"
+  peerDependencies:
+    three: ">=0.103.0"
+  checksum: 6659187ea8cd7eaa49e402231a2b4d809a374977bcc46ab18cefda39e8a469211725b291da5efc32b93674b702bd105f73b3c3ff78c6462390537423902df00c
+  languageName: node
+  linkType: hard
+
+"troika-worker-utils@npm:^0.42.0":
+  version: 0.42.0
+  resolution: "troika-worker-utils@npm:0.42.0"
+  checksum: 0e27ff5f530bbf830181c7f3445efaae80b6f74adc83c79f488be306b436c4aec4c15fc36ec782b774a95f4868d6486063d725d6061d2e2347464e57ec2f5d83
   languageName: node
   linkType: hard
 
@@ -7590,7 +7534,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"tslib@npm:^1.11.1, tslib@npm:^1.13.0, tslib@npm:^1.9.0":
+"tslib@npm:^1.13.0, tslib@npm:^1.9.0":
   version: 1.13.0
   resolution: "tslib@npm:1.13.0"
   checksum: 5dc3bdaea3b67c76ef4a14c28fcb2171da7bcf292fd9c59a260098729626b1ce766c52b588f08e324ed9a0c52ea8a93a815920f980d75981abc9d850fbf310fb
@@ -7834,15 +7778,6 @@ typescript@4.2.4:
     react-three-fiber: ">=4.2"
     typescript: ">=3.9"
   checksum: 5ad47bdc8c8aa80759a5e6a5c64fdaf99bdbd314f8fdb8ed53df43f9063229fb51bbff85528da69ea0f401a8ae59b7ad6e5650e195568c16bd0060e1d32f7fc6
-  languageName: node
-  linkType: hard
-
-"use-memo-one@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "use-memo-one@npm:1.1.1"
-  peerDependencies:
-    react: ^16.8.0
-  checksum: 691a41156a966ec83246b0c684f9ce84dcf9fe1d6441d136d3a2cf681d84f5be510265e1e3a5951b1f2f45a760a3492e3c389392c1e66240d5430150148383df
   languageName: node
   linkType: hard
 
@@ -8359,14 +8294,5 @@ typescript@4.2.4:
   peerDependencies:
     react: ">=16.8"
   checksum: fdd1e6caaecbb0c3b7e869064752ace7113a16eabca56ab2f8cae6b1a0588ead08662289b7b7dde6a550d9ddf30881af370292406ca0b37d6d5d78a93e7db2b2
-  languageName: node
-  linkType: hard
-
-"zustand@npm:^3.0.3":
-  version: 3.5.0
-  resolution: "zustand@npm:3.5.0"
-  peerDependencies:
-    react: ">=16.8"
-  checksum: fb7b0640f0d646d23f846bf9b77e0f0653a11367b3928eab42e93072b2846123a7cf5ec08730813fadd7ac8b6a1aab83b7c89a40d7a39af091d39ffaca50243b
   languageName: node
   linkType: hard
