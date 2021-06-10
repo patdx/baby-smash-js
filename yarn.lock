@@ -1432,9 +1432,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:6.0.3":
-  version: 6.0.3
-  resolution: "@react-three/drei@npm:6.0.3"
+"@react-three/drei@npm:6.0.4":
+  version: 6.0.4
+  resolution: "@react-three/drei@npm:6.0.4"
   dependencies:
     "@babel/runtime": ^7.11.2
     blob-polyfill: ^5.0.20210201
@@ -1444,7 +1444,7 @@ __metadata:
     lodash.pick: ^4.4.0
     react-merge-refs: ^1.0.0
     stats.js: ^0.17.0
-    three-stdlib: ^2.0.1
+    three-stdlib: ^2.0.8
     troika-three-text: ^0.42.0
     use-asset: ^1.0.4
     utility-types: ^3.10.0
@@ -1457,7 +1457,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 548545b5f7f9053f33361bafb9f58f1feca5fc70e6caeb65d6d25335aad36cff847a5e9b27abef05e704cab78d05bac68b844aa39d34449294d7e1886f88fad2
+  checksum: f545ca2c9db2fdde4e4fc1c0485fdd838c8679382f1c7c9e062e9ccc03d30a1b0e067893d37db2240b7a4b3034d492524107ae2a61789c53d8ed4f4ae838f4ee
   languageName: node
   linkType: hard
 
@@ -2490,7 +2490,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 6.0.3
+    "@react-three/drei": 6.0.4
     "@react-three/fiber": 7.0.1
     "@types/lodash": 4.14.170
     "@types/node": 15.3.1
@@ -7464,9 +7464,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.0.1":
-  version: 2.0.2
-  resolution: "three-stdlib@npm:2.0.2"
+"three-stdlib@npm:^2.0.8":
+  version: 2.0.8
+  resolution: "three-stdlib@npm:2.0.8"
   dependencies:
     "@babel/runtime": ^7.13.17
     "@webgpu/glslang": ^0.0.15
@@ -7480,7 +7480,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.128.0"
-  checksum: 14ff18463618e17d1ff4ea25f75c57e2fc8f893798ff2ef5cbc1a923e6732171b90fb9ad9e8fd515a6937f94ddc48f729caf8fbf427978357d304b1b5d51c5ac
+  checksum: 792719afa7085794a3b50126d73eabad0d6ab63e823d69ec5050f1a0e339af41a229cdb87359aeca81b3aa390b45f2646c3dd4bad53f3630a22fa2925bc3a1cb
   languageName: node
   linkType: hard
 
