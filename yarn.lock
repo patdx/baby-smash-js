@@ -2536,7 +2536,7 @@ __metadata:
     use-cannon: 0.5.3
     use-resize-observer: 7.0.0
     use-yarn: 2.2.0
-    webpack: 5.41.0
+    webpack: 5.41.1
     zustand: 3.5.4
   languageName: unknown
   linkType: soft
@@ -8071,9 +8071,9 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.41.0":
-  version: 5.41.0
-  resolution: "webpack@npm:5.41.0"
+"webpack@npm:5.41.1":
+  version: 5.41.1
+  resolution: "webpack@npm:5.41.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.48
@@ -8103,7 +8103,7 @@ typescript@4.2.4:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: f414964eadf18ccfdc5e39e9a9d148df086ccdfd73644c3fe1a3bb40c047447da3079e09969ec6577942f9cb0dee3f63a69138529f4380f52d74e39aff87636e
+  checksum: eaefa8e36ecc81a3343204c803489b0e664ba7c56f12599787be7e462f511c5923735f91f8715424e17cf273b956ee549824f733e7dc2d26acd64e4465e86015
   languageName: node
   linkType: hard
 
