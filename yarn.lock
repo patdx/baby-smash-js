@@ -1777,14 +1777,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.12":
-  version: 17.0.12
-  resolution: "@types/react@npm:17.0.12"
+"@types/react@npm:17.0.13":
+  version: 17.0.13
+  resolution: "@types/react@npm:17.0.13"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 3cfa54700ec5a15ecfbe6e3f44864983768d3db1c1e88bf67fb0af689f8a14190b11ae2dfccebf36b8ad96b028909ea95c31dff36f4f582f4519f62e18d1164b
+  checksum: baa5a699b72ec9ce85e56755078b375ebefd9557b4d2b506c7f39e8aa50a769aa7f3d33684667ed67c436344b5c4c6272285fd3330b14296f0f25328972bc26a
   languageName: node
   linkType: hard
 
@@ -2512,7 +2512,7 @@ __metadata:
     "@types/lodash": 4.14.170
     "@types/node": 15.3.1
     "@types/platform": 1.3.3
-    "@types/react": 17.0.12
+    "@types/react": 17.0.13
     "@types/react-dom": 17.0.8
     "@types/three": 0.129.1
     "@yarnpkg/pnpify": 3.0.0-rc.7
