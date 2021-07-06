@@ -1834,10 +1834,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.129.2":
-  version: 0.129.2
-  resolution: "@types/three@npm:0.129.2"
-  checksum: 9a4aa595b0db144ca27841ca70100e58394af68488c579381009e6c005de9a021cb34bc309758b7acc14c0f112f4030a81fa58f13836af9693ca66c2220c4101
+"@types/three@npm:0.130.0":
+  version: 0.130.0
+  resolution: "@types/three@npm:0.130.0"
+  checksum: 7078d95cf846d394058fbe87329e50ba7de5656c5ecfd451c5667fafa856ba3f23ad09a5ad9393e52eb00212c63229ce13f497badf3f1c6144c3ae97de274bcc
   languageName: node
   linkType: hard
 
@@ -2514,7 +2514,7 @@ __metadata:
     "@types/platform": 1.3.3
     "@types/react": 17.0.13
     "@types/react-dom": 17.0.8
-    "@types/three": 0.129.2
+    "@types/three": 0.130.0
     "@yarnpkg/pnpify": 3.0.0-rc.10
     cannon-es: 0.18.0
     classnames: 2.3.1
@@ -2531,7 +2531,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-use-gesture: 9.1.3
-    three: 0.130.0
+    three: 0.130.1
     typescript: 4.2.4
     use-cannon: 0.5.3
     use-resize-observer: 7.0.0
@@ -7573,10 +7573,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.130.0":
-  version: 0.130.0
-  resolution: "three@npm:0.130.0"
-  checksum: 81bb291bbc6bcd684b5f06ca4f36cac2172fddf642b8241c7eaccbfca656d5c38321a8326fe8cc7816bd3d7d535aaa2f8151370d7289631f9db595b4214c1ceb
+"three@npm:0.130.1":
+  version: 0.130.1
+  resolution: "three@npm:0.130.1"
+  checksum: 0cbc800331b8b57b4cae633f522844e7bc16cbcc6d141da5adf752911d0e50776193cb70744f97f65d2c107acf4a8eb333b15eb35748f754051482d0150d10fd
   languageName: node
   linkType: hard
 
