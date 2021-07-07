@@ -1743,10 +1743,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/platform@npm:1.3.3":
-  version: 1.3.3
-  resolution: "@types/platform@npm:1.3.3"
-  checksum: 7f3147867889c7457be201c3f142058c9197ad318df0bb905e25d544f4a5638414a9d745a1c0315db857d31f49d7b7162cee837969ec629c4e7a8f59603890be
+"@types/platform@npm:1.3.4":
+  version: 1.3.4
+  resolution: "@types/platform@npm:1.3.4"
+  checksum: d32394412c9882c9186b0015ff6c081c3aafef256b96c69ca76037a2f9f83f4812269a794fd0c3a18889cb5a92f6e67957a06cb7602b14cf45a8aac0f4d186bc
   languageName: node
   linkType: hard
 
@@ -2511,7 +2511,7 @@ __metadata:
     "@react-three/fiber": 7.0.3
     "@types/lodash": 4.14.171
     "@types/node": 15.3.1
-    "@types/platform": 1.3.3
+    "@types/platform": 1.3.4
     "@types/react": 17.0.13
     "@types/react-dom": 17.0.9
     "@types/three": 0.130.0
