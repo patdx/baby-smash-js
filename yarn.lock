@@ -1274,6 +1274,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@juggle/resize-observer@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "@juggle/resize-observer@npm:3.3.1"
+  checksum: 84962a171f66ba8a56e2bf69067860539e1fc59fcb55be0120a8f2796775d38809fe64e19b8bb757a5460c53a591dbb6ddcd913a20ed0d5f1b59280dd833aa85
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:11.0.1":
   version: 11.0.1
   resolution: "@next/env@npm:11.0.1"
@@ -2518,7 +2525,7 @@ __metadata:
     three: 0.130.1
     typescript: 4.2.4
     use-cannon: 0.5.3
-    use-resize-observer: 7.0.0
+    use-resize-observer: 8.0.0
     use-yarn: 2.2.0
     webpack: 5.43.0
     zustand: 3.5.5
@@ -7953,15 +7960,15 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"use-resize-observer@npm:7.0.0":
-  version: 7.0.0
-  resolution: "use-resize-observer@npm:7.0.0"
+"use-resize-observer@npm:8.0.0":
+  version: 8.0.0
+  resolution: "use-resize-observer@npm:8.0.0"
   dependencies:
-    resize-observer-polyfill: ^1.5.1
+    "@juggle/resize-observer": ^3.3.1
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 74186af90536d50059be8628065a949db54d7defded2583ff9a9915544737e5edd515cac0ccfd10b6967fdfbfcce54d30e0d646559b41a60fceeab7cefb70185
+  checksum: 26146c607f14210329adc8183a76ee34bdf531766060b3decbc9d1822281924340826d1ff07741ee7780fd039e2de9bb78f0c03a0f4cf19faa11bec5db601210
   languageName: node
   linkType: hard
 
