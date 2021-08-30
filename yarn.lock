@@ -2518,7 +2518,7 @@ __metadata:
     three: 0.130.1
     typescript: 4.2.4
     use-cannon: 0.5.3
-    use-resize-observer: 7.0.0
+    use-resize-observer: 7.0.1
     use-yarn: 2.2.0
     webpack: 5.43.0
     zustand: 3.5.5
@@ -7953,15 +7953,15 @@ typescript@4.2.4:
   languageName: node
   linkType: hard
 
-"use-resize-observer@npm:7.0.0":
-  version: 7.0.0
-  resolution: "use-resize-observer@npm:7.0.0"
+"use-resize-observer@npm:7.0.1":
+  version: 7.0.1
+  resolution: "use-resize-observer@npm:7.0.1"
   dependencies:
     resize-observer-polyfill: ^1.5.1
   peerDependencies:
     react: ">=16.8.0"
     react-dom: ">=16.8.0"
-  checksum: 74186af90536d50059be8628065a949db54d7defded2583ff9a9915544737e5edd515cac0ccfd10b6967fdfbfcce54d30e0d646559b41a60fceeab7cefb70185
+  checksum: 4ee51ec9019f3f0ac8b977306409298c314568b5818ab6ebf16a4d6b08ef6cd48f62aef5054c76cc27fed4884e686366177d9bceaadc08d8c1d0e62d8c67546b
   languageName: node
   linkType: hard
 
