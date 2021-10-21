@@ -2550,7 +2550,7 @@ __metadata:
     use-resize-observer: 8.0.0
     use-yarn: 2.2.0
     webpack: 5.59.1
-    zustand: 3.5.14
+    zustand: 3.6.0
   languageName: unknown
   linkType: soft
 
@@ -8842,15 +8842,15 @@ typescript@4.4.4:
   languageName: node
   linkType: hard
 
-"zustand@npm:3.5.14, zustand@npm:^3.5.13":
-  version: 3.5.14
-  resolution: "zustand@npm:3.5.14"
+"zustand@npm:3.6.0":
+  version: 3.6.0
+  resolution: "zustand@npm:3.6.0"
   peerDependencies:
     react: ">=16.8"
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 38f6c9ae673e44cc1e195b8ea22bb686a9cf64791413df1d4c9f980a018f7d01f14f8fe6307309aff95d9cc60e9b7618ce7bcb23e5fb3c69f9545d7a138eeed1
+  checksum: e255033ad488186cc9782badc0bf79d3beab11eef4f0816c2a04bd9a483c13f184135598fd1f3a7f4bd3d5c71f9d0d45714b2eab0312e041f7962195f9429472
   languageName: node
   linkType: hard
 
@@ -8860,5 +8860,17 @@ typescript@4.4.4:
   peerDependencies:
     react: ">=16.8"
   checksum: 3df791088265ca2ae6168a7b0ebda0221b89e693ba38bbd7e9a084bc7eb56d0918bbbec9937f800b406c0f03e871a9526e190409c37171e19bf912e4afe214a5
+  languageName: node
+  linkType: hard
+
+"zustand@npm:^3.5.13":
+  version: 3.5.14
+  resolution: "zustand@npm:3.5.14"
+  peerDependencies:
+    react: ">=16.8"
+  peerDependenciesMeta:
+    react:
+      optional: true
+  checksum: 38f6c9ae673e44cc1e195b8ea22bb686a9cf64791413df1d4c9f980a018f7d01f14f8fe6307309aff95d9cc60e9b7618ce7bcb23e5fb3c69f9545d7a138eeed1
   languageName: node
   linkType: hard
