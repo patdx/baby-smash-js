@@ -1477,9 +1477,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:7.17.1":
-  version: 7.17.1
-  resolution: "@react-three/drei@npm:7.17.1"
+"@react-three/drei@npm:7.17.2":
+  version: 7.17.2
+  resolution: "@react-three/drei@npm:7.17.2"
   dependencies:
     "@babel/runtime": ^7.11.2
     detect-gpu: ^3.1.21
@@ -1503,7 +1503,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 6553a2fa762accc9277c0078c6aa2e6520d74cc1fada444765ad8cc3fcedf52f84d2bf9a4cbd1e49499bc1ce8a40f6f3dedb9eb5973800848b0518fe65de3452
+  checksum: 4e2f89e8d0a003375b2296b74a6652fad0eb5d64c690ba27b769f6e8e14cf5512c1611146a83ff60b77727cf5c73ad7b37e843d483bd884859d80669403c34b1
   languageName: node
   linkType: hard
 
@@ -2520,7 +2520,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 7.17.1
+    "@react-three/drei": 7.17.2
     "@react-three/fiber": 7.0.17
     "@types/lodash": 4.14.176
     "@types/node": 16.11.1
