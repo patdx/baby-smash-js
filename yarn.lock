@@ -2583,7 +2583,7 @@ __metadata:
     normalize.css: 8.0.1
     pepjs: 0.5.3
     platform: 1.3.6
-    pwa-asset-generator: 6.0.0
+    pwa-asset-generator: 6.0.1
     react: 17.0.2
     react-dom: 17.0.2
     react-use-gesture: 9.1.3
@@ -5504,19 +5504,19 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"mime-db@npm:1.50.0":
-  version: 1.50.0
-  resolution: "mime-db@npm:1.50.0"
-  checksum: 95fcc19c3664ae72391c8a7e4015dde7fb6817c98c951493ca3a1d48050feb8ee08810a372ce7d9e16310042d26e5bda168916f600583a9a583655eeea8ff5f5
+"mime-db@npm:1.51.0":
+  version: 1.51.0
+  resolution: "mime-db@npm:1.51.0"
+  checksum: 613b1ac9d6e725cc24444600b124a7f1ce6c60b1baa654f39a3e260d0995a6dffc5693190217e271af7e2a5612dae19f2a73f3e316707d797a7391165f7ef423
   languageName: node
   linkType: hard
 
-"mime-types@npm:2.1.33":
-  version: 2.1.33
-  resolution: "mime-types@npm:2.1.33"
+"mime-types@npm:2.1.34":
+  version: 2.1.34
+  resolution: "mime-types@npm:2.1.34"
   dependencies:
-    mime-db: 1.50.0
-  checksum: 05f2a0b3f169fbc51d79bdc7674ceb379dd07dbeadb0143059a7def865224686ee9f9051aeb340e98b6c11dbc06794ce0122181db4312cb1ad054fd90b0d510e
+    mime-db: 1.51.0
+  checksum: 67013de9e9d6799bde6d669d18785b7e18bcd212e710d3e04a4727f92f67a8ad4e74aee24be28b685adb794944814bde649119b58ee3282ffdbee58f9278d9f3
   languageName: node
   linkType: hard
 
@@ -6563,9 +6563,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"pwa-asset-generator@npm:6.0.0":
-  version: 6.0.0
-  resolution: "pwa-asset-generator@npm:6.0.0"
+"pwa-asset-generator@npm:6.0.1":
+  version: 6.0.1
+  resolution: "pwa-asset-generator@npm:6.0.1"
   dependencies:
     chalk: 4.1.2
     cheerio: 1.0.0-rc.10
@@ -6574,14 +6574,14 @@ fsevents@~2.3.1:
     lodash.isequal: 4.5.0
     lodash.uniqwith: 4.5.0
     meow: 9.0.0
-    mime-types: 2.1.33
+    mime-types: 2.1.34
     pretty: ^2.0.0
     progress: 2.0.3
     puppeteer-core: 11.0.0
     slash: 3.0.0
   bin:
     pwa-asset-generator: bin/cli
-  checksum: 916e53985e11a2f69b6d4cfe2225af3cd69eb7137eb3cda18ec0ecbe7e2deb5046f644211f9a7c6670f7f4ded8b6b026b44fc6288ee454cdb2f8a3dbdabeabd7
+  checksum: 41cf617e2558fa02d8eee547c6e6471f4408378590d5eba7eaa1a22d6299e94b883aec69149f2324617f66f7e25ad475178e359a69c792302541aa0950ff7acc
   languageName: node
   linkType: hard
 
