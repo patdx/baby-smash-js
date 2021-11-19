@@ -2583,7 +2583,7 @@ __metadata:
     normalize.css: 8.0.1
     pepjs: 0.5.3
     platform: 1.3.6
-    pwa-asset-generator: 6.0.1
+    pwa-asset-generator: 6.0.2
     react: 17.0.2
     react-dom: 17.0.2
     react-use-gesture: 9.1.3
@@ -4087,16 +4087,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-process@npm:1.4.5":
-  version: 1.4.5
-  resolution: "find-process@npm:1.4.5"
+"find-process@npm:1.4.7":
+  version: 1.4.7
+  resolution: "find-process@npm:1.4.7"
   dependencies:
     chalk: ^4.0.0
     commander: ^5.1.0
     debug: ^4.1.1
   bin:
     find-process: bin/find-process.js
-  checksum: 6b6bb76f3d508522d97d34b05019c532ff1b145b65e497877ebd1caae5ad67ab2ad6c90810b7c5fa99753e6360da0ce90718aee0854c096d806adceeee12ce0c
+  checksum: 1953e6a16af86ec033d613ddfcac24f68b7ca6cc7d7aadc037ede4ccad4f03c5571d3c95165842475bfa9432120be5c995cc234c9c02726fc886ac6cd85ece3b
   languageName: node
   linkType: hard
 
@@ -6563,14 +6563,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"pwa-asset-generator@npm:6.0.1":
-  version: 6.0.1
-  resolution: "pwa-asset-generator@npm:6.0.1"
+"pwa-asset-generator@npm:6.0.2":
+  version: 6.0.2
+  resolution: "pwa-asset-generator@npm:6.0.2"
   dependencies:
     chalk: 4.1.2
     cheerio: 1.0.0-rc.10
     chrome-launcher: 0.13.4
-    find-process: 1.4.5
+    find-process: 1.4.7
     lodash.isequal: 4.5.0
     lodash.uniqwith: 4.5.0
     meow: 9.0.0
@@ -6581,7 +6581,7 @@ fsevents@~2.3.1:
     slash: 3.0.0
   bin:
     pwa-asset-generator: bin/cli
-  checksum: 41cf617e2558fa02d8eee547c6e6471f4408378590d5eba7eaa1a22d6299e94b883aec69149f2324617f66f7e25ad475178e359a69c792302541aa0950ff7acc
+  checksum: 0d21c048d921315a65827bb7b6812d6be42a9623de5a0a77d41d5c81dcaec98c198e339ae145b3146b874380d9badcf61b7be26494045ca05ba871be2f6bc7b4
   languageName: node
   linkType: hard
 
