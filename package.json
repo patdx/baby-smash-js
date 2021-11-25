@@ -44,6 +44,6 @@
     "http-proxy": "1.18.1",
     "pwa-asset-generator": "6.0.2",
     "typescript": "4.5.2",
-    "webpack": "5.64.3"
+    "webpack": "5.64.4"
   }
 }
