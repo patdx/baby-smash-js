@@ -1551,15 +1551,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/fiber@npm:7.0.19":
-  version: 7.0.19
-  resolution: "@react-three/fiber@npm:7.0.19"
+"@react-three/fiber@npm:7.0.20":
+  version: 7.0.20
+  resolution: "@react-three/fiber@npm:7.0.20"
   dependencies:
     "@babel/runtime": ^7.13.10
     react-merge-refs: ^1.1.0
     react-reconciler: ^0.26.2
     react-three-fiber: 0.0.0-deprecated
-    react-use-measure: ^2.0.4
+    react-use-measure: ^2.1.0
     resize-observer-polyfill: ^1.5.1
     scheduler: ^0.20.2
     use-asset: ^1.0.4
@@ -1572,7 +1572,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 9c5dcc91a2cee080901e4702745aa933d2ea6acfa861363beb9b2c548a355fa1b628695af24866b92e68060684442a0b04a7269e7a333d805575775a958a895d
+  checksum: 6f58f7dff0f1d2ea3b45b38d4b4ec18af2899a4b5a2df6731e18c703acb9058134b6fbc25ee6830ecbbbda58ebc7e3706e8042a5e0f505237f6c25540bc7f50c
   languageName: node
   linkType: hard
 
@@ -2573,7 +2573,7 @@ __metadata:
   dependencies:
     "@react-hook/window-size": 3.0.7
     "@react-three/drei": 7.22.9
-    "@react-three/fiber": 7.0.19
+    "@react-three/fiber": 7.0.20
     "@types/lodash": 4.14.177
     "@types/node": 16.11.10
     "@types/platform": 1.3.4
@@ -3460,10 +3460,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debounce@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "debounce@npm:1.2.0"
-  checksum: e39cb593ae26344921f5a2681b40b703bdd22bc43b179f0e7515176c790997932b3a0ee6ea9864f384c6ac58cecc08158fb102c3632d5d88ab621f8230ee39ff
+"debounce@npm:^1.2.1":
+  version: 1.2.1
+  resolution: "debounce@npm:1.2.1"
+  checksum: 682a89506d9e54fb109526f4da255c5546102fbb8e3ae75eef3b04effaf5d4853756aee97475cd4650641869794e44f410eeb20ace2b18ea592287ab2038519e
   languageName: node
   linkType: hard
 
@@ -6881,15 +6881,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-use-measure@npm:^2.0.4":
-  version: 2.0.4
-  resolution: "react-use-measure@npm:2.0.4"
+"react-use-measure@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "react-use-measure@npm:2.1.0"
   dependencies:
-    debounce: ^1.2.0
+    debounce: ^1.2.1
   peerDependencies:
     react: ">=16.13"
     react-dom: ">=16.13"
-  checksum: cbaf8896f14bb4b3259a39181b8cd26bf8291cda5f02729f6f977169145acfa1b727d9a99710f20329eb717bad189f599a1616e735053ff07f9ae0a0bd7fd206
+  checksum: 0d8a8d76c68f7c0cef7124791224be6b5c3f28f805b59fc756d05396374b83be236a7689a3b6c5e052b2523600137786c2666051d6f0f9a94c5d6f6e0f3ad1f1
   languageName: node
   linkType: hard
 
