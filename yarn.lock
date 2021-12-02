@@ -2592,7 +2592,7 @@ __metadata:
     normalize.css: 8.0.1
     pepjs: 0.5.3
     platform: 1.3.6
-    pwa-asset-generator: 6.0.4
+    pwa-asset-generator: 6.0.5
     react: 17.0.2
     react-dom: 17.0.2
     react-use-gesture: 9.1.3
@@ -6717,9 +6717,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"pwa-asset-generator@npm:6.0.4":
-  version: 6.0.4
-  resolution: "pwa-asset-generator@npm:6.0.4"
+"pwa-asset-generator@npm:6.0.5":
+  version: 6.0.5
+  resolution: "pwa-asset-generator@npm:6.0.5"
   dependencies:
     chalk: 4.1.2
     cheerio: 1.0.0-rc.10
@@ -6735,7 +6735,7 @@ fsevents@~2.3.1:
     slash: 3.0.0
   bin:
     pwa-asset-generator: bin/cli
-  checksum: aa49f09a8c1a8f77f75d2f2f3c2baaf30cc55d8185f4003851e35ab9925b5f84d5839d773683c856905c3f7b58263f0566d584af56e7eb29829270280db16ea1
+  checksum: 224a7a5aecdef4d225d5ca4629beb4e0688a4be3e9fe01ec8f2e960abf19bc995f546d59faf7103606506c33b60fa20fd4dfce1a2266c1e029fd735207d6ef50
   languageName: node
   linkType: hard
 
