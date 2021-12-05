@@ -1521,11 +1521,80 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:7.25.5":
-  version: 7.25.5
-  resolution: "@react-three/drei@npm:7.25.5"
+"@react-spring/animated@npm:~9.3.0":
+  version: 9.3.1
+  resolution: "@react-spring/animated@npm:9.3.1"
+  dependencies:
+    "@react-spring/shared": ~9.3.0
+    "@react-spring/types": ~9.3.0
+  peerDependencies:
+    react: ^16.8.0  || ^17.0.0
+  checksum: 5203284f6673603e4d0de31fdb994b52d774fa2667177f3458dc651e2f622ca4dfe82742eabc15d01b552e8888758a73c2acfb8977b3b658a14800785d35c4c4
+  languageName: node
+  linkType: hard
+
+"@react-spring/core@npm:~9.3.0":
+  version: 9.3.1
+  resolution: "@react-spring/core@npm:9.3.1"
+  dependencies:
+    "@react-spring/animated": ~9.3.0
+    "@react-spring/shared": ~9.3.0
+    "@react-spring/types": ~9.3.0
+  peerDependencies:
+    react: ^16.8.0  || ^17.0.0
+  checksum: 311452e51ea92815fe415d2f82fe068b7a365e33ca6f5b586b1dfb8d8f27557644a27f59b6e4ed3c10838b5c903a84704b197005edd68fe54cef5343a1d5bf5a
+  languageName: node
+  linkType: hard
+
+"@react-spring/rafz@npm:~9.3.0":
+  version: 9.3.1
+  resolution: "@react-spring/rafz@npm:9.3.1"
+  checksum: 9d19bbb772b6124f18c99304401fe14d059b537ae8d79b0ea911b08b256c244cfb8fa2231c2f07ea7d3edcbf8c0160e5c118380b30a7f4de414d55bc0cbe00e5
+  languageName: node
+  linkType: hard
+
+"@react-spring/shared@npm:~9.3.0":
+  version: 9.3.1
+  resolution: "@react-spring/shared@npm:9.3.1"
+  dependencies:
+    "@react-spring/rafz": ~9.3.0
+    "@react-spring/types": ~9.3.0
+  peerDependencies:
+    react: ^16.8.0  || ^17.0.0
+  checksum: 4ec5dc913b61229e75511c620453d0b13e0be5f26bd870a6dd833bc866e57e7ff010fefc0707682e33f56e477de3544af5c3fd146bf743655d3d8de72a748a20
+  languageName: node
+  linkType: hard
+
+"@react-spring/three@npm:^9.3.1":
+  version: 9.3.1
+  resolution: "@react-spring/three@npm:9.3.1"
+  dependencies:
+    "@react-spring/animated": ~9.3.0
+    "@react-spring/core": ~9.3.0
+    "@react-spring/shared": ~9.3.0
+    "@react-spring/types": ~9.3.0
+  peerDependencies:
+    "@react-three/fiber": ">=6.0"
+    react: ">=16.11"
+    three: ">=0.126"
+  checksum: c1494e47ee7c7607b58bd2ba7f821015eb1d29e80cc57499a2fc3d7ae8b3933bda836d599dcf00e998170f44932771b4d46f218cc67d47fa78680b2a61bebce7
+  languageName: node
+  linkType: hard
+
+"@react-spring/types@npm:~9.3.0":
+  version: 9.3.1
+  resolution: "@react-spring/types@npm:9.3.1"
+  checksum: 06326f3e429c63bb1f12e2f5daf02fd821667942f394f586eb6f16061c60c488462ef91ab0ecb2e84a959a2941333541fb401766fad6bff015038b7198107491
+  languageName: node
+  linkType: hard
+
+"@react-three/drei@npm:7.26.1":
+  version: 7.26.1
+  resolution: "@react-three/drei@npm:7.26.1"
   dependencies:
     "@babel/runtime": ^7.11.2
+    "@react-spring/three": ^9.3.1
+    "@use-gesture/react": ^10.2.0
     detect-gpu: ^3.1.28
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
@@ -1547,7 +1616,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 249efeade7a0e5f41a892a2e89c5c2d053bbdd5183d6f97a1fe59bd6d4cd296e99c9d8affcd036335963a32eb930524a378d8e21cb535ed4a138263aea4ec3f0
+  checksum: 913134e74fb3127872eecbeb967c7d40fa5585834a5d6463482be9a2237942407a519adfacd2959e86c153ca8bfcf6840310f354402d2cc308babd49c7cf92c1
   languageName: node
   linkType: hard
 
@@ -1929,6 +1998,24 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: 9035415c6526687b6354d45d66e366e490c8375402d8af028b74765a73e8c19d2fcfcbfa7eff27720cb8c625b7dbb902ffa9c131225b0976d5b821dd9d1cb210
+  languageName: node
+  linkType: hard
+
+"@use-gesture/core@npm:10.2.0":
+  version: 10.2.0
+  resolution: "@use-gesture/core@npm:10.2.0"
+  checksum: 83208db49d255c539a062d931d8ae0c06b6c4d7790aef23392e4beeacdeae1f6677534d06c120e1ed92f9719801e06b67fe008b3b868ba5b57dde22abcfd9109
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:^10.2.0":
+  version: 10.2.0
+  resolution: "@use-gesture/react@npm:10.2.0"
+  dependencies:
+    "@use-gesture/core": 10.2.0
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 047b6f1b777868ef41c7535bb715600ad21a97fcacfe3d0d29c19dcc1e67eb7eba847be57575d8804421cb620d172fdece410e93cb2125903531b7056c50df12
   languageName: node
   linkType: hard
 
@@ -2572,7 +2659,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 7.25.5
+    "@react-three/drei": 7.26.1
     "@react-three/fiber": 7.0.21
     "@types/lodash": 4.14.177
     "@types/node": 16.11.11
