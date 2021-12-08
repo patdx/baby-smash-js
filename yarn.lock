@@ -2670,7 +2670,7 @@ __metadata:
     "@yarnpkg/pnpify": 3.1.0
     cannon-es: 0.18.0
     classnames: 2.3.1
-    framer-motion: 5.4.2
+    framer-motion: 5.4.4
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 12.0.7
@@ -4261,14 +4261,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:5.4.2":
-  version: 5.4.2
-  resolution: "framer-motion@npm:5.4.2"
+"framer-motion@npm:5.4.4":
+  version: 5.4.4
+  resolution: "framer-motion@npm:5.4.4"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     framesync: 6.0.1
     hey-listen: ^1.0.8
     popmotion: 11.0.3
+    react-merge-refs: ^1.1.0
+    react-use-measure: ^2.1.1
     style-value-types: 5.0.0
     tslib: ^2.1.0
   peerDependencies:
@@ -4284,7 +4286,7 @@ __metadata:
       optional: true
     three:
       optional: true
-  checksum: 083408f7f6defb913c83b3aa52ef480255d4a8d6da250c7748fe6b1eea2ee105d0cde735e3d2f280ece226462ce2425d4b4dea0c83b254a2e82a6cb83e2beb80
+  checksum: 04dbad9a9c3f36f0435b5e752b118dcad685a5dbaec80db60925348765342e15a13ae16b67a60e9616d33c18c0a67e58badf8de3f1b6d716d2324080f7a09238
   languageName: node
   linkType: hard
 
