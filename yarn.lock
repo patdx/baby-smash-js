@@ -2540,7 +2540,7 @@ __metadata:
     typescript: 4.5.4
     use-cannon: 0.5.3
     use-resize-observer: 8.0.0
-    use-yarn: 2.2.0
+    use-yarn: 2.4.0
     webpack: 5.66.0
     zustand: 3.6.9
   languageName: unknown
@@ -4378,17 +4378,6 @@ fsevents@~2.3.1:
   version: 2.0.1
   resolution: "is-negative-zero@npm:2.0.1"
   checksum: a46f2e0cb5e16fdb8f2011ed488979386d7e68d381966682e3f4c98fc126efe47f26827912baca2d06a02a644aee458b9cba307fb389f6b161e759125db7a3b8
-  languageName: node
-  linkType: hard
-
-"is-npm-not-yarn@npm:^2.0.3":
-  version: 2.0.5
-  resolution: "is-npm-not-yarn@npm:2.0.5"
-  dependencies:
-    slash: ^1.0.0
-  bin:
-    is-npm-not-yarn: cli.js
-  checksum: 99a38a8b8f10d4c0c291923b15e8b39d40f8d9daf1dad87cce759b021596ec1a54fad6b9d35d4df2d0b703c167c0e34cafe54ee4479937badd6d57e22f02d2c5
   languageName: node
   linkType: hard
 
@@ -6564,13 +6553,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"slash@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "slash@npm:1.0.0"
-  checksum: 4b6e21b1fba6184a7e2efb1dd173f692d8a845584c1bbf9dc818ff86f5a52fc91b413008223d17cc684604ee8bb9263a420b1182027ad9762e35388434918860
-  languageName: node
-  linkType: hard
-
 "smart-buffer@npm:^4.1.0":
   version: 4.1.0
   resolution: "smart-buffer@npm:4.1.0"
@@ -7497,15 +7479,14 @@ typescript@4.5.4:
   languageName: node
   linkType: hard
 
-"use-yarn@npm:2.2.0":
-  version: 2.2.0
-  resolution: "use-yarn@npm:2.2.0"
+"use-yarn@npm:2.4.0":
+  version: 2.4.0
+  resolution: "use-yarn@npm:2.4.0"
   dependencies:
-    is-npm-not-yarn: ^2.0.3
     minimist: ^1.2.0
   bin:
     use-yarn: cli.js
-  checksum: bac191651c60ea941bf98dd335e2ec0ffe802e8e4b59b0a8dd6682dda5faf5e98403d9df4cda0a600b8ee22522887383054ce6bbb3f79d256e97367f3c0ebbc5
+  checksum: cdd210d9152d58b280cc044679f9c39d1515a976f15fcc108658e421456b2c45c3fb5664e91adbda372263e161d61a07ab7103a6d173a65bbe5dbc4bad0e7d3c
   languageName: node
   linkType: hard
 
