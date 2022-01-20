@@ -43,7 +43,7 @@
     "@types/three": "0.136.1",
     "http-proxy": "1.18.1",
     "pwa-asset-generator": "6.0.6",
-    "typescript": "4.5.4",
+    "typescript": "4.5.5",
     "webpack": "5.66.0"
   }
 }
