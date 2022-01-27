@@ -1114,12 +1114,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.14.6":
-  version: 7.14.6
-  resolution: "@babel/runtime@npm:7.14.6"
+"@babel/runtime@npm:^7.16.7":
+  version: 7.16.7
+  resolution: "@babel/runtime@npm:7.16.7"
   dependencies:
     regenerator-runtime: ^0.13.4
-  checksum: 927ffed7871f2ed29f967a8dad7a72aa10662f93b6735a89d664a161fa4dc2074b8947ca159a8a0a49cec9a71c8de473d7c2b22d3de0ee4d7dd06d24a7f98018
+  checksum: 47912f0aaacd1cab2e2552aaf3e6eaffbcaf2d5ac9b07a89a12ac0d42029cb92c070b0d16f825e4277c4a34677c54d8ffe85e1f7c6feb57de58f700eec67ce2f
   languageName: node
   linkType: hard
 
@@ -1465,9 +1465,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:8.6.4":
-  version: 8.6.4
-  resolution: "@react-three/drei@npm:8.6.4"
+"@react-three/drei@npm:8.7.3":
+  version: 8.7.3
+  resolution: "@react-three/drei@npm:8.7.3"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1479,8 +1479,8 @@ __metadata:
     react-composer: ^5.0.2
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
-    three-mesh-bvh: ^0.5.2
-    three-stdlib: ^2.6.1
+    three-mesh-bvh: ^0.5.4
+    three-stdlib: ^2.8.2
     troika-three-text: ^0.44.0
     use-asset: ^1.0.4
     utility-types: ^3.10.0
@@ -1493,7 +1493,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: b26e64588dcdcfb710bd9ff6530e9e01e44efd739c1a7267fb05856ecc9727128a2eb7f3b809c0cca3249edd011f45f0acbc55cc10c8b22706d1c6735292d8ad
+  checksum: cd5d6834a4efa30b0a1d6a168e83f0eafdae51dfd473d2e57dde48ebd088b6c1d8f8a954c14931d885973a931e6c69210e007b142e51bfbd78b3f4208d686ddb
   languageName: node
   linkType: hard
 
@@ -2464,7 +2464,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 8.6.4
+    "@react-three/drei": 8.7.3
     "@react-three/fiber": 7.0.25
     "@types/lodash": 4.14.178
     "@types/node": 16.11.21
@@ -6966,20 +6966,20 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-mesh-bvh@npm:^0.5.2":
-  version: 0.5.2
-  resolution: "three-mesh-bvh@npm:0.5.2"
+"three-mesh-bvh@npm:^0.5.4":
+  version: 0.5.4
+  resolution: "three-mesh-bvh@npm:0.5.4"
   peerDependencies:
     three: ">= 0.123.0"
-  checksum: 8adbc92174ada3c05f821a8fbf0257d3e87b1ab95f28aa3fcf679d26584ccc89eab3eb2f4d8655a439f7e836da9f029d0d1eb6a02b1076266092445e037d5265
+  checksum: 158b88a5fef5806b4d495dd708ba90b09590c8054f5d92b978ad00580d8da77a4ac599e4ef4fd73bd70ba1d39ce8f856e8726d2b7db7ffc52eb7c750ae33cf05
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.6.1":
-  version: 2.6.1
-  resolution: "three-stdlib@npm:2.6.1"
+"three-stdlib@npm:^2.8.2":
+  version: 2.8.2
+  resolution: "three-stdlib@npm:2.8.2"
   dependencies:
-    "@babel/runtime": ^7.14.6
+    "@babel/runtime": ^7.16.7
     "@webgpu/glslang": ^0.0.15
     "@webxr-input-profiles/motion-controllers": ^1.0.0
     chevrotain: ^9.0.2
@@ -6992,7 +6992,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.128.0"
-  checksum: c08113feb2c2534a75d7f207707595e2e61a7b3d296f66af08518244a17ffce6967e0ea7132cf4bb9b1387420b8226982afe1920efa3a208f7a52851a40bea62
+  checksum: 2161efabbc6fd465dd953ef4a5230dd3e61cfbf2dc9770b6329fc66ec176c058016dd7990c9b6d669e3e3c17cbac42c2783dd13a979137e95b7910dfee18902b
   languageName: node
   linkType: hard
 
