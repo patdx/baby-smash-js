@@ -2488,7 +2488,7 @@ __metadata:
     react: 17.0.2
     react-dom: 17.0.2
     react-use-gesture: 9.1.3
-    three: 0.137.1
+    three: 0.137.2
     typescript: 4.5.5
     use-cannon: 0.5.3
     use-resize-observer: 8.0.0
@@ -6996,10 +6996,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.137.1":
-  version: 0.137.1
-  resolution: "three@npm:0.137.1"
-  checksum: 31e419f12b13e6eb483ed5daff1870539b11ed158def3a6523c34079267618aa3022cfa8e894c486cd3f55001500e0831a7b7bb759ca8f9cf727712e188df635
+"three@npm:0.137.2":
+  version: 0.137.2
+  resolution: "three@npm:0.137.2"
+  checksum: 590417e5c64ea7fa7c047fe6741a9f8b24ae714462b286e1e3f806fe7bf2a70362ccfea08142fae0891fb59f776ce5dfdfb45749e2b9961318b1fd02f6eac377
   languageName: node
   linkType: hard
 
