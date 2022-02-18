@@ -1465,9 +1465,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:8.10.1":
-  version: 8.10.1
-  resolution: "@react-three/drei@npm:8.10.1"
+"@react-three/drei@npm:8.10.2":
+  version: 8.10.2
+  resolution: "@react-three/drei@npm:8.10.2"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1479,10 +1479,10 @@ __metadata:
     react-composer: ^5.0.2
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
+    suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.4
     three-stdlib: ^2.8.6
     troika-three-text: ^0.45.0
-    use-asset: ^1.0.4
     utility-types: ^3.10.0
     zustand: ^3.5.13
   peerDependencies:
@@ -1493,7 +1493,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 04d1174c9ce31f14730bc0ca534f7a6202961869795db8aa666fd5e8bc154f15bf1c6712af9248c397b2c037460a6a1e24da80e8ea22137b09781692eddc38ac
+  checksum: 30cf8b11469d9c0ec16a20f5b423a8b7249e66cf4d310721e54b0dc44afcd9e8210aabcdde7cf7a9a4a4fb031d72706c7dcbe10ba738c3c1a779c23cc1dbfb56
   languageName: node
   linkType: hard
 
@@ -2457,7 +2457,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 8.10.1
+    "@react-three/drei": 8.10.2
     "@react-three/fiber": 7.0.26
     "@types/lodash": 4.14.178
     "@types/node": 16.11.25
@@ -6814,6 +6814,15 @@ fsevents@~2.3.1:
   dependencies:
     has-flag: ^4.0.0
   checksum: c052193a7e43c6cdc741eb7f378df605636e01ad434badf7324f17fb60c69a880d8d8fcdcb562cf94c2350e57b937d7425ab5b8326c67c2adc48f7c87c1db406
+  languageName: node
+  linkType: hard
+
+"suspend-react@npm:^0.0.8":
+  version: 0.0.8
+  resolution: "suspend-react@npm:0.0.8"
+  peerDependencies:
+    react: ">=17.0"
+  checksum: 173a56c8df8f401098697b640567f80d756849bbee02928a5283f25b94e9aef74fa58c48c974a073e3a57f6f5c0d51dcf19f410bfe0a81cc70c232d759f25c93
   languageName: node
   linkType: hard
 
