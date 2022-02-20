@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 5
   cacheKey: 8
 
 "@apideck/better-ajv-errors@npm:^0.3.1":
@@ -1222,77 +1222,77 @@ __metadata:
 "@next/swc-android-arm64@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-android-arm64@npm:12.1.0"
-  checksum: 7b7ad873a34bb4ad22f29623adc9ec0d34a892e7513a1efbc0fa7a708bc6f80e09c6cec65743fb0e30f65019aa20effc66a3882d42cd7421763635dc9be8920c
+  conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
 "@next/swc-darwin-arm64@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-darwin-arm64@npm:12.1.0"
-  checksum: f4f8136ddf132f19759ca2dbe49dcb45fca463c3fbcf55449cb1089ee49704db2cea02ec8f274e956448de9c5f5be0e5b029a54a2744ab55a26d4cf8743c93a8
+  conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
 "@next/swc-darwin-x64@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-darwin-x64@npm:12.1.0"
-  checksum: 8cc53b308ad893ad137e1b8b1776310c1b622fbbe3380ec6828795aac70c5533a7c63d3bb9d0aa8cf7167c87b54c6a620e596a6f4492931fa8a8053115d9ed73
+  conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
 "@next/swc-linux-arm-gnueabihf@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-linux-arm-gnueabihf@npm:12.1.0"
-  checksum: 66f7e2e1b698e14989635c811bcbac64cc834b943cf7b28a2fd14bb7b6346da9156fc7606362776b6f14a73a1c7a73282a699e717460f469dff16996e32b7afc
+  conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
 "@next/swc-linux-arm64-gnu@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-linux-arm64-gnu@npm:12.1.0"
-  checksum: eaa69f0852fcfe172d5f46d2f0e9c145c3c4c6ed0917b96adb04dcc4f853f3ade932ee49d6ef87498296fb67d15e3c28d87491b099db8853b1c090ff27a0522c
+  conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
 "@next/swc-linux-arm64-musl@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-linux-arm64-musl@npm:12.1.0"
-  checksum: 6f252eab883a8527e47db3c8fa9d6e3c8f64b14f1ca943672312bad0fe75fa5308a22c88f27fbe7a92d4e2ce948058fa247e20f45716bc276d82614c7cae1f44
+  conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
 "@next/swc-linux-x64-gnu@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-linux-x64-gnu@npm:12.1.0"
-  checksum: 67acf78c9bb3685e2157d90967c8a571c0d9e5d154a0bf97095f188ed7dc7d1a86b248896dfebb97b3f7b5b80dbc9ce1b9bc28948939f4508c4991d2fd0a1a73
+  conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
 "@next/swc-linux-x64-musl@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-linux-x64-musl@npm:12.1.0"
-  checksum: 3634a09955203c27cc66ac657f66cc3d073800a2572e8a87ac1b44f2c006b7100e200a711f46d14ba33490151e160a94d2d245fd3c3017be3daedcf8f307fe08
+  conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
 "@next/swc-win32-arm64-msvc@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-win32-arm64-msvc@npm:12.1.0"
-  checksum: 487f7c02a5c297f29bc43d0dc68866e1dd1bf0c67c4d94e921fb0f2d0f79186996a4be7ecd43b3c74bb27a58a3ad4efaad9037f1463e9d01f9ed34612017653a
+  conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
 "@next/swc-win32-ia32-msvc@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-win32-ia32-msvc@npm:12.1.0"
-  checksum: faeac34718906849e0674b94ebc38763559dfc2acd942bfa4bfdb0bbb9cf5fca169c52709692dfff4ccc0ac5efd74e194ac0c3a15c0918cb2011b745416eb15e
+  conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
 "@next/swc-win32-x64-msvc@npm:12.1.0":
   version: 12.1.0
   resolution: "@next/swc-win32-x64-msvc@npm:12.1.0"
-  checksum: 83c2d4aea946395ae0fa7479d1eff28a7a11cef41ef48302c914d4418290d4c320dcd7bb6b0d5d554cb2ef0f2693fa88050428e401b5f7ede346830693d34650
+  conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
@@ -1885,6 +1885,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@use-gesture/core@npm:10.2.6":
+  version: 10.2.6
+  resolution: "@use-gesture/core@npm:10.2.6"
+  checksum: 14873ca91b6e8965d39a03f69d12f3568388c1f05dfc3e95aec0d83e29617b1a92e4fd01cb311fd388e8013287b252172b701655d6da57ee8a4a4edb0f236f26
+  languageName: node
+  linkType: hard
+
 "@use-gesture/react@npm:^10.2.0":
   version: 10.2.0
   resolution: "@use-gesture/react@npm:10.2.0"
@@ -1893,6 +1900,17 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
   checksum: 047b6f1b777868ef41c7535bb715600ad21a97fcacfe3d0d29c19dcc1e67eb7eba847be57575d8804421cb620d172fdece410e93cb2125903531b7056c50df12
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:^10.2.6":
+  version: 10.2.6
+  resolution: "@use-gesture/react@npm:10.2.6"
+  dependencies:
+    "@use-gesture/core": 10.2.6
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 5a268f17a2f3fea4054db6b8fa09be941225af1af9b7100ac4a8b470cc7cc2fef9c20c05a9f4c29dc298d82338bf2c922dc863799811289eb064056ab4432c55
   languageName: node
   linkType: hard
 
@@ -2465,6 +2483,7 @@ __metadata:
     "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
     "@types/three": 0.137.0
+    "@use-gesture/react": ^10.2.6
     "@yarnpkg/pnpify": 3.1.0
     cannon-es: 0.19.0
     classnames: 2.3.1
@@ -2483,7 +2502,6 @@ __metadata:
     react-use-gesture: 9.1.3
     three: 0.137.5
     typescript: 4.5.5
-    use-cannon: 0.5.3
     use-resize-observer: 8.0.0
     use-yarn: 2.4.0
     webpack: 5.69.1
@@ -3727,10 +3745,10 @@ __metadata:
 
 "fsevents@patch:fsevents@~2.3.1#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=1cc4b2"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
-  checksum: 78db9daf1f6526a49cefee3917cc988f62dc7f25b5dd80ad6de4ffc4af7f0cab7491ac737626ff53e482a111bc53aac9e411fe3602458eca36f6a003ecf69c16
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -3740,6 +3758,7 @@ fsevents@~2.3.1:
   dependencies:
     node-gyp: latest
   checksum: 97ade64e75091afee5265e6956cb72ba34db7819b4c3e94c431d4be2b19b8bb7a2d4116da417950c3425f17c8fe693d25e20212cac583ac1521ad066b77ae31f
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -6168,11 +6187,11 @@ fsevents@~2.3.1:
 
 "resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.17.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.19.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.3.2#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=00b1ff"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: bed00be983cd20a8af0e7840664f655c4b269786dbd9595c5f156cd9d8a0050e65cdbbbdafc30ee9b6245b230c78a2c8ab6447a52545b582f476c29adb188cc5
+  checksum: a0dd7d16a8e47af23afa9386df2dff10e3e0debb2c7299a42e581d9d9b04d7ad5d2c53f24f1e043f7b3c250cbdc71150063e53d0b6559683d37f790b7c8c3cd5
   languageName: node
   linkType: hard
 
@@ -7177,11 +7196,11 @@ typescript@4.5.5:
 
 "typescript@patch:typescript@4.5.5#~builtin<compat/typescript>":
   version: 4.5.5
-  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=32657b"
+  resolution: "typescript@patch:typescript@npm%3A4.5.5#~builtin<compat/typescript>::version=4.5.5&hash=493e53"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: ed34e0986bc395da29a9a749fc980741fcbf698c205d6dc282310a652ee4ae61b571c26fd62c8a264ec26ff23ef12d888d5db7b41031cfaad1798db0d090f5c3
+  checksum: c05c318d79c690f101d7ffb34cd6c7d6bbd884d3af9cefe7749ad0cd6be43c7082f098280982ca945dcba23fde34a08fed9602bb26540936baf8c0520727d3ba
   languageName: node
   linkType: hard
 
@@ -7303,18 +7322,6 @@ typescript@4.5.5:
   peerDependencies:
     react: ">=17.0"
   checksum: dc87a1ca3aa0af05765255b80c9f027c42b533da3e887362af17e7d9423edfedf11d48d00a181e32b067f66c5036d0442d551394d6f7540e3f5dc6a1a3ebfa9a
-  languageName: node
-  linkType: hard
-
-"use-cannon@npm:0.5.3":
-  version: 0.5.3
-  resolution: "use-cannon@npm:0.5.3"
-  peerDependencies:
-    react: ">=16.13"
-    react-dom: ">=16.13"
-    react-three-fiber: ">=4.2"
-    typescript: ">=3.9"
-  checksum: 42635f8d0fa317ad48d0f72f6633b2e8a197e21818c263cf5704f5577ea5f46f626a7fee9cf9157d7cbfd4ecab529bf3a65823032b4b525fdd0b0971a9c5363d
   languageName: node
   linkType: hard
 

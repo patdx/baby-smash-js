@@ -1,14 +1,16 @@
 import * as CANNON from 'cannon-es';
 import { Text } from '@react-three/drei';
-import React, { FC, useRef, useState, useEffect } from 'react';
+import React, { FC, useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { useDrag } from 'react-use-gesture';
+// import { useDragOld } from 'react-use-gesture';
+import { useDrag } from '@use-gesture/react';
 import { OrthographicCamera, Vector3 } from 'three';
 import { LETTERS } from '../utils/letter-range';
 import { PhysicsProvider, useCannon } from './cannon';
 import { DevTools } from './dev-tools';
 import sample from 'lodash/sample';
 import { useSpring } from 'framer-motion';
+import { Loading } from './loading';
 
 const getLetter = () => sample(LETTERS)!;
 
@@ -61,9 +63,10 @@ const Plane: FC<{ position: Position }> = (props) => {
       material.friction = 10;
       body.material = material;
       body.addShape(new CANNON.Plane());
-      body.quaternion.copy(
-        (new CANNON.Quaternion().setFromEuler as any)(...rotation)
-      );
+      const sourceQuat = new CANNON.Quaternion();
+      const [x, y, z] = rotation;
+      sourceQuat.setFromEuler(x, y, z);
+      body.quaternion.copy(sourceQuat);
     },
     []
   );
@@ -73,8 +76,6 @@ const Plane: FC<{ position: Position }> = (props) => {
       ...new Vector3(...realPosition).multiplyScalar(factor).toArray()
     )
   );
-
-  console.log(api.position);
 
   return (
     <mesh ref={ref}>
@@ -99,7 +100,7 @@ const Letter: FC<{
   const speak = () => {
     try {
       window.speechSynthesis.speak(new SpeechSynthesisUtterance(letter));
-    } catch (err) { }
+    } catch (err) {}
   };
 
   useEffect(() => {
@@ -137,14 +138,12 @@ const Letter: FC<{
   const bind = useDrag(
     (props) => {
       const {
-        movement: [mx, my],
-        velocities: [vx, vy],
+        offset: [mx, my],
+        // velocity: [vx, vy],
       } = props;
 
       // TODO: would like to add multi touch support
       // seems that event is created by @react-three/fiber
-
-      console.log(props.event, props.touches);
 
       if (props.first) {
         setDragging(true);
@@ -171,7 +170,11 @@ const Letter: FC<{
       eventOptions: {
         pointer: true,
       },
-      initial: () => [api.position.x, -api.position.y],
+      from: () => {
+        const v = [api.position.x, -api.position.y];
+        console.log(`start at`, v);
+        return v;
+      },
     }
   );
 
@@ -198,9 +201,11 @@ const Letter: FC<{
   });
 
   return (
-    <Text ref={ref} fontSize={200} color={color} {...bind() as any}>
-      {letter}
-    </Text>
+    <Suspense fallback={null}>
+      <Text ref={ref} fontSize={200} color={color} {...(bind() as any)}>
+        {letter}
+      </Text>
+    </Suspense>
   );
 };
 
@@ -210,8 +215,6 @@ export const TouchBackground: FC<{
   const three = useThree();
   // use the number from the camera
   const camera = three.camera as OrthographicCamera;
-
-  console.log(camera);
 
   return (
     <mesh
@@ -251,46 +254,48 @@ export const Game: FC = () => {
   ]);
 
   return (
-    <Canvas
-      style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        right: 0,
-        bottom: 0,
-        touchAction: 'none',
-      }}
-      orthographic
-      mode="concurrent"
-      camera={{
-        position: [0, 0, 100],
-      }}
-    // sounds like it should be automatic from now on
-    // pixelRatio={window.devicePixelRatio || 2}
-    >
-      <color attach="background" args={["red"]} />
-      <PhysicsProvider>
-        <DevTools></DevTools>
-        <Plane position={'bottom'}></Plane>
-        <Plane position={'left'}></Plane>
-        <Plane position={'right'}></Plane>
-        <Plane position={'top'}></Plane>
-        <TouchBackground
-          onClick={(x, y) =>
-            setLetters((letters) => [
-              ...letters,
-              {
-                letter: getLetter(),
-                x,
-                y,
-              },
-            ])
-          }
-        ></TouchBackground>
-        {letters.map(({ letter, x, y }, index) => (
-          <Letter key={index} initialX={x} initialY={y} letter={letter} />
-        ))}
-      </PhysicsProvider>
-    </Canvas>
+    <Suspense fallback={<Loading comment="canvas" />}>
+      <Canvas
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          touchAction: 'none',
+        }}
+        orthographic
+        mode="concurrent"
+        camera={{
+          position: [0, 0, 100],
+        }}
+        // sounds like it should be automatic from now on
+        // pixelRatio={window.devicePixelRatio || 2}
+      >
+        <color attach="background" args={['red']} />
+        <PhysicsProvider>
+          <DevTools></DevTools>
+          <Plane position={'bottom'}></Plane>
+          <Plane position={'left'}></Plane>
+          <Plane position={'right'}></Plane>
+          <Plane position={'top'}></Plane>
+          <TouchBackground
+            onClick={(x, y) =>
+              setLetters((letters) => [
+                ...letters,
+                {
+                  letter: getLetter(),
+                  x,
+                  y,
+                },
+              ])
+            }
+          ></TouchBackground>
+          {letters.map(({ letter, x, y }, index) => (
+            <Letter key={index} initialX={x} initialY={y} letter={letter} />
+          ))}
+        </PhysicsProvider>
+      </Canvas>
+    </Suspense>
   );
 };
