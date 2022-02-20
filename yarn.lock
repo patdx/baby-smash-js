@@ -1892,6 +1892,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@use-gesture/react@npm:10.2.6":
+  version: 10.2.6
+  resolution: "@use-gesture/react@npm:10.2.6"
+  dependencies:
+    "@use-gesture/core": 10.2.6
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 5a268f17a2f3fea4054db6b8fa09be941225af1af9b7100ac4a8b470cc7cc2fef9c20c05a9f4c29dc298d82338bf2c922dc863799811289eb064056ab4432c55
+  languageName: node
+  linkType: hard
+
 "@use-gesture/react@npm:^10.2.0":
   version: 10.2.0
   resolution: "@use-gesture/react@npm:10.2.0"
@@ -1900,17 +1911,6 @@ __metadata:
   peerDependencies:
     react: ">= 16.8.0"
   checksum: 047b6f1b777868ef41c7535bb715600ad21a97fcacfe3d0d29c19dcc1e67eb7eba847be57575d8804421cb620d172fdece410e93cb2125903531b7056c50df12
-  languageName: node
-  linkType: hard
-
-"@use-gesture/react@npm:^10.2.6":
-  version: 10.2.6
-  resolution: "@use-gesture/react@npm:10.2.6"
-  dependencies:
-    "@use-gesture/core": 10.2.6
-  peerDependencies:
-    react: ">= 16.8.0"
-  checksum: 5a268f17a2f3fea4054db6b8fa09be941225af1af9b7100ac4a8b470cc7cc2fef9c20c05a9f4c29dc298d82338bf2c922dc863799811289eb064056ab4432c55
   languageName: node
   linkType: hard
 
@@ -2483,7 +2483,7 @@ __metadata:
     "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
     "@types/three": 0.137.0
-    "@use-gesture/react": ^10.2.6
+    "@use-gesture/react": 10.2.6
     "@yarnpkg/pnpify": 3.1.0
     cannon-es: 0.19.0
     classnames: 2.3.1
