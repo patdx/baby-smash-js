@@ -1837,7 +1837,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@use-gesture/react@npm:10.2.6, @use-gesture/react@npm:^10.2.0":
+"@use-gesture/core@npm:10.2.7":
+  version: 10.2.7
+  resolution: "@use-gesture/core@npm:10.2.7"
+  checksum: 30fc12e4b8672e781c6c66f9e42122a03058c14a1d10f8c79267e12eb3019c18771851399fd2f56014b2bf7d1300feab3f71bab1a55e1becdc282afad99b4804
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:10.2.7":
+  version: 10.2.7
+  resolution: "@use-gesture/react@npm:10.2.7"
+  dependencies:
+    "@use-gesture/core": 10.2.7
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: bf352f77527e11fed012411812757de6d187a0f60cdeed297aa691a2869d966aecdb6f95e5a8d1ee863823937790b8e22d232e59c2f1df8b56762de33eeb18f6
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:^10.2.0":
   version: 10.2.6
   resolution: "@use-gesture/react@npm:10.2.6"
   dependencies:
@@ -2433,7 +2451,7 @@ __metadata:
     "@types/react": 17.0.39
     "@types/react-dom": 17.0.11
     "@types/three": 0.137.0
-    "@use-gesture/react": 10.2.6
+    "@use-gesture/react": 10.2.7
     "@yarnpkg/pnpify": 3.1.1
     cannon-es: 0.19.0
     classnames: 2.3.1
