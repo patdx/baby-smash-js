@@ -1442,9 +1442,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:8.16.4":
-  version: 8.16.4
-  resolution: "@react-three/drei@npm:8.16.4"
+"@react-three/drei@npm:8.16.5":
+  version: 8.16.5
+  resolution: "@react-three/drei@npm:8.16.5"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1470,7 +1470,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 6d053728eaead9389135483e0468bafca9d350501d8273fb34b1dd467b75e03b02ea02180bfe6091c6e2bf2c15ab37ab256be934c151c4766afb0f3b8afd98d2
+  checksum: 2c8be17d45582e250a71b63bcb3caaa7d7f414dfe2f481a410585b4e01a603b0a5726e97f7da8610a3adda0440bceb8e0549958dbbb163de5ceb7a81583d1886
   languageName: node
   linkType: hard
 
@@ -2454,7 +2454,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 8.16.4
+    "@react-three/drei": 8.16.5
     "@react-three/fiber": 7.0.26
     "@types/lodash": 4.14.179
     "@types/node": 16.11.26
