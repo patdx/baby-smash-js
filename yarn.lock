@@ -1442,9 +1442,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:8.16.6":
-  version: 8.16.6
-  resolution: "@react-three/drei@npm:8.16.6"
+"@react-three/drei@npm:8.18.1":
+  version: 8.18.1
+  resolution: "@react-three/drei@npm:8.18.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1453,6 +1453,7 @@ __metadata:
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
+    meshline: ^2.0.4
     react-composer: ^5.0.2
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
@@ -1470,7 +1471,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 37261c4ad22acb483405b57493f307787db0da4d39de79fc9ede75a9293013961ffbdf7cd50268f1593924efe702137b4dc2d2a792615668b99b19db0075381f
+  checksum: 590b5a3a7a1245bc9ecd83e83581222c2928989986d032b892cfc679dce4df0f6ef5c47210f21253d58103058a53a8e3bdd0a208b29596ce3bdc30015e32e3c5
   languageName: node
   linkType: hard
 
@@ -2454,7 +2455,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 8.16.6
+    "@react-three/drei": 8.18.1
     "@react-three/fiber": 7.0.26
     "@types/lodash": 4.14.180
     "@types/node": 16.11.26
@@ -4801,6 +4802,15 @@ fsevents@~2.3.1:
   version: 1.4.1
   resolution: "merge2@npm:1.4.1"
   checksum: 7268db63ed5169466540b6fb947aec313200bcf6d40c5ab722c22e242f651994619bcd85601602972d3c85bd2cc45a358a4c61937e9f11a061919a1da569b0c2
+  languageName: node
+  linkType: hard
+
+"meshline@npm:^2.0.4":
+  version: 2.0.4
+  resolution: "meshline@npm:2.0.4"
+  peerDependencies:
+    three: ">=0.137"
+  checksum: c861f06336ddf2ac038fcb4ad6714bb46763f050451bdfd0b4bbb3b30c528029b2c990992e34f0574cae76a4402b538a27c93c7acc0446062500e7edba2eb180
   languageName: node
   linkType: hard
 
