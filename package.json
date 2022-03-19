@@ -38,7 +38,7 @@
   "devDependencies": {
     "@types/node": "16.11.26",
     "@types/react": "17.0.40",
-    "@types/react-dom": "17.0.13",
+    "@types/react-dom": "17.0.14",
     "@types/three": "0.138.0",
     "http-proxy": "1.18.1",
     "pwa-asset-generator": "6.0.6",
