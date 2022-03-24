@@ -1152,10 +1152,45 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@chevrotain/cst-dts-gen@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "@chevrotain/cst-dts-gen@npm:10.1.2"
+  dependencies:
+    "@chevrotain/gast": ^10.1.2
+    "@chevrotain/types": ^10.1.2
+    lodash: 4.17.21
+  checksum: 47bcab11b4b8165115c13bb5ef9561f49a77454698b51932711584e3a3062a26af4609fa6e0c0c1d48619366bdf89bbd614e06b2d7d6757ce8e1679fdcaabd64
+  languageName: node
+  linkType: hard
+
+"@chevrotain/gast@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "@chevrotain/gast@npm:10.1.2"
+  dependencies:
+    "@chevrotain/types": ^10.1.2
+    lodash: 4.17.21
+  checksum: dbb8c80903cf30398b1b0c0ae24dddb0a05a5c95130fdb362f6627030dea0b560c6cdc6bcbbf91f4d85914636cec24dc2bd6403b83b802dfba2d6fabf4dc0487
+  languageName: node
+  linkType: hard
+
+"@chevrotain/types@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "@chevrotain/types@npm:10.1.2"
+  checksum: cc3779e49370b5ce86a8b849c7ae7026ac934f255e027275fbfca33ee319b84c730cad95db038dd020cb31bd1e777866a45517a4d69de6afec9bbf9a6315844c
+  languageName: node
+  linkType: hard
+
 "@chevrotain/types@npm:^9.1.0":
   version: 9.1.0
   resolution: "@chevrotain/types@npm:9.1.0"
   checksum: 5f26ff26aa345bc823b39ebe48f038db0998c80d13fa4b937961d68523a259ac86ec693bc1ad3f3cfa9ef83e5ffb6d94337960c3a1ee7cb82e3014adb4f5bf30
+  languageName: node
+  linkType: hard
+
+"@chevrotain/utils@npm:^10.1.2":
+  version: 10.1.2
+  resolution: "@chevrotain/utils@npm:10.1.2"
+  checksum: 05301feae7cb029418890d12961336d7db340a075c17e3815d107f30d968b9fcca23162addb99772cca41fae242f53dea6146fbd295c928ad26092c27ac71050
   languageName: node
   linkType: hard
 
@@ -1442,14 +1477,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:8.18.10":
-  version: 8.18.10
-  resolution: "@react-three/drei@npm:8.18.10"
+"@react-three/drei@npm:8.19.0":
+  version: 8.19.0
+  resolution: "@react-three/drei@npm:8.19.0"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@use-gesture/react": ^10.2.0
-    detect-gpu: ^3.1.28
+    detect-gpu: ^4.0.14
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
@@ -1458,9 +1493,9 @@ __metadata:
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
-    three-mesh-bvh: ^0.5.4
-    three-stdlib: ^2.8.7
-    troika-three-text: ^0.46.2
+    three-mesh-bvh: ^0.5.7
+    three-stdlib: ^2.8.9
+    troika-three-text: ^0.46.3
     utility-types: ^3.10.0
     zustand: ^3.5.13
   peerDependencies:
@@ -1471,7 +1506,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: d96fa177d90847dafec2529f2cc4fa2346700da5730a4ccc3dfad18fa27806588c3a36d29370724d2b74c770398e452e6b426f97a938790d507a1183267bdd8d
+  checksum: 71cd640c7427628b3b6a67dd68c37d19a32b1f1088c5394c994d12a08389e684c5076500fba4fc1f6d11be01347cfbf6e4ad34b3cb9221799d6f713d0c652ccf
   languageName: node
   linkType: hard
 
@@ -2455,7 +2490,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 8.18.10
+    "@react-three/drei": 8.19.0
     "@react-three/fiber": 7.0.26
     "@types/lodash": 4.14.180
     "@types/node": 16.11.26
@@ -2749,7 +2784,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chevrotain@npm:^9.0.2, chevrotain@npm:^9.1.0":
+"chevrotain@npm:^10.1.1":
+  version: 10.1.2
+  resolution: "chevrotain@npm:10.1.2"
+  dependencies:
+    "@chevrotain/cst-dts-gen": ^10.1.2
+    "@chevrotain/gast": ^10.1.2
+    "@chevrotain/types": ^10.1.2
+    "@chevrotain/utils": ^10.1.2
+    lodash: 4.17.21
+    regexp-to-ast: 0.5.0
+  checksum: aa9e4cd79c8fb372de652ab37af2f6d77b83a93acd271118eafea87015a5176acf447f6e873cca407582bf47cb337cd8daa2a18780ee0e396afa8af0be03d292
+  languageName: node
+  linkType: hard
+
+"chevrotain@npm:^9.1.0":
   version: 9.1.0
   resolution: "chevrotain@npm:9.1.0"
   dependencies:
@@ -3135,12 +3184,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-gpu@npm:^3.1.28":
-  version: 3.1.28
-  resolution: "detect-gpu@npm:3.1.28"
+"detect-gpu@npm:^4.0.14":
+  version: 4.0.14
+  resolution: "detect-gpu@npm:4.0.14"
   dependencies:
     webgl-constants: ^1.1.1
-  checksum: 898720da00fe301b4330583fab4b9781374a6a582d98b99b9baf57bf118b6a520125b9c4beabca9a3c9502e92028bcf8a3c44bd6f9bb7b31e28a31330c97b167
+  checksum: b9f6c9ffe0cec23c6dc53ffd1f4c1038c4f39ba9c0a8e001a3a857d68e4db7a81b260889dfa1527140e049f2f7ee0b8c6895e62de5f0fd7ca07c1992636a1b21
   languageName: node
   linkType: hard
 
@@ -6727,22 +6776,22 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-mesh-bvh@npm:^0.5.4":
-  version: 0.5.4
-  resolution: "three-mesh-bvh@npm:0.5.4"
+"three-mesh-bvh@npm:^0.5.7":
+  version: 0.5.7
+  resolution: "three-mesh-bvh@npm:0.5.7"
   peerDependencies:
     three: ">= 0.123.0"
-  checksum: 158b88a5fef5806b4d495dd708ba90b09590c8054f5d92b978ad00580d8da77a4ac599e4ef4fd73bd70ba1d39ce8f856e8726d2b7db7ffc52eb7c750ae33cf05
+  checksum: f31c71adaa8fc3bdcfa6c55fae8c1d592a069e12384c613f29a30536e4a4e438d78f8ac9ee29eac792f400b41a404c4e9646415d40dffd62efd931ae30a7c66c
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.8.7":
-  version: 2.8.7
-  resolution: "three-stdlib@npm:2.8.7"
+"three-stdlib@npm:^2.8.9":
+  version: 2.8.9
+  resolution: "three-stdlib@npm:2.8.9"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@webgpu/glslang": ^0.0.15
-    chevrotain: ^9.0.2
+    chevrotain: ^10.1.1
     draco3d: ^1.4.1
     fflate: ^0.6.9
     ktx-parse: ^0.2.1
@@ -6752,7 +6801,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.137.0"
-  checksum: 7aca002548d621428d2984850806a585d49bc634ca4cfee7372662404ae0fedae6f623cbc328eccd16ce19d9c337336ae8eefca224f767e1ad57039df091fc1f
+  checksum: cfc5d5a1632057e1dc66687d122b8827fb6a53ceee98e9771db8718e6d4ade3641170db1cf751a1bf1a94dc9b1ccef07ceea501a976430d4fa63261e7adf3513
   languageName: node
   linkType: hard
 
@@ -6832,9 +6881,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"troika-three-text@npm:^0.46.2":
-  version: 0.46.2
-  resolution: "troika-three-text@npm:0.46.2"
+"troika-three-text@npm:^0.46.3":
+  version: 0.46.3
+  resolution: "troika-three-text@npm:0.46.3"
   dependencies:
     bidi-js: ^1.0.2
     troika-three-utils: ^0.46.0
@@ -6842,7 +6891,7 @@ fsevents@~2.3.1:
     webgl-sdf-generator: 1.1.1
   peerDependencies:
     three: ">=0.103.0"
-  checksum: e122f41a2dbe829fd62fb9581cc787c84f971a338154564c5b0a8acfd944d590ed1ecf59d0b7306e18e66c447ee0995e0cd407c0294ca284b929da209bd28fe9
+  checksum: a690b775a833592bf6a89272509591a25d87a3d1fe93cb3e00003d81bfc0c95b3d495d37e8ea0c0cfc9008e0a17d4dfdc574d28dc64643abfd3c8db2054c099e
   languageName: node
   linkType: hard
 
