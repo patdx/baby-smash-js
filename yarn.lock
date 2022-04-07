@@ -2536,7 +2536,7 @@ __metadata:
     use-resize-observer: 8.0.0
     use-yarn: 2.4.0
     webpack: 5.72.0
-    zustand: 3.7.1
+    zustand: 3.7.2
   languageName: unknown
   linkType: soft
 
@@ -7641,15 +7641,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"zustand@npm:3.7.1":
-  version: 3.7.1
-  resolution: "zustand@npm:3.7.1"
+"zustand@npm:3.7.2":
+  version: 3.7.2
+  resolution: "zustand@npm:3.7.2"
   peerDependencies:
     react: ">=16.8"
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 987a2cee95e0fd085c3556d21289a34bb1e9727155837c480617dee839453858523d6321abf3b18de4867fb07d14f5ff7abf9a8404357baa7ec73dffec6dd4f7
+  checksum: 18f025b1b666a311121d3855303ff58e6a21fd107920ca474307e86984c13338d6c4cfa5cdf13382a9e0f76821f2554a12d4d200a98a66b58637e729f149797b
   languageName: node
   linkType: hard
 
