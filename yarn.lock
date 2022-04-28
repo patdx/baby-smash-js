@@ -1484,27 +1484,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.5.5":
-  version: 9.5.5
-  resolution: "@react-three/drei@npm:9.5.5"
+"@react-three/drei@npm:9.5.7":
+  version: 9.5.7
+  resolution: "@react-three/drei@npm:9.5.7"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@types/nanoid": ^3.0.0
     "@use-gesture/react": ^10.2.0
-    detect-gpu: ^4.0.14
+    detect-gpu: ^4.0.19
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
     meshline: ^2.0.4
     nanoid: ^3.3.3
-    react-composer: ^5.0.2
+    react-composer: ^5.0.3
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
-    three-mesh-bvh: ^0.5.7
+    three-mesh-bvh: ^0.5.10
     three-stdlib: ^2.10.1
-    troika-three-text: ^0.46.3
+    troika-three-text: ^0.46.4
     utility-types: ^3.10.0
     zustand: ^3.5.13
   peerDependencies:
@@ -1515,7 +1515,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 533a510684ac19a4d2c3ca9ec7020b321d8fdafe32595ba2c7bf47f19fb793531cbcb9f23c68fae21a3ba1cdd3972b0ef0660f6708a95c292a3985413b3e0258
+  checksum: 3357b9db83bf99b0af94e7c42eb5048cfd2335d3d2681641bdd19b24a4f09221f6cf391e487d299e6ced539deed83c4ff5c5e119740a5ed7a2b7a12c6b1e9ebf
   languageName: node
   linkType: hard
 
@@ -2518,7 +2518,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.5.5
+    "@react-three/drei": 9.5.7
     "@react-three/fiber": 7.0.27
     "@types/lodash": 4.14.182
     "@types/node": 16.11.31
@@ -3233,12 +3233,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-gpu@npm:^4.0.14":
-  version: 4.0.14
-  resolution: "detect-gpu@npm:4.0.14"
+"detect-gpu@npm:^4.0.19":
+  version: 4.0.19
+  resolution: "detect-gpu@npm:4.0.19"
   dependencies:
     webgl-constants: ^1.1.1
-  checksum: b9f6c9ffe0cec23c6dc53ffd1f4c1038c4f39ba9c0a8e001a3a857d68e4db7a81b260889dfa1527140e049f2f7ee0b8c6895e62de5f0fd7ca07c1992636a1b21
+  checksum: a5f87e91dae26324269cb7159bc09b05aa517e8f8d340297b4bf0ecd8764d15976c62bf511a9e6754fcd5c4f940380d703eaf2d261797d3904669b334bd2c64c
   languageName: node
   linkType: hard
 
@@ -5850,14 +5850,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"react-composer@npm:^5.0.2":
-  version: 5.0.2
-  resolution: "react-composer@npm:5.0.2"
+"react-composer@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "react-composer@npm:5.0.3"
   dependencies:
     prop-types: ^15.6.0
   peerDependencies:
-    react: ^15.0.0 || ^16.0.0 || ^17.0.0
-  checksum: 0b7b5741dc5b56d32e16df99a3f6674b5249868719b648f469a5e9bb888e3b0c261c54958826a934558c6ee575e53e7f3b6ea30984880695aee2167eb493f1ba
+    react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: ef7c52dc61588233ec7f70b3bae8a2325562e2eff3648e7bc6962162568c36d7e27f165d4639f8bfa18fadb09585577858e35273ce0039ac02e87c9debfd268e
   languageName: node
   linkType: hard
 
@@ -6860,12 +6860,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-mesh-bvh@npm:^0.5.7":
-  version: 0.5.7
-  resolution: "three-mesh-bvh@npm:0.5.7"
+"three-mesh-bvh@npm:^0.5.10":
+  version: 0.5.10
+  resolution: "three-mesh-bvh@npm:0.5.10"
   peerDependencies:
     three: ">= 0.123.0"
-  checksum: f31c71adaa8fc3bdcfa6c55fae8c1d592a069e12384c613f29a30536e4a4e438d78f8ac9ee29eac792f400b41a404c4e9646415d40dffd62efd931ae30a7c66c
+  checksum: 01d55f9eda69d1f3258f1ccba699099f28b497eeff1e32581712f84e84333e26c04c26c975e9227f4fa4305dc8c4172ed4efdcdd088e05ba9793831c0c3c459b
   languageName: node
   linkType: hard
 
@@ -6965,9 +6965,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"troika-three-text@npm:^0.46.3":
-  version: 0.46.3
-  resolution: "troika-three-text@npm:0.46.3"
+"troika-three-text@npm:^0.46.4":
+  version: 0.46.4
+  resolution: "troika-three-text@npm:0.46.4"
   dependencies:
     bidi-js: ^1.0.2
     troika-three-utils: ^0.46.0
@@ -6975,7 +6975,7 @@ fsevents@~2.3.1:
     webgl-sdf-generator: 1.1.1
   peerDependencies:
     three: ">=0.103.0"
-  checksum: a690b775a833592bf6a89272509591a25d87a3d1fe93cb3e00003d81bfc0c95b3d495d37e8ea0c0cfc9008e0a17d4dfdc574d28dc64643abfd3c8db2054c099e
+  checksum: d36ca41079cf70804ab325a4f776b51fa917e4efbd80c97061e3d9180a1f8c21b2bf100bd502b6efff4aaafb1b70aef3aa73bdce6e62aabecc9faa7239c1a371
   languageName: node
   linkType: hard
 
