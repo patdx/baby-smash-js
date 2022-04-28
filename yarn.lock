@@ -1484,9 +1484,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.5.4":
-  version: 9.5.4
-  resolution: "@react-three/drei@npm:9.5.4"
+"@react-three/drei@npm:9.5.5":
+  version: 9.5.5
+  resolution: "@react-three/drei@npm:9.5.5"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1503,7 +1503,7 @@ __metadata:
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.7
-    three-stdlib: ^2.9.1
+    three-stdlib: ^2.10.1
     troika-three-text: ^0.46.3
     utility-types: ^3.10.0
     zustand: ^3.5.13
@@ -1515,7 +1515,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 5e039345c43a08157e658e48cd27a1033a6b371f35083469fa0241c2ae5b5328f109833a4dbf2d3f57ef30af2cc6c88464fa6d496c454edbdd00cf6925a60331
+  checksum: 533a510684ac19a4d2c3ca9ec7020b321d8fdafe32595ba2c7bf47f19fb793531cbcb9f23c68fae21a3ba1cdd3972b0ef0660f6708a95c292a3985413b3e0258
   languageName: node
   linkType: hard
 
@@ -2518,7 +2518,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.5.4
+    "@react-three/drei": 9.5.5
     "@react-three/fiber": 7.0.27
     "@types/lodash": 4.14.182
     "@types/node": 16.11.31
@@ -6869,9 +6869,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.9.1":
-  version: 2.9.1
-  resolution: "three-stdlib@npm:2.9.1"
+"three-stdlib@npm:^2.10.1":
+  version: 2.10.1
+  resolution: "three-stdlib@npm:2.10.1"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@webgpu/glslang": ^0.0.15
@@ -6885,7 +6885,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.122.0"
-  checksum: 64bae913b8053fef71a72cd968bb102fcc69a9bbe299918b5ffb255cb9ca72798cdbabc8862aec71f14c7dadeacd8635ac978bb3ac8600a4b91063fe8bde7e6a
+  checksum: a3f0a83f786abeb8bf9d8e1f66169ff9f70657b9e8a3028b3051780d69e6a905fe010fca02c178b614418f821942376a59f527bc10daf7042f8e99bf4eaca555
   languageName: node
   linkType: hard
 
