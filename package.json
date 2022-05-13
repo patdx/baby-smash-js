@@ -45,5 +45,5 @@
     "typescript": "4.6.4",
     "webpack": "5.72.1"
   },
-  "packageManager": "yarn@3.2.0"
+  "packageManager": "yarn@3.2.1"
 }
