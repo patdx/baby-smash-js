@@ -1484,20 +1484,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.7.1":
-  version: 9.7.1
-  resolution: "@react-three/drei@npm:9.7.1"
+"@react-three/drei@npm:9.8.1":
+  version: 9.8.1
+  resolution: "@react-three/drei@npm:9.8.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
-    "@types/nanoid": ^3.0.0
     "@use-gesture/react": ^10.2.0
     detect-gpu: ^4.0.19
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
     meshline: ^2.0.4
-    nanoid: ^3.3.3
     react-composer: ^5.0.3
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
@@ -1515,7 +1513,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 2f2796ec092a4a2cd717b5869d66ed6fcc1618702c3f4686fac01a2a9da0c20d12c4c6dc2c311a4bc9861ecf23c3d2ec24065f025bedbf9194c0d38d435a31a7
+  checksum: c90b8908e33b0c6a7ebf3c392ae9eda94148ef5afb43cbc931e26c0d90ab4e1bddb2b33351c3e1650f0cfa36dd32e75f09e26d9a65ae913ebb63343f3e8e9e30
   languageName: node
   linkType: hard
 
@@ -1749,15 +1747,6 @@ __metadata:
   version: 1.2.0
   resolution: "@types/minimist@npm:1.2.0"
   checksum: 30cbd9acd7ddb60bc3729adcc43a9da4940c90180fa0f08228f1da95ec6c00db2e3fd3af5280fc5345e3fa2637253bb5cf6625f30d571ef9bc3820a531febb7e
-  languageName: node
-  linkType: hard
-
-"@types/nanoid@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@types/nanoid@npm:3.0.0"
-  dependencies:
-    nanoid: "*"
-  checksum: 6e84d71ce2b8a2e23b20a018249a2e6a1c36b4ea0f45ff0265e8db514010ccf13141d87d6892f35b8e50ca5832d1d04ddc27062b5e69f91db2d5b3c5321c8c56
   languageName: node
   linkType: hard
 
@@ -2518,7 +2507,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.7.1
+    "@react-three/drei": 9.8.1
     "@react-three/fiber": 7.0.28
     "@types/lodash": 4.14.182
     "@types/node": 16.11.35
@@ -5134,15 +5123,6 @@ fsevents@~2.3.1:
   version: 2.1.3
   resolution: "ms@npm:2.1.3"
   checksum: aa92de608021b242401676e35cfa5aa42dd70cbdc082b916da7fb925c542173e36bce97ea3e804923fe92c0ad991434e4a38327e15a1b5b5f945d66df615ae6d
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:*, nanoid@npm:^3.3.3":
-  version: 3.3.3
-  resolution: "nanoid@npm:3.3.3"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: ada019402a07464a694553c61d2dca8a4353645a7d92f2830f0d487fedff403678a0bee5323a46522752b2eab95a0bc3da98b6cccaa7c0c55cd9975130e6d6f0
   languageName: node
   linkType: hard
 
