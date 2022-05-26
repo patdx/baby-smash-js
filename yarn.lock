@@ -2531,7 +2531,7 @@ __metadata:
     pwa-asset-generator: 6.0.8
     react: 18.1.0
     react-dom: 18.1.0
-    three: 0.140.2
+    three: 0.141.0
     typescript: 4.7.2
     use-resize-observer: 9.0.0
     use-yarn: 2.4.0
@@ -6883,10 +6883,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.140.2":
-  version: 0.140.2
-  resolution: "three@npm:0.140.2"
-  checksum: 67b2733c4177ba0555a16a99e833340586d7a5b1dc4ac2ce7a376c55542cbc6acf72d785ce55b887597551bcf6e209213bcacb0b2c990db66f56ba4991601acb
+"three@npm:0.141.0":
+  version: 0.141.0
+  resolution: "three@npm:0.141.0"
+  checksum: d161350b5134f2db616c7081d625c84235a1d50658b9f9c6ffe94143ddb77944b1c1b6831ad0be00037f8c744c8c60ee8d740ea4d48844b54f4525ee73a2d44f
   languageName: node
   linkType: hard
 
