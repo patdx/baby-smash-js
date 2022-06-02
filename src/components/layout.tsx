@@ -1,6 +1,6 @@
 import classnames from 'classnames';
 import Head from 'next/head';
-import React, { FC, useEffect, useState } from 'react';
+import React, { FC, ReactNode, useEffect, useState } from 'react';
 import styles from './layout.module.css';
 
 const useWindowSize = () => {
@@ -99,7 +99,7 @@ const Header: FC = () => {
   );
 };
 
-export const Layout: FC = ({ children }) => {
+export const Layout: FC<{children?: ReactNode}> = ({ children }) => {
   const isStandalone = useIosStandalone();
 
   const { height: windowHeight } = useWindowSize();

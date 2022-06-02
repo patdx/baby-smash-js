@@ -6,13 +6,14 @@ import React, {
   useRef,
   useState,
   FC,
+  ReactNode,
 } from 'react';
 import { useFrame } from '@react-three/fiber';
 import { Mesh, Vector3, Quaternion } from 'three';
 
 const WorldContext = createContext<CANNON.World>(undefined as any);
 
-export const PhysicsProvider: FC = ({ children }) => {
+export const PhysicsProvider: FC<{children?: ReactNode}> = ({ children }) => {
   const [world] = useState(() => new CANNON.World());
 
   useEffect(() => {
@@ -38,7 +39,7 @@ export const useCannon = (
   fn: (body: CANNON.Body) => any,
   deps = []
 ) => {
-  const ref = useRef<Mesh>();
+  const ref = useRef<Mesh>(null);
   const world = useContext(WorldContext);
   const [body] = useState(() => {
     console.log(props);

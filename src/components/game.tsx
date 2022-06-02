@@ -3,7 +3,7 @@ import { Text } from '@react-three/drei';
 import React, { FC, useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 // import { useDragOld } from 'react-use-gesture';
-import { useDrag } from '@use-gesture/react';
+import { useDrag, Vector2 } from '@use-gesture/react';
 import { OrthographicCamera, Vector3 } from 'three';
 import { LETTERS } from '../utils/letter-range';
 import { PhysicsProvider, useCannon } from './cannon';
@@ -167,11 +167,8 @@ const Letter: FC<{
       }
     },
     {
-      eventOptions: {
-        pointer: true,
-      },
       from: () => {
-        const v = [api.position.x, -api.position.y];
+        const v: Vector2 = [api.position.x, -api.position.y];
         console.log(`start at`, v);
         return v;
       },
@@ -265,7 +262,6 @@ export const Game: FC = () => {
           touchAction: 'none',
         }}
         orthographic
-        mode="concurrent"
         camera={{
           position: [0, 0, 100],
         }}
