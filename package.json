@@ -31,7 +31,7 @@
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "three": "0.141.0",
-    "use-resize-observer": "9.0.0",
+    "use-resize-observer": "9.0.2",
     "use-yarn": "2.4.0",
     "zustand": "4.0.0-rc.1"
   },

@@ -2527,7 +2527,7 @@ __metadata:
     react-dom: 18.1.0
     three: 0.141.0
     typescript: 4.7.3
-    use-resize-observer: 9.0.0
+    use-resize-observer: 9.0.2
     use-yarn: 2.4.0
     webpack: 5.73.0
     zustand: 4.0.0-rc.1
@@ -7107,15 +7107,15 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"use-resize-observer@npm:9.0.0":
-  version: 9.0.0
-  resolution: "use-resize-observer@npm:9.0.0"
+"use-resize-observer@npm:9.0.2":
+  version: 9.0.2
+  resolution: "use-resize-observer@npm:9.0.2"
   dependencies:
     "@juggle/resize-observer": ^3.3.1
   peerDependencies:
     react: 16.8.0 - 18
     react-dom: 16.8.0 - 18
-  checksum: ddec370dcb8147ad2b9d30dcefe55be8cb6b7c56b5574c8c4bb8a325ffa9570636fd208894016d05314964e200102229fc1df1a835b45e06d90a8030d5f661bb
+  checksum: a79f9f4027ebfc44305ba29bd479a8e72c94e5a9b4feced7ef2cd2e3ead92f89e06ade5beeb8977c30b7e20cfce31e49c99390f8baa5bd7fa331905dace0ef96
   languageName: node
   linkType: hard
 
