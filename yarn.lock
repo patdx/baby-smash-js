@@ -1613,9 +1613,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/fiber@npm:8.1.0":
-  version: 8.1.0
-  resolution: "@react-three/fiber@npm:8.1.0"
+"@react-three/fiber@npm:8.2.0":
+  version: 8.2.0
+  resolution: "@react-three/fiber@npm:8.2.0"
   dependencies:
     "@babel/runtime": ^7.17.8
     "@types/react-reconciler": ^0.26.7
@@ -1643,7 +1643,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: e22b32b67a985c7ca27a3624b0a361681fa181c7803a8cfdd02787202b9745d1fec7e5794eff98c5da5fecdff1feedb31237a9223fe265c2bd2dfc71c15d148e
+  checksum: 602f081e4e784ccf49dbd7b60da2eea04570f33ef1fffb3150e803060ace03150a141b5d2615b589ad73471b864d13897adedbfb76115e75f3967707e5b7e093
   languageName: node
   linkType: hard
 
@@ -2601,7 +2601,7 @@ __metadata:
   dependencies:
     "@react-hook/window-size": 3.0.7
     "@react-three/drei": 9.17.1
-    "@react-three/fiber": 8.1.0
+    "@react-three/fiber": 8.2.0
     "@types/lodash": 4.14.182
     "@types/node": 16.11.44
     "@types/platform": 1.3.4
