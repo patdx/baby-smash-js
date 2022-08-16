@@ -2700,7 +2700,7 @@ __metadata:
     "@yarnpkg/pnpify": 3.1.4
     cannon-es: 0.20.0
     classnames: 2.3.1
-    framer-motion: 7.1.1
+    framer-motion: 7.2.0
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 12.2.5
@@ -3857,9 +3857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:7.1.1":
-  version: 7.1.1
-  resolution: "framer-motion@npm:7.1.1"
+"framer-motion@npm:7.2.0":
+  version: 7.2.0
+  resolution: "framer-motion@npm:7.2.0"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     "@motionone/dom": 10.13.1
@@ -3874,7 +3874,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: beb53ee4bc98043f7522a0b63f772385949d3c817452c371ae5f710bc1f0ee52240f596da04e1b1e38eea64c74aab63fd82aeff2ab78b457a78e2b6de7206039
+  checksum: 6b03eff78e213a964ed8147e3c0d97756f2d9c1d18d7c92f82d177044815612ad2e098c8ca90a85cc9c51651c1b2bb1c194f943a0ccbfe0d978370f568893e7c
   languageName: node
   linkType: hard
 
