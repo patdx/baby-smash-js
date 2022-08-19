@@ -2717,7 +2717,7 @@ __metadata:
     use-resize-observer: 9.0.2
     use-yarn: 2.4.0
     webpack: 5.74.0
-    zustand: 4.0.0
+    zustand: 4.1.0
   languageName: unknown
   linkType: soft
 
@@ -7781,9 +7781,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"zustand@npm:4.0.0":
-  version: 4.0.0
-  resolution: "zustand@npm:4.0.0"
+"zustand@npm:4.1.0":
+  version: 4.1.0
+  resolution: "zustand@npm:4.1.0"
   dependencies:
     use-sync-external-store: 1.2.0
   peerDependencies:
@@ -7794,7 +7794,7 @@ fsevents@~2.3.1:
       optional: true
     react:
       optional: true
-  checksum: b8ae5971dff79a1007d46f9a6bfa39ed5cc5b101a877eeec069ebdb6c8285ec8e3463e40cfa7c0f1507a41f43fe26ffb44b556063cb70ac03bccf1ea6e0f69d6
+  checksum: 83de9cc386aeb311892328f1b32f4b5b96ff44ba319db60e42e54ca80619551aafd340d2dad4db908b0dbc00807764f688e0eb6ee4a8fa71c1ec2626e944163e
   languageName: node
   linkType: hard
 
