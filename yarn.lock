@@ -1580,9 +1580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.23.1":
-  version: 9.23.1
-  resolution: "@react-three/drei@npm:9.23.1"
+"@react-three/drei@npm:9.23.3":
+  version: 9.23.3
+  resolution: "@react-three/drei@npm:9.23.3"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1597,7 +1597,7 @@ __metadata:
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.10
-    three-stdlib: ^2.13.0
+    three-stdlib: ^2.14.1
     troika-three-text: ^0.46.4
     utility-types: ^3.10.0
     zustand: ^3.5.13
@@ -1609,7 +1609,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: f16956099bc063e780e6c35d7ea392d048d758472580253b123f2e4db2b582e674a3a607cdce666f55fbbb073f2e2d6a5a1410c4dbe2cdca42146a746c56ae0d
+  checksum: ba81d06211a185343f8f4a0b4c86e38f471dd5c07d367cdf4754d5cc4425ef64b8a88a780f21aee86a287a187b60f4e4e2fa0dc7cd61bb7366b5ed9636e478c9
   languageName: node
   linkType: hard
 
@@ -2688,7 +2688,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.23.1
+    "@react-three/drei": 9.23.3
     "@react-three/fiber": 8.5.0
     "@types/lodash": 4.14.184
     "@types/node": 16.11.52
@@ -4828,10 +4828,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ktx-parse@npm:^0.2.1":
-  version: 0.2.1
-  resolution: "ktx-parse@npm:0.2.1"
-  checksum: 81090476947fcb94b3d91d83858d89cd6ab0f9ae31c13cef283ab7047f86f96d80bae7401ae1f737298addd7d9eadc8842efa58f44af8cb8a80d864ffe092476
+"ktx-parse@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "ktx-parse@npm:0.4.5"
+  checksum: f82d8b5dfd0ede05d5e4a2d90ad5114c83d8f708431e3fce2c3e6e0a0e1fe1b1649cb6f3de35b429ef636ce9a92a3897295198e94b46bba24bc3268c6ae9cc42
   languageName: node
   linkType: hard
 
@@ -6995,23 +6995,23 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "three-stdlib@npm:2.13.0"
+"three-stdlib@npm:^2.14.1":
+  version: 2.14.1
+  resolution: "three-stdlib@npm:2.14.1"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@webgpu/glslang": ^0.0.15
     chevrotain: ^10.1.2
     draco3d: ^1.4.1
     fflate: ^0.6.9
-    ktx-parse: ^0.2.1
+    ktx-parse: ^0.4.5
     mmd-parser: ^1.0.4
     opentype.js: ^1.3.3
     potpack: ^1.0.1
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.122.0"
-  checksum: a6c6461dfa812a1ff3ef284bb3288c8c75cda8279d5772ca97435f43ff0bdc4466e66ac0c22afe30fd81db54ecf7434d4fb7d3f0b1ac6632b3ebc11cec165b09
+  checksum: fa11f7ec71d4d22b228ef5eee73667c6006eea6644f715f7ca2329e62c0ed1e64b0ed3162a7bba62bf6d5de8de77d971356bb4b80560990a304f1f3d44d2d92f
   languageName: node
   linkType: hard
 
