@@ -1580,14 +1580,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.23.3":
-  version: 9.23.3
-  resolution: "@react-three/drei@npm:9.23.3"
+"@react-three/drei@npm:9.23.4":
+  version: 9.23.4
+  resolution: "@react-three/drei@npm:9.23.4"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@use-gesture/react": ^10.2.0
-    detect-gpu: ^4.0.19
+    detect-gpu: ^4.0.36
     glsl-noise: ^0.0.0
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
@@ -1596,7 +1596,7 @@ __metadata:
     react-merge-refs: ^1.1.0
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
-    three-mesh-bvh: ^0.5.10
+    three-mesh-bvh: ^0.5.15
     three-stdlib: ^2.14.1
     troika-three-text: ^0.46.4
     utility-types: ^3.10.0
@@ -1609,7 +1609,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: ba81d06211a185343f8f4a0b4c86e38f471dd5c07d367cdf4754d5cc4425ef64b8a88a780f21aee86a287a187b60f4e4e2fa0dc7cd61bb7366b5ed9636e478c9
+  checksum: a59225a2dd651e4aebc980ec1a774506d8478b105e89c2da666b107f34a94a7751243d5ddb049986119ca1ae4ff0c05838b3e755ea9c51ea078d8e2882344f96
   languageName: node
   linkType: hard
 
@@ -2688,7 +2688,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.23.3
+    "@react-three/drei": 9.23.4
     "@react-three/fiber": 8.6.0
     "@types/lodash": 4.14.184
     "@types/node": 16.11.54
@@ -3391,12 +3391,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-gpu@npm:^4.0.19":
-  version: 4.0.19
-  resolution: "detect-gpu@npm:4.0.19"
+"detect-gpu@npm:^4.0.36":
+  version: 4.0.36
+  resolution: "detect-gpu@npm:4.0.36"
   dependencies:
     webgl-constants: ^1.1.1
-  checksum: a5f87e91dae26324269cb7159bc09b05aa517e8f8d340297b4bf0ecd8764d15976c62bf511a9e6754fcd5c4f940380d703eaf2d261797d3904669b334bd2c64c
+  checksum: 36b05c238c05f044e5179425c16cd4369fafa359e0232a45ff22ad2d1b965567d555b4ac0e83854771b13142774eb26a40f86f15a30c7350120fc241be2a7c51
   languageName: node
   linkType: hard
 
@@ -6986,12 +6986,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-mesh-bvh@npm:^0.5.10":
-  version: 0.5.10
-  resolution: "three-mesh-bvh@npm:0.5.10"
+"three-mesh-bvh@npm:^0.5.15":
+  version: 0.5.15
+  resolution: "three-mesh-bvh@npm:0.5.15"
   peerDependencies:
     three: ">= 0.123.0"
-  checksum: 01d55f9eda69d1f3258f1ccba699099f28b497eeff1e32581712f84e84333e26c04c26c975e9227f4fa4305dc8c4172ed4efdcdd088e05ba9793831c0c3c459b
+  checksum: 33e882af867dbfcc767c944be9633e182009ed6548e9d5f7c4f7a0a4e20aa8f427e05420e3ee9f8b446d9ae85acab830e7eaa43bbeecfe83fb00289a8fad4ab4
   languageName: node
   linkType: hard
 
