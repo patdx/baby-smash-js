@@ -1580,9 +1580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.23.4":
-  version: 9.23.4
-  resolution: "@react-three/drei@npm:9.23.4"
+"@react-three/drei@npm:9.23.5":
+  version: 9.23.5
+  resolution: "@react-three/drei@npm:9.23.5"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1597,7 +1597,7 @@ __metadata:
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.15
-    three-stdlib: ^2.14.1
+    three-stdlib: ^2.14.2
     troika-three-text: ^0.46.4
     utility-types: ^3.10.0
     zustand: ^3.5.13
@@ -1609,7 +1609,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: a59225a2dd651e4aebc980ec1a774506d8478b105e89c2da666b107f34a94a7751243d5ddb049986119ca1ae4ff0c05838b3e755ea9c51ea078d8e2882344f96
+  checksum: 0461f0796cf6311b4a3d85db70d504b09583330e57e7896e594e338d8119c80f852b87e48dd7dead138cda5f4156e20120612e2346b4744988ee8f9cd1c12e8d
   languageName: node
   linkType: hard
 
@@ -2688,7 +2688,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.0.7
-    "@react-three/drei": 9.23.4
+    "@react-three/drei": 9.23.5
     "@react-three/fiber": 8.6.0
     "@types/lodash": 4.14.184
     "@types/node": 16.11.56
@@ -6995,9 +6995,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.14.1":
-  version: 2.14.1
-  resolution: "three-stdlib@npm:2.14.1"
+"three-stdlib@npm:^2.14.2":
+  version: 2.14.2
+  resolution: "three-stdlib@npm:2.14.2"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@webgpu/glslang": ^0.0.15
@@ -7011,7 +7011,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.122.0"
-  checksum: fa11f7ec71d4d22b228ef5eee73667c6006eea6644f715f7ca2329e62c0ed1e64b0ed3162a7bba62bf6d5de8de77d971356bb4b80560990a304f1f3d44d2d92f
+  checksum: 5e185b889b7072034bb48a4b51a6f2fa46f44eee90c1f448ddeebe3739e03d6e72787a6b22bc520b560d4a7f8857fb65f2920680facad6e868edd6d64af97f43
   languageName: node
   linkType: hard
 
