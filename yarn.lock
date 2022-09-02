@@ -1977,12 +1977,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.143.2":
-  version: 0.143.2
-  resolution: "@types/three@npm:0.143.2"
+"@types/three@npm:0.144.0":
+  version: 0.144.0
+  resolution: "@types/three@npm:0.144.0"
   dependencies:
     "@types/webxr": "*"
-  checksum: 34687c9b026bf4c095de131c0cd7b393d1ec251ceb2cdc178ac7f2500fe8326f762333c03a06854f2e381304d4e3b4fe53b1cabc882de623e6e6a67e5dba6f67
+  checksum: 7ce69e1a48ba6d19dc9efb78c5c67a3e66c036f240386dd700eda7a5964e44550066ac45bc0997bd4fe7be446edae356313d992361c18415191468dfdbfb454d
   languageName: node
   linkType: hard
 
@@ -2695,7 +2695,7 @@ __metadata:
     "@types/platform": 1.3.4
     "@types/react": 18.0.18
     "@types/react-dom": 18.0.6
-    "@types/three": 0.143.2
+    "@types/three": 0.144.0
     "@use-gesture/react": 10.2.19
     "@yarnpkg/pnpify": 3.1.5
     cannon-es: 0.20.0
