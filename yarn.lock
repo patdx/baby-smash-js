@@ -1500,16 +1500,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-hook/window-size@npm:3.0.7":
-  version: 3.0.7
-  resolution: "@react-hook/window-size@npm:3.0.7"
+"@react-hook/window-size@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@react-hook/window-size@npm:3.1.1"
   dependencies:
     "@react-hook/debounce": ^3.0.0
     "@react-hook/event": ^1.2.1
     "@react-hook/throttle": ^2.2.0
   peerDependencies:
     react: ">=16.8"
-  checksum: 11f3b0a38631ab114b45ab77eff1df124d240acc7dc63e5a020479957ed676ecc76ef330c12bcb9f469a7c1169c4df297b639f1ad2e002914f3aa59f74c3ba99
+  checksum: 0acaa3a1cd985d2f24372a79acf97bc71af5823c6e002cec92ee5f5b326948ef901bf2a84a75d45ac4e7487c1c6ce1283cd1ada27bfeb9f8e461518c59881496
   languageName: node
   linkType: hard
 
@@ -2687,7 +2687,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "baby-smash-js@workspace:."
   dependencies:
-    "@react-hook/window-size": 3.0.7
+    "@react-hook/window-size": 3.1.1
     "@react-three/drei": 9.26.1
     "@react-three/fiber": 8.7.1
     "@types/lodash": 4.14.184
