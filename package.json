@@ -11,7 +11,7 @@
     "pwa": "pwa-asset-generator --type png ./assets/baby-smash.svg ./public/assets  --path-override '/assets' --xhtml --manifest ./public/assets/manifest.json"
   },
   "dependencies": {
-    "@react-hook/window-size": "3.0.7",
+    "@react-hook/window-size": "3.1.1",
     "@react-three/drei": "9.26.1",
     "@react-three/fiber": "8.7.1",
     "@types/lodash": "4.14.184",
