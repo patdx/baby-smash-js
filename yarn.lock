@@ -1580,15 +1580,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.26.1":
-  version: 9.26.1
-  resolution: "@react-three/drei@npm:9.26.1"
+"@react-three/drei@npm:9.28.2":
+  version: 9.28.2
+  resolution: "@react-three/drei@npm:9.28.2"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@use-gesture/react": ^10.2.0
     detect-gpu: ^4.0.36
     glsl-noise: ^0.0.0
+    lodash.clamp: ^4.0.3
     lodash.omit: ^4.5.0
     lodash.pick: ^4.4.0
     meshline: ^2.0.4
@@ -1609,7 +1610,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: e79c8a11f1565fc3f08e7c27c54df19d498af48181665384a65bb9068ebd3e6495a30139101087952c941f1b04449c46e419e3a094ccc16adaee693a349e4186
+  checksum: d9cf10b359506813c3fb01564c61226e96d43ff0b06d60cadcc6d178ca515cd7cbaf4286eb43b79ac4886dc68db2116acb4dbccf3849a2a8d14f78049fe19fa2
   languageName: node
   linkType: hard
 
@@ -2688,7 +2689,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.26.1
+    "@react-three/drei": 9.28.2
     "@react-three/fiber": 8.7.2
     "@types/lodash": 4.14.184
     "@types/node": 16.11.57
@@ -4894,6 +4895,13 @@ fsevents@~2.3.1:
   dependencies:
     p-locate: ^4.1.0
   checksum: 83e51725e67517287d73e1ded92b28602e3ae5580b301fe54bfb76c0c723e3f285b19252e375712316774cf52006cb236aed5704692c32db0d5d089b69696e30
+  languageName: node
+  linkType: hard
+
+"lodash.clamp@npm:^4.0.3":
+  version: 4.0.3
+  resolution: "lodash.clamp@npm:4.0.3"
+  checksum: 02baa03ebb96f2ce8d9cec28b21fa3ed808c32f3b8fe54e2f990f1177779b13dcda69232db72d7285763e14a0ee64666a82a2047558eaba7198580173756c888
   languageName: node
   linkType: hard
 
