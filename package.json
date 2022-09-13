@@ -19,7 +19,7 @@
     "@use-gesture/react": "10.2.19",
     "@yarnpkg/pnpify": "3.1.5",
     "cannon-es": "0.20.0",
-    "classnames": "2.3.1",
+    "classnames": "2.3.2",
     "framer-motion": "7.3.2",
     "lodash": "4.17.21",
     "next": "12.3.0",
