@@ -1580,9 +1580,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.32.0":
-  version: 9.32.0
-  resolution: "@react-three/drei@npm:9.32.0"
+"@react-three/drei@npm:9.32.1":
+  version: 9.32.1
+  resolution: "@react-three/drei@npm:9.32.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
@@ -1598,7 +1598,7 @@ __metadata:
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.15
-    three-stdlib: ^2.14.3
+    three-stdlib: ^2.16.2
     troika-three-text: ^0.46.4
     utility-types: ^3.10.0
     zustand: ^3.5.13
@@ -1610,7 +1610,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 128f48ba29107d588b38049a642865d732e8dd021719b1142770b7d9c9921e542acef33001d7f8619d6d6fb68bf293fe0bdaf59ab67d3bdc53770f7a92fd9e56
+  checksum: 02eaec690179d8d29aec1d5573faf1b24571923e6efd8f7a2d4417aa5d4cad1260d058ac42a91dd36beb9834b7ed17e4e844574854c99483d0ffdc5d5254bd7c
   languageName: node
   linkType: hard
 
@@ -1890,6 +1890,13 @@ __metadata:
   version: 2.4.0
   resolution: "@types/normalize-package-data@npm:2.4.0"
   checksum: fd22ba86a186a033dbe173840fd2ad091032be6d48163198869d058821acca7373d9f39cfd0caf42f3b92bc737723814fe1b4e9e90eacaa913836610aa197d3b
+  languageName: node
+  linkType: hard
+
+"@types/offscreencanvas@npm:^2019.6.4":
+  version: 2019.7.0
+  resolution: "@types/offscreencanvas@npm:2019.7.0"
+  checksum: 018cfcd19e0c59c44d14ba61caaca7246f77fbb512839c7881654b7f2b6591dbdd5857362eccbf49f29cdc93724e71a4b37c8b6cf203388f9c04e913a53ea390
   languageName: node
   linkType: hard
 
@@ -2699,7 +2706,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.32.0
+    "@react-three/drei": 9.32.1
     "@react-three/fiber": 8.8.2
     "@types/lodash": 4.14.185
     "@types/node": 16.11.60
@@ -7042,11 +7049,12 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.14.3":
-  version: 2.14.3
-  resolution: "three-stdlib@npm:2.14.3"
+"three-stdlib@npm:^2.16.2":
+  version: 2.16.2
+  resolution: "three-stdlib@npm:2.16.2"
   dependencies:
     "@babel/runtime": ^7.16.7
+    "@types/offscreencanvas": ^2019.6.4
     "@webgpu/glslang": ^0.0.15
     chevrotain: ^10.1.2
     draco3d: ^1.4.1
@@ -7058,7 +7066,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.122.0"
-  checksum: cd602cf1279b12fd419b33e74785a81bf43cd517e0fb333a0fb3ffb0499f38f3004b44b0c824e89b27ac54556e07b0eecdc015f1d18b5c427924c452efe28afc
+  checksum: acf5a962c5a795c89171fd7f04fdb9895bca67ad1b59d17e51a5218881dcbf919074a0da30e5ffd99a16d89f2bc819c8ffb42512fa318a6c6dbe1b387bf059c4
   languageName: node
   linkType: hard
 
