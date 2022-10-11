@@ -1614,13 +1614,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/fiber@npm:8.8.9":
-  version: 8.8.9
-  resolution: "@react-three/fiber@npm:8.8.9"
+"@react-three/fiber@npm:8.8.10":
+  version: 8.8.10
+  resolution: "@react-three/fiber@npm:8.8.10"
   dependencies:
     "@babel/runtime": ^7.17.8
     "@types/react-reconciler": ^0.26.7
-    its-fine: ^1.0.4
+    its-fine: ^1.0.6
     react-reconciler: ^0.27.0
     react-use-measure: ^2.1.1
     scheduler: ^0.21.0
@@ -1645,7 +1645,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 2576dbf78202b49cb1fddb160427a102b64b6164535d5f87881fde929cd787747997d65ba223b85e0b1addee21a90a58003f00d9da9cd46c7cf7a61d08e8c99e
+  checksum: 35a2816563cb430632d81c74b7cb388c7e1f7332d11849767197c57b107e49be6190b3d1fb93c4227e4e6840792b9e263933d6478980a323b8355508139c7bf1
   languageName: node
   linkType: hard
 
@@ -2717,7 +2717,7 @@ __metadata:
   dependencies:
     "@react-hook/window-size": 3.1.1
     "@react-three/drei": 9.34.3
-    "@react-three/fiber": 8.8.9
+    "@react-three/fiber": 8.8.10
     "@types/lodash": 4.14.186
     "@types/node": 16.11.65
     "@types/platform": 1.3.4
@@ -4675,14 +4675,14 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"its-fine@npm:^1.0.4":
-  version: 1.0.4
-  resolution: "its-fine@npm:1.0.4"
+"its-fine@npm:^1.0.6":
+  version: 1.0.6
+  resolution: "its-fine@npm:1.0.6"
   dependencies:
     "@types/react-reconciler": ^0.28.0
   peerDependencies:
     react: ">=18.0"
-  checksum: af2c90892afb0c2010020b780477def12853fed96fe39a50959babb839a0147384730b9d6669847789098050eacef040275c007b0119ae23441a6baa1d958248
+  checksum: bfd4f775084dc1f301280e85fdbfa5b75dff72603fe6d03e7e0181b0e3369ad2cdcb5be9015d21e6990ddd79fcef2e0f075a52023492545215661d125f980bf4
   languageName: node
   linkType: hard
 
