@@ -1995,12 +1995,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.144.0":
-  version: 0.144.0
-  resolution: "@types/three@npm:0.144.0"
+"@types/three@npm:0.146.0":
+  version: 0.146.0
+  resolution: "@types/three@npm:0.146.0"
   dependencies:
     "@types/webxr": "*"
-  checksum: 7ce69e1a48ba6d19dc9efb78c5c67a3e66c036f240386dd700eda7a5964e44550066ac45bc0997bd4fe7be446edae356313d992361c18415191468dfdbfb454d
+  checksum: f8ea5ba032f6aaa1cb5ad7dfbbd13851e8cba04365bc7fa9a5320ea7e9a2538ea5f2426391f690f0465347ade15cc145d5dc84b1730d8cceea89f746231f667c
   languageName: node
   linkType: hard
 
@@ -2723,7 +2723,7 @@ __metadata:
     "@types/platform": 1.3.4
     "@types/react": 18.0.24
     "@types/react-dom": 18.0.8
-    "@types/three": 0.144.0
+    "@types/three": 0.146.0
     "@use-gesture/react": 10.2.20
     "@yarnpkg/pnpify": 3.1.6
     cannon-es: 0.20.0
@@ -2740,7 +2740,7 @@ __metadata:
     pwa-asset-generator: 6.2.0
     react: 18.2.0
     react-dom: 18.2.0
-    three: 0.145.0
+    three: 0.147.0
     typescript: 4.8.4
     use-resize-observer: 9.0.2
     use-yarn: 2.4.0
@@ -7084,10 +7084,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.145.0":
-  version: 0.145.0
-  resolution: "three@npm:0.145.0"
-  checksum: 1469a5994666a8e76ee7fffda93bde9a5d1c0dfcc831377b1a6ce3579f2933b57e8a8004a3ff7b36529b68484b9fa58eec8f136e1ac9ec02413cdfc360300ec4
+"three@npm:0.147.0":
+  version: 0.147.0
+  resolution: "three@npm:0.147.0"
+  checksum: 9d4abdf2125e8b20cd67200a826f23bc1e8f6fc2d325768f8233c24fab7d621968bbe2274a45acd6ca709c076dd271c92d3c9dc4fe2439e4a6b2fae0ba1e6828
   languageName: node
   linkType: hard
 
