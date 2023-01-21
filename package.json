@@ -17,7 +17,7 @@
     "@types/lodash": "4.14.191",
     "@types/platform": "1.3.4",
     "@use-gesture/react": "10.2.23",
-    "@yarnpkg/pnpify": "4.0.0-rc.35",
+    "@yarnpkg/pnpify": "4.0.0-rc.36",
     "cannon-es": "0.20.0",
     "classnames": "2.3.2",
     "framer-motion": "8.4.3",
