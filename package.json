@@ -20,7 +20,7 @@
     "@yarnpkg/pnpify": "4.0.0-rc.36",
     "cannon-es": "0.20.0",
     "classnames": "2.3.2",
-    "framer-motion": "8.4.3",
+    "framer-motion": "8.5.0",
     "lodash": "4.17.21",
     "next": "13.1.4",
     "next-pwa": "5.6.0",
