@@ -1566,13 +1566,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.53.3":
-  version: 9.53.3
-  resolution: "@react-three/drei@npm:9.53.3"
+"@react-three/drei@npm:9.54.1":
+  version: 9.54.1
+  resolution: "@react-three/drei@npm:9.54.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@use-gesture/react": ^10.2.0
+    camera-controls: ^1.38.0
     detect-gpu: ^5.0.5
     glsl-noise: ^0.0.0
     lodash.clamp: ^4.0.3
@@ -1597,7 +1598,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 794a58cd5ea0c00525ccca1701fa0f389966664477800e01ff2e51e3f24e23267e78e78a8dd1adaa3c5166b80214091f8eafd047c1cb655209f2ef0c55f408e7
+  checksum: 14aaafd392b79da289dc5e5e277a9147c91731d7eec0ed63b7d2af0cd0c6f27cfcf71b0b7e56de5fd9eb420961b071adcd3fd133128971942eaec3375b28064d
   languageName: node
   linkType: hard
 
@@ -2559,7 +2560,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.53.3
+    "@react-three/drei": 9.54.1
     "@react-three/fiber": 8.10.1
     "@types/lodash": 4.14.191
     "@types/node": 18.11.18
@@ -2794,6 +2795,15 @@ __metadata:
   version: 5.3.1
   resolution: "camelcase@npm:5.3.1"
   checksum: e6effce26b9404e3c0f301498184f243811c30dfe6d0b9051863bd8e4034d09c8c2923794f280d6827e5aa055f6c434115ff97864a16a963366fb35fd673024b
+  languageName: node
+  linkType: hard
+
+"camera-controls@npm:^1.38.0":
+  version: 1.38.0
+  resolution: "camera-controls@npm:1.38.0"
+  peerDependencies:
+    three: ">=0.126.1"
+  checksum: 81f1ccd4ba84dd374817c3e4f7f0f056713a7e26bd5f425edc3a3cb771cf63698baf97ed0c8b0d85a5aa8a5d21fa77495dd2eb88a489ed355d9a83b17343bc68
   languageName: node
   linkType: hard
 
