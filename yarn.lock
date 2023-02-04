@@ -1566,15 +1566,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.56.8":
-  version: 9.56.8
-  resolution: "@react-three/drei@npm:9.56.8"
+"@react-three/drei@npm:9.56.12":
+  version: 9.56.12
+  resolution: "@react-three/drei@npm:9.56.12"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ^9.3.1
     "@use-gesture/react": ^10.2.24
-    camera-controls: ^2.0.0
-    detect-gpu: ^5.0.8
+    camera-controls: ^2.0.1
+    detect-gpu: ^5.0.9
     glsl-noise: ^0.0.0
     lodash.clamp: ^4.0.3
     lodash.omit: ^4.5.0
@@ -1586,7 +1586,7 @@ __metadata:
     stats.js: ^0.17.0
     suspend-react: ^0.0.8
     three-mesh-bvh: ^0.5.22
-    three-stdlib: ^2.21.6
+    three-stdlib: ^2.21.8
     troika-three-text: ^0.47.1
     utility-types: ^3.10.0
     zustand: ^3.5.13
@@ -1598,7 +1598,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 38b2dcada18f421fda4162166a0e8e62ebb2fa6f70c65dfc64f63fd08f27d7513f41e331e9fa2afeee31d396eff3338eddbd70827c8991d78e487ab9b1fb15fe
+  checksum: 8254fda96eec1e0284e03256258fcc9d7fe18d3341909f1ef138633a309fe89f5cb08fe5e36ab8c727834c3e426f5293008db7da2bba58d90e3c477cb06011e6
   languageName: node
   linkType: hard
 
@@ -2560,7 +2560,7 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.56.8
+    "@react-three/drei": 9.56.12
     "@react-three/fiber": 8.10.1
     "@types/lodash": 4.14.191
     "@types/node": 18.11.18
@@ -2798,12 +2798,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"camera-controls@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "camera-controls@npm:2.0.0"
+"camera-controls@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "camera-controls@npm:2.0.1"
   peerDependencies:
     three: ">=0.126.1"
-  checksum: ca69c12ff78c2e9ddd4c77068002de8ceb0b6afb219e83338cfa432c4fa9c3d7d19a32b58732f5a31cb9b1b59c2904a9ba0e4fe3386080c3a6813255c82199ae
+  checksum: 3d65359ea2df06cd816ea396305a7a349a62796c05bee8134ca772f01b1f5f3f73cf993381c273a4982ec1f3275582fd91c8a19167c9b649d3fc55bd091122ae
   languageName: node
   linkType: hard
 
@@ -3293,12 +3293,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-gpu@npm:^5.0.8":
-  version: 5.0.8
-  resolution: "detect-gpu@npm:5.0.8"
+"detect-gpu@npm:^5.0.9":
+  version: 5.0.9
+  resolution: "detect-gpu@npm:5.0.9"
   dependencies:
     webgl-constants: ^1.1.1
-  checksum: a38033caac327a647de9d6cff5190908e2cf573062b46427b84e9cbd1238bc60dfd0b6bf8d18b4c40e4d1df5915373a110f4d713dc33a12d5379a5be6530462f
+  checksum: cc67227030630590273b884274ce563c08079e9c9b7663c1f32baa4b5ba977b46a98f35aa3c75f0a4b26041ccc261e9ab947cd74e7b4413711ca81a4b454cfd2
   languageName: node
   linkType: hard
 
@@ -6798,9 +6798,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three-stdlib@npm:^2.21.6":
-  version: 2.21.6
-  resolution: "three-stdlib@npm:2.21.6"
+"three-stdlib@npm:^2.21.8":
+  version: 2.21.8
+  resolution: "three-stdlib@npm:2.21.8"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@types/offscreencanvas": ^2019.6.4
@@ -6815,7 +6815,7 @@ fsevents@~2.3.1:
     zstddec: ^0.0.2
   peerDependencies:
     three: ">=0.122.0"
-  checksum: e074d475757813078e70d3568fc6deb6db6cee9d7c788155a6babd2e05c4488df11bdd44e76af73e144447c919292c5d67f65514fd6c524bf71c2808279871b4
+  checksum: b83d1d72ce0249a69bdd11f005f06cd09a07e497867f5c539ea73cf941450cdccc11186f23f44278d2ac516244b3943d1f0e89e8406965d0bfb8427961c8133a
   languageName: node
   linkType: hard
 
