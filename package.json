@@ -39,7 +39,7 @@
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
-    "@types/three": "0.148.1",
+    "@types/three": "0.149.0",
     "http-proxy": "1.18.1",
     "only-allow": "^1.1.1",
     "pwa-asset-generator": "6.2.1",
