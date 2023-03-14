@@ -1502,9 +1502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.57.2":
-  version: 9.57.2
-  resolution: "@react-three/drei@npm:9.57.2"
+"@react-three/drei@npm:9.57.3":
+  version: 9.57.3
+  resolution: "@react-three/drei@npm:9.57.3"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ~9.6.1
@@ -1534,7 +1534,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 51cfc6741ba048154a3075ba7bae298f07c671b638b6a84cbb0ebdc8e97db4de56733e903a2b48000ea5d0092b3c79077adc30a0c18cd4537f24d74c029fd9dc
+  checksum: 56af949849838ef4eb03fff9b7f5eb4e24f471a2b57d335b2c83a953a7482a1e7c24a29050f0afd82694d06e91d4d6259ebc514431d8e295233167a0edda4ca2
   languageName: node
   linkType: hard
 
@@ -1796,10 +1796,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.15.0":
-  version: 18.15.0
-  resolution: "@types/node@npm:18.15.0"
-  checksum: d81372276dd5053b1743338b61a2178ff9722dc609189d01fc7d1c2acd539414039e0e4780678730514390dad3f29c366a28c29e8dbd5b0025651181f6dd6669
+"@types/node@npm:18.15.3":
+  version: 18.15.3
+  resolution: "@types/node@npm:18.15.3"
+  checksum: 31b1d92475a82c30de29aa6c0771b18a276552d191283b4423ba2d61b3f01159bf0d02576c0b7cc834b043997893800db6bb47f246083ed85aa45e79c80875d7
   languageName: node
   linkType: hard
 
@@ -2503,10 +2503,10 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.57.2
+    "@react-three/drei": 9.57.3
     "@react-three/fiber": 8.12.0
     "@types/lodash": 4.14.191
-    "@types/node": 18.15.0
+    "@types/node": 18.15.3
     "@types/platform": 1.3.4
     "@types/react": 18.0.28
     "@types/react-dom": 18.0.11
@@ -2515,7 +2515,7 @@ __metadata:
     "@yarnpkg/pnpify": 4.0.0-rc.40
     cannon-es: 0.20.0
     classnames: 2.3.2
-    framer-motion: 10.2.4
+    framer-motion: 10.3.1
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 13.2.4
@@ -2532,7 +2532,7 @@ __metadata:
     typescript: 4.9.5
     use-resize-observer: 9.1.0
     use-yarn: 2.4.0
-    webpack: 5.75.0
+    webpack: 5.76.1
     zustand: 4.3.6
   languageName: unknown
   linkType: soft
@@ -3693,9 +3693,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:10.2.4":
-  version: 10.2.4
-  resolution: "framer-motion@npm:10.2.4"
+"framer-motion@npm:10.3.1":
+  version: 10.3.1
+  resolution: "framer-motion@npm:10.3.1"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     tslib: ^2.4.0
@@ -3710,7 +3710,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 50273d11bb397dced1085e5489573277649ef4b2d77dc62ce79cbf906dd8582e1d9c115a2595f24f16ba9e6b2881e3e2c1a0fba69cd37bb15ec80f29ecd410d9
+  checksum: e34fafd71ff90dcf03cd234b9fd286db43910f96ecc409622a0a5f3e40dd5b10fdfaea9ad8d0eec83b800c7e5c0a712aa57617df2c762baa96086218e7f19ae2
   languageName: node
   linkType: hard
 
@@ -7162,9 +7162,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.75.0":
-  version: 5.75.0
-  resolution: "webpack@npm:5.75.0"
+"webpack@npm:5.76.1":
+  version: 5.76.1
+  resolution: "webpack@npm:5.76.1"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^0.0.51
@@ -7195,7 +7195,7 @@ fsevents@~2.3.1:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 2bcc5f3c195f375944e8af2f00bf2feea39cb9fda5f763b0d1b00077f1c51783db25c94d3fae96a07dead9fa085e6ae7474417e5ab31719c9776ea5969ceb83a
+  checksum: b01fe0bc2dbca0e10d290ddb0bf81e807a031de48028176e2b21afd696b4d3f25ab9accdad888ef4a1f7c7f4d41f13d5bf2395b7653fdf3e5e3dafa54e56dab2
   languageName: node
   linkType: hard
 
