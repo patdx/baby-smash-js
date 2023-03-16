@@ -2515,7 +2515,7 @@ __metadata:
     "@yarnpkg/pnpify": 4.0.0-rc.40
     cannon-es: 0.20.0
     classnames: 2.3.2
-    framer-motion: 10.3.2
+    framer-motion: 10.4.0
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 13.2.4
@@ -3693,9 +3693,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:10.3.2":
-  version: 10.3.2
-  resolution: "framer-motion@npm:10.3.2"
+"framer-motion@npm:10.4.0":
+  version: 10.4.0
+  resolution: "framer-motion@npm:10.4.0"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     tslib: ^2.4.0
@@ -3710,7 +3710,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 701c57bbeeb543f5351eecb4bf9cba82347c07a6599ab9b8547592f593abd5bdd7ee22265b3b98558eef4d61c90e9bc567785677a7765941c9e50bd46be6e425
+  checksum: 8f9fc91ee83df6d22fce9fae32ccfa379902647dd87cc27ce331aefc23fa3456642ffb02a014192ae98cafdbd617d121ebf41a04eed2f9b017d6944cf7eb1019
   languageName: node
   linkType: hard
 
