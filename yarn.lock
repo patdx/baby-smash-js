@@ -1502,9 +1502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.58.4":
-  version: 9.58.4
-  resolution: "@react-three/drei@npm:9.58.4"
+"@react-three/drei@npm:9.61.3":
+  version: 9.61.3
+  resolution: "@react-three/drei@npm:9.61.3"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ~9.6.1
@@ -1534,7 +1534,7 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 394ad12a269773fcc31d9bc67ab2e7eb47ef57e32e58433b4a34051b0dc77d6631b2e1baa8f62edbd86d9160576b0cd8f952110c41c3adf2491be9df5302ec0f
+  checksum: 8b13a377a9d918749a3be6a365beacc9ef5750427029e022b9b21a6eafe13477df9843db70ffff1b69824ecb111576ae950d18939e3c3891a00e55cfcef0f2a5
   languageName: node
   linkType: hard
 
@@ -1768,10 +1768,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/lodash@npm:4.14.191":
-  version: 4.14.191
-  resolution: "@types/lodash@npm:4.14.191"
-  checksum: ba0d5434e10690869f32d5ea49095250157cae502f10d57de0a723fd72229ce6c6a4979576f0f13e0aa9fbe3ce2457bfb9fa7d4ec3d6daba56730a51906d1491
+"@types/lodash@npm:4.14.192":
+  version: 4.14.192
+  resolution: "@types/lodash@npm:4.14.192"
+  checksum: 31e1f0543a04158d2c429c45efd7c77882736630d0652f82eb337d6159ec0c249c5d175c0af731537b53271e665ff8d76f43221d75d03646d31cb4bd6f0056b1
   languageName: node
   linkType: hard
 
@@ -1796,10 +1796,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.15.10":
-  version: 18.15.10
-  resolution: "@types/node@npm:18.15.10"
-  checksum: 9aeae0b683eda82892def5315812bdee3f1a28c4898b7e70f8e2514564538b16c4dccbe8339c1266f8fc1d707a48f152689264a854f5ebc2eba5011e793612d9
+"@types/node@npm:18.15.11":
+  version: 18.15.11
+  resolution: "@types/node@npm:18.15.11"
+  checksum: 977b4ad04708897ff0eb049ecf82246d210939c82461922d20f7d2dcfd81bbc661582ba3af28869210f7e8b1934529dcd46bff7d448551400f9d48b9d3bddec3
   languageName: node
   linkType: hard
 
@@ -1869,14 +1869,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.0.29":
-  version: 18.0.29
-  resolution: "@types/react@npm:18.0.29"
+"@types/react@npm:18.0.31":
+  version: 18.0.31
+  resolution: "@types/react@npm:18.0.31"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 75f56f81d80a1c15ee3fcd2039bdc5f7a70f49cf69827ee0fc8beece9809b234f245dd62552e91018d8f25792986bd513b44caf054554d5c5eb979a5f9460214
+  checksum: 6befbd5587e266905b50fd6bbd7c1cacd557bddf99e6a9862ca2f1d06df3dca71b9d485a37d010479730f021aab93b852d417c714de5efc2f41be0ff4c09b4db
   languageName: node
   linkType: hard
 
@@ -1912,12 +1912,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.149.0":
-  version: 0.149.0
-  resolution: "@types/three@npm:0.149.0"
+"@types/stats.js@npm:*":
+  version: 0.17.0
+  resolution: "@types/stats.js@npm:0.17.0"
+  checksum: ac8dc5e622fa3b7cc37b9e21663193a2f171a4f5896285e4dfc04f2874acbb75edc958f077bffbd85b0ae358daa5bf4ecbc71210386a4300bff05d09435e35f9
+  languageName: node
+  linkType: hard
+
+"@types/three@npm:0.150.0":
+  version: 0.150.0
+  resolution: "@types/three@npm:0.150.0"
   dependencies:
+    "@types/stats.js": "*"
     "@types/webxr": "*"
-  checksum: 5def82bd5d4fb0eb6046e747eecced06d68fbf1747ab8f3e7657872e42e58ce7a92218d7c5e4ca26204257927638ad14da5d1cce7310aca15eb8a9bd484ea191
+    fflate: ~0.6.9
+    lil-gui: ~0.17.0
+  checksum: 5adee83f58c8ae5cc86b37edc8633456318eb4c83c3fe9c6420d2cacac05dd3b5b721132765ac79155069694cf927a366a210be318b9356885a2203d1feb87e8
   languageName: node
   linkType: hard
 
@@ -1958,7 +1968,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@use-gesture/react@npm:10.2.24, @use-gesture/react@npm:^10.2.24":
+"@use-gesture/core@npm:10.2.25":
+  version: 10.2.25
+  resolution: "@use-gesture/core@npm:10.2.25"
+  checksum: d3d05ad433f06a1ccbf323d56848bc95dcb49eefcbbe296872f7896636c3077609287dbe73129064c935118d86f7587eed70e3d3b954e6df588adb1c78c2ac1c
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:10.2.25":
+  version: 10.2.25
+  resolution: "@use-gesture/react@npm:10.2.25"
+  dependencies:
+    "@use-gesture/core": 10.2.25
+  peerDependencies:
+    react: ">= 16.8.0"
+  checksum: 1dda0695984264276de834566a81c1a2ddce334a3eb1ae19e909a9c03cf97cc63e40aebe1d49843b464bb141a75832f09c5e0421207725e6f46c56e555c69342
+  languageName: node
+  linkType: hard
+
+"@use-gesture/react@npm:^10.2.24":
   version: 10.2.24
   resolution: "@use-gesture/react@npm:10.2.24"
   dependencies:
@@ -2141,17 +2169,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:^4.0.0-rc.40":
-  version: 4.0.0-rc.40
-  resolution: "@yarnpkg/core@npm:4.0.0-rc.40"
+"@yarnpkg/core@npm:^4.0.0-rc.42":
+  version: 4.0.0-rc.42
+  resolution: "@yarnpkg/core@npm:4.0.0-rc.42"
   dependencies:
     "@arcanis/slice-ansi": ^1.1.1
     "@types/semver": ^7.1.0
     "@types/treeify": ^1.0.0
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-    "@yarnpkg/libzip": ^3.0.0-rc.40
-    "@yarnpkg/parsers": ^3.0.0-rc.40
-    "@yarnpkg/shell": ^4.0.0-rc.40
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+    "@yarnpkg/libzip": ^3.0.0-rc.42
+    "@yarnpkg/parsers": ^3.0.0-rc.42
+    "@yarnpkg/shell": ^4.0.0-rc.42
     camelcase: ^5.3.1
     chalk: ^3.0.0
     ci-info: ^3.2.0
@@ -2170,84 +2198,84 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^2.4.0
     tunnel: ^0.0.6
-  checksum: 38a141f5e26355fd75e23c2a3afbe6bb79693ad914d263a75a2d212185ad2f987c740aea2e9f61fe360fcee666e9c56b961ffe57444e367acb7cc2ed77327127
+  checksum: c7d4513453c996cbb5acf63044daa8547a21cec6f38b2c92683b3f7ea5bb50857bb0c9228d3a541dafe2551b771d15bb8bfb01636a27f11eacfe822c6f580024
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.40":
-  version: 3.0.0-rc.40
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.40"
+"@yarnpkg/fslib@npm:^3.0.0-rc.42":
+  version: 3.0.0-rc.42
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.42"
   dependencies:
     tslib: ^2.4.0
-  checksum: 8f36ade258a21ee9bec8621367dce68dab5d4e318863bd6b7585595f3697268f76fee5dd855c357ced31213d8ddbf2a2ab7a931d91699b295d60aa02433cc442
+  checksum: 55f18e55a6a39f29584920e37fbf9cc1955093411f7e0e6e550c5771164f31a4b974c1d174fff8ac7b38675c149c3f9f9663ae666400f638d16d88b0fd0d052a
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0-rc.40":
-  version: 3.0.0-rc.40
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.40"
+"@yarnpkg/libzip@npm:^3.0.0-rc.42":
+  version: 3.0.0-rc.42
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.42"
   dependencies:
     "@types/emscripten": ^1.39.6
-    "@yarnpkg/fslib": ^3.0.0-rc.40
+    "@yarnpkg/fslib": ^3.0.0-rc.42
     tslib: ^2.4.0
   peerDependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-  checksum: eca50e5f56709a98111a77bede2e25da573668ad9bc98be01326c0ef1b7e47aac4de19896cc8f2a59f4f4175dfc6e9e307ee18c25facc32353d1209ab43b1c2e
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+  checksum: fd26e3d0969edcf51818c2d85c80101c3167c639339432646d037767d7e1236aa7e4af670a1694d70114e2823b7ec4ea46f64a1da700c2e65b49c2b922426385
   languageName: node
   linkType: hard
 
-"@yarnpkg/nm@npm:^4.0.0-rc.40":
-  version: 4.0.0-rc.40
-  resolution: "@yarnpkg/nm@npm:4.0.0-rc.40"
+"@yarnpkg/nm@npm:^4.0.0-rc.42":
+  version: 4.0.0-rc.42
+  resolution: "@yarnpkg/nm@npm:4.0.0-rc.42"
   dependencies:
-    "@yarnpkg/core": ^4.0.0-rc.40
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-    "@yarnpkg/pnp": ^4.0.0-rc.40
-  checksum: d575264238be9dbd7c5dc435227e830f2d4a1a61c82292a3d6e1dd1f966d552e1acc02aa0f7a2fa60ffa551a3b0862fde320428d6fea20dd110fec4dd1394c7d
+    "@yarnpkg/core": ^4.0.0-rc.42
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+    "@yarnpkg/pnp": ^4.0.0-rc.42
+  checksum: d760c38191106ca591ef4a2c984f3fe4969346ef5d4b6bbb7caa83cef3ba342872daf55cadef5aee1d52592a2593b7b2625946325b33892f9c500af806997b18
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.40":
-  version: 3.0.0-rc.40
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.40"
+"@yarnpkg/parsers@npm:^3.0.0-rc.42":
+  version: 3.0.0-rc.42
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.42"
   dependencies:
     js-yaml: ^3.10.0
     tslib: ^2.4.0
-  checksum: 64df0d8dad4cd43af5fcff758b0cfc47e7dc56e00eed87e3bd6ce8a9ea265c41fe758c1e01607e630bae46c9f8324ca853bced58be3d1c93492e125757ab7f30
+  checksum: 147216f53d683ac2b0b4a68e6cda77b7194d70db5ad3b0b6863129b6f1e36054de5cd5c707707fc36921e110d3ac1cb6a0f51fc9e8d74a4a4123ec3b93d3951e
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnp@npm:^4.0.0-rc.40":
-  version: 4.0.0-rc.40
-  resolution: "@yarnpkg/pnp@npm:4.0.0-rc.40"
+"@yarnpkg/pnp@npm:^4.0.0-rc.42":
+  version: 4.0.0-rc.42
+  resolution: "@yarnpkg/pnp@npm:4.0.0-rc.42"
   dependencies:
     "@types/node": ^18.11.11
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-  checksum: ae680b0131027025cf22d35d41c9a72783aab0b4765fd73558834226a62154276da884a93bf7877d29dc5a696642c4d3999944dbb3d0743b4e3c6a4c71dc9855
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+  checksum: bba47fc698cb385e4b86948c2dba9cd1541b163d747ae063fba02dbf735807ebe8c3fe8ed398ccadc76dd00df0752e2ccd15eda23d9f5f3704a18e4348ad26a3
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnpify@npm:4.0.0-rc.40":
-  version: 4.0.0-rc.40
-  resolution: "@yarnpkg/pnpify@npm:4.0.0-rc.40"
+"@yarnpkg/pnpify@npm:4.0.0-rc.42":
+  version: 4.0.0-rc.42
+  resolution: "@yarnpkg/pnpify@npm:4.0.0-rc.42"
   dependencies:
-    "@yarnpkg/core": ^4.0.0-rc.40
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-    "@yarnpkg/nm": ^4.0.0-rc.40
+    "@yarnpkg/core": ^4.0.0-rc.42
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+    "@yarnpkg/nm": ^4.0.0-rc.42
     clipanion: ^3.2.0-rc.10
     tslib: ^2.4.0
   bin:
     pnpify: ./lib/cli.js
-  checksum: 51ef0c5db61faedb0b35dd9d19e2ce539d3dcf4e2d17080c0c3f3bcc4570c4ea644c98b989872da275b9b68b04afb9541676433d1a2838774878b659f896bc72
+  checksum: 17d6e30e1688a4b6abd59c102114ae0f48addec44a189cb50307bc0a8d243f3050a22e77f905736ccc8e62c4823496a7c4ca65faeaa902b3321f073c96f90ab1
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.0.0-rc.40":
-  version: 4.0.0-rc.40
-  resolution: "@yarnpkg/shell@npm:4.0.0-rc.40"
+"@yarnpkg/shell@npm:^4.0.0-rc.42":
+  version: 4.0.0-rc.42
+  resolution: "@yarnpkg/shell@npm:4.0.0-rc.42"
   dependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.40
-    "@yarnpkg/parsers": ^3.0.0-rc.40
+    "@yarnpkg/fslib": ^3.0.0-rc.42
+    "@yarnpkg/parsers": ^3.0.0-rc.42
     chalk: ^3.0.0
     clipanion: ^3.2.0-rc.10
     cross-spawn: 7.0.3
@@ -2256,7 +2284,7 @@ __metadata:
     tslib: ^2.4.0
   bin:
     shell: ./lib/cli.js
-  checksum: 0e136522ce5f157b38bdbb9633b9860cdfa06846cb6eafa5b04a64b790381cf4d946037669d4e975d4c4c9b5264f7f89e206dac5c82f01673ca5e479235d3c63
+  checksum: f66db59b4e3f663477c44710447b70a49fd8c9483460f4c1e2971ecd9adc4b2adf075ce05b4cad483e06e35192ddf3cac4fff6765fed172772b8f9facbd4982d
   languageName: node
   linkType: hard
 
@@ -2503,19 +2531,19 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.58.4
+    "@react-three/drei": 9.61.3
     "@react-three/fiber": 8.12.0
-    "@types/lodash": 4.14.191
-    "@types/node": 18.15.10
+    "@types/lodash": 4.14.192
+    "@types/node": 18.15.11
     "@types/platform": 1.3.4
-    "@types/react": 18.0.29
+    "@types/react": 18.0.31
     "@types/react-dom": 18.0.11
-    "@types/three": 0.149.0
-    "@use-gesture/react": 10.2.24
-    "@yarnpkg/pnpify": 4.0.0-rc.40
+    "@types/three": 0.150.0
+    "@use-gesture/react": 10.2.25
+    "@yarnpkg/pnpify": 4.0.0-rc.42
     cannon-es: 0.20.0
     classnames: 2.3.2
-    framer-motion: 10.9.1
+    framer-motion: 10.10.0
     http-proxy: 1.18.1
     lodash: 4.17.21
     next: 13.2.4
@@ -2528,12 +2556,12 @@ __metadata:
     pwa-asset-generator: 6.2.1
     react: 18.2.0
     react-dom: 18.2.0
-    three: 0.150.1
-    typescript: 5.0.2
+    three: 0.151.2
+    typescript: 5.0.3
     use-resize-observer: 9.1.0
     use-yarn: 2.4.0
-    webpack: 5.76.3
-    zustand: 4.3.6
+    webpack: 5.77.0
+    zustand: 4.3.7
   languageName: unknown
   linkType: soft
 
@@ -3627,7 +3655,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fflate@npm:^0.6.9":
+"fflate@npm:^0.6.9, fflate@npm:~0.6.9":
   version: 0.6.10
   resolution: "fflate@npm:0.6.10"
   checksum: 96384bc4090987fe565c0de8204e3830f538144ec950576fea50aee1b42adbe9fc3ed5e7905dfa7979faaa20979def330dbebce548f3dcafc3e118cc9838526d
@@ -3693,9 +3721,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:10.9.1":
-  version: 10.9.1
-  resolution: "framer-motion@npm:10.9.1"
+"framer-motion@npm:10.10.0":
+  version: 10.10.0
+  resolution: "framer-motion@npm:10.10.0"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     tslib: ^2.4.0
@@ -3710,7 +3738,7 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: d2eacc83a1ab308a8cfa404b95fb5fb821b6ff821238e365b6bf0b999a1342b00287c58c9c6d29c00b84066315fdf86acc081d4289c03c17f2f4e58e5bfc2e3e
+  checksum: 378301b0532e71b1d85ed82754278d3852180c232869523b0f725b6194df72716bae807eaf588367a2c10d564cbbb4fd48aa739efaf99ac4f1ab31aae207b7d3
   languageName: node
   linkType: hard
 
@@ -4667,6 +4695,13 @@ fsevents@~2.3.1:
     debug: ^2.6.8
     marky: ^1.2.0
   checksum: 97375953e09710b302af642a75579c9f2570d7bd676f6d27eba3be9e2bdf42aa1d3617ff7ea4807b8b82eed100a859f27ff60296cbf0e9e5a9b7336fcb46799c
+  languageName: node
+  linkType: hard
+
+"lil-gui@npm:~0.17.0":
+  version: 0.17.0
+  resolution: "lil-gui@npm:0.17.0"
+  checksum: a6f33e90748ea98477f1f7af6d6cbdc4a1b38ce9da86d674d73f7b0bbdc7f3e947d81edee04c32f33fb28c69a108ba04c24270a8398064ffcc56ffeabc0a916e
   languageName: node
   linkType: hard
 
@@ -6761,10 +6796,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.150.1":
-  version: 0.150.1
-  resolution: "three@npm:0.150.1"
-  checksum: b12a92a681a30e62640d90bdf074d039c05d8294ad40f437e7e1807ce0e698ad6728878a1e72dad22bf05d7a359843ecea8739d05f2f13143bc3a4ecdfdbdd7b
+"three@npm:0.151.2":
+  version: 0.151.2
+  resolution: "three@npm:0.151.2"
+  checksum: d4db5bcaafe9ba4b706ded46164cf7ae322c6bbcdeb1e0e2317b28e4ec6434c560be86143f743bb20d06f4e39b4a360be84a706e3ad315427ad2cb89f5cc3d40
   languageName: node
   linkType: hard
 
@@ -6921,23 +6956,23 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"typescript@npm:5.0.2":
-  version: 5.0.2
-  resolution: "typescript@npm:5.0.2"
+"typescript@npm:5.0.3":
+  version: 5.0.3
+  resolution: "typescript@npm:5.0.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: bef1dcd166acfc6934b2ec4d72f93edb8961a5fab36b8dd2aaf6f4f4cd5c0210f2e0850aef4724f3b4913d5aef203a94a28ded731b370880c8bcff7e4ff91fc1
+  checksum: 3cce0576d218cb4277ff8b6adfef1a706e9114a98b4261a38ad658a7642f1b274a8396394f6cbff8c0ba852996d7ed2e233e9b8431d5d55ac7c2f6fea645af02
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@5.0.2#~builtin<compat/typescript>":
-  version: 5.0.2
-  resolution: "typescript@patch:typescript@npm%3A5.0.2#~builtin<compat/typescript>::version=5.0.2&hash=85af82"
+"typescript@patch:typescript@5.0.3#~builtin<compat/typescript>":
+  version: 5.0.3
+  resolution: "typescript@patch:typescript@npm%3A5.0.3#~builtin<compat/typescript>::version=5.0.3&hash=85af82"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: b63cb742fbb9aeb3085e002ad8f10d5fd963606aa4d6b3b65b4e76c396ff09739f03b5dbae08e1698c3bce9d5619d3f67aeb7ee470ed4016bd345b3cfe37b54a
+  checksum: 5580367025ff7ee1f2a61e5affdbddccfe6e893bc662aa33fefdbf12de7e493173fa7d47475e9e15121828691004c4ed13bcd115e57866baed97b54c60954e1c
   languageName: node
   linkType: hard
 
@@ -7162,9 +7197,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.76.3":
-  version: 5.76.3
-  resolution: "webpack@npm:5.76.3"
+"webpack@npm:5.77.0":
+  version: 5.77.0
+  resolution: "webpack@npm:5.77.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^0.0.51
@@ -7195,7 +7230,7 @@ fsevents@~2.3.1:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 363f536b56971d056e34ab4cffa4cbc630b220e51be1a8c3adea87d9f0b51c49cfc7c3720d6614a1fd2c8c63f1ab3100db916fe8367c8bb9299327ff8c3f856d
+  checksum: 21341bb72cbbf61dfb3af91eabe9290a6c05139f268eff3c419e5339deb6c79f2f36de55d9abf017d3ccbad290a535c02325001b2816acc393f3c022e67ac17c
   languageName: node
   linkType: hard
 
@@ -7534,9 +7569,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"zustand@npm:4.3.6":
-  version: 4.3.6
-  resolution: "zustand@npm:4.3.6"
+"zustand@npm:4.3.7":
+  version: 4.3.7
+  resolution: "zustand@npm:4.3.7"
   dependencies:
     use-sync-external-store: 1.2.0
   peerDependencies:
@@ -7547,7 +7582,7 @@ fsevents@~2.3.1:
       optional: true
     react:
       optional: true
-  checksum: 4d3cec03526f04ff3de6dc45b6f038c47f091836af9660fbf5f682cae1628221102882df20e4048dfe699a43f67424e5d6afc1116f3838a80eea5dd4f95ddaed
+  checksum: 355b414ba4830b6106bcb888077c5f90f40ed649e4127e337eff4fb4ea90e88bf5cccf32344711d743cb92a676a0643a6ab3674ddc60ed49f17ea1bc8e3f58e2
   languageName: node
   linkType: hard
 
