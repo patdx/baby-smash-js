@@ -37,9 +37,9 @@
   },
   "devDependencies": {
     "@types/node": "18.15.11",
-    "@types/react": "18.0.31",
+    "@types/react": "18.0.32",
     "@types/react-dom": "18.0.11",
-    "@types/three": "0.150.0",
+    "@types/three": "0.150.1",
     "http-proxy": "1.18.1",
     "only-allow": "^1.1.1",
     "pwa-asset-generator": "6.2.1",
