@@ -1526,9 +1526,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-three/drei@npm:9.65.5":
-  version: 9.65.5
-  resolution: "@react-three/drei@npm:9.65.5"
+"@react-three/drei@npm:9.66.1":
+  version: 9.66.1
+  resolution: "@react-three/drei@npm:9.66.1"
   dependencies:
     "@babel/runtime": ^7.11.2
     "@react-spring/three": ~9.6.1
@@ -1558,13 +1558,13 @@ __metadata:
   peerDependenciesMeta:
     react-dom:
       optional: true
-  checksum: 79bf4376cc1ea48b479671aabd4cbbee13f384647e859442b69e2dcf2b0e4db9f18796feef50b434e7086c60453e6574f982099e970fe8f5bce534f429980883
+  checksum: 95b7d5ccc6e82c4bd5f8d7cff330ec16591923844a95905a2bd3f6160d2a264af29eedc2036f6803e2c033492aa29bd828fc5356a091c8eb03c241938a78497b
   languageName: node
   linkType: hard
 
-"@react-three/fiber@npm:8.12.2":
-  version: 8.12.2
-  resolution: "@react-three/fiber@npm:8.12.2"
+"@react-three/fiber@npm:8.13.0":
+  version: 8.13.0
+  resolution: "@react-three/fiber@npm:8.13.0"
   dependencies:
     "@babel/runtime": ^7.17.8
     "@types/react-reconciler": ^0.26.7
@@ -1593,7 +1593,7 @@ __metadata:
       optional: true
     react-native:
       optional: true
-  checksum: 1a62b0ce40e4c23292c8712732fcf94a7cb84445c28dc9e313ba8e63eb1752c75869e7edc0125614deab7dcdac4c06e711ea5c3b642d5065d2404640cae4eabc
+  checksum: 8cc64302926ffd03d9323207c2d1b09c393e5bf99521ed2d4215bf6a7a401faeadb7c44dc268453fe322f626d19980083373c5adc4200c0295a7cbf062f83c91
   languageName: node
   linkType: hard
 
@@ -1827,10 +1827,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:18.16.0":
-  version: 18.16.0
-  resolution: "@types/node@npm:18.16.0"
-  checksum: 63e0042136663b9e85ce503a4c65406cc6621fdba63ea66c74b4b1364a9aa9bdb57cadcb76696abab177f38a819b0fa6ace9e7f1647dcb990aedb1b4bd01012f
+"@types/node@npm:18.16.2":
+  version: 18.16.2
+  resolution: "@types/node@npm:18.16.2"
+  checksum: 7ad66d23b3b93885a9f879bff98e0196790ad35589b47a3d81b52db969ad17ee298082020296df5166c2d72d3cd6a4b9ab34d254483637d967944a4b3e6febdb
   languageName: node
   linkType: hard
 
@@ -1862,12 +1862,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.11":
-  version: 18.0.11
-  resolution: "@types/react-dom@npm:18.0.11"
+"@types/react-dom@npm:18.2.1":
+  version: 18.2.1
+  resolution: "@types/react-dom@npm:18.2.1"
   dependencies:
     "@types/react": "*"
-  checksum: 579691e4d5ec09688087568037c35edf8cfb1ab3e07f6c60029280733ee7b5c06d66df6fcc90786702c93ac8cb13bc7ff16c79ddfc75d082938fbaa36e1cdbf4
+  checksum: 4e607a9d08f707ae2bd6b377f1da32989dcbe4e38ac39110423a1f6bc95dd53a5484f7f952b34e9d12b5f29a265d52a8c74c1a7d1d1e25be0fa69ccf9d64209f
   languageName: node
   linkType: hard
 
@@ -1900,14 +1900,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:18.0.38":
-  version: 18.0.38
-  resolution: "@types/react@npm:18.0.38"
+"@types/react@npm:18.2.0":
+  version: 18.2.0
+  resolution: "@types/react@npm:18.2.0"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 34481c79f4f7ea2aefbaa45281319dc183200230d932d968463eba1643bd3635073d0a17c5c613150a69e36ca18b811ecffafea6384fa3dff3b5203866339d69
+  checksum: db3d92b423150222a666329f7aa3023e3e942044700557b8a7d161530847e621aec9f56c9e7f71761b06dd164c8a7b17ad52355863efe80963dffa5537e8e5fd
   languageName: node
   linkType: hard
 
@@ -1950,15 +1950,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/three@npm:0.150.2":
-  version: 0.150.2
-  resolution: "@types/three@npm:0.150.2"
+"@types/three@npm:0.151.0":
+  version: 0.151.0
+  resolution: "@types/three@npm:0.151.0"
   dependencies:
     "@types/stats.js": "*"
     "@types/webxr": "*"
     fflate: ~0.6.9
     lil-gui: ~0.17.0
-  checksum: 6252abd77cb3336116361d262cc9b4c809c1184953ed847ca6969e7e10e01be01a253c5dea03e010821dae8e06cf3ea7f56d424bb0aa5660599408387d5b46da
+  checksum: 7458b8be90e67743bdf31aee1237801678605df6a5af6f011b6bc091f563bb906ae2fad8c76296e1a4d75f8c94b17f767c82b1073ae6c5c914aa260b0ab51add
   languageName: node
   linkType: hard
 
@@ -2562,14 +2562,14 @@ __metadata:
   resolution: "baby-smash-js@workspace:."
   dependencies:
     "@react-hook/window-size": 3.1.1
-    "@react-three/drei": 9.65.5
-    "@react-three/fiber": 8.12.2
+    "@react-three/drei": 9.66.1
+    "@react-three/fiber": 8.13.0
     "@types/lodash": 4.14.194
-    "@types/node": 18.16.0
+    "@types/node": 18.16.2
     "@types/platform": 1.3.4
-    "@types/react": 18.0.38
-    "@types/react-dom": 18.0.11
-    "@types/three": 0.150.2
+    "@types/react": 18.2.0
+    "@types/react-dom": 18.2.1
+    "@types/three": 0.151.0
     "@use-gesture/react": 10.2.26
     "@yarnpkg/pnpify": 4.0.0-rc.42
     cannon-es: 0.20.0
@@ -2587,11 +2587,11 @@ __metadata:
     pwa-asset-generator: 6.2.1
     react: 18.2.0
     react-dom: 18.2.0
-    three: 0.151.3
+    three: 0.152.2
     typescript: 5.0.4
     use-resize-observer: 9.1.0
     use-yarn: 2.4.0
-    webpack: 5.80.0
+    webpack: 5.81.0
     zustand: 4.3.7
   languageName: unknown
   linkType: soft
@@ -6888,10 +6888,10 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"three@npm:0.151.3":
-  version: 0.151.3
-  resolution: "three@npm:0.151.3"
-  checksum: cb6f10e4e409bbc4677d2128470c4e0bdb29f7879a77bc800180e30bda3527816c45b47ac10228f346cfc7501234457f63a87c1bdd5c3b6e2841d523e5d6eb79
+"three@npm:0.152.2":
+  version: 0.152.2
+  resolution: "three@npm:0.152.2"
+  checksum: 6d2d990dbff60b99c7e58b7f1446bb4bd235c7db5dd848a671385e01ae5c72bec865265be7f5a82907ecc96186acc13177d7de1252bc9592f5c9ebaffd1da1e7
   languageName: node
   linkType: hard
 
@@ -7289,9 +7289,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"webpack@npm:5.80.0":
-  version: 5.80.0
-  resolution: "webpack@npm:5.80.0"
+"webpack@npm:5.81.0":
+  version: 5.81.0
+  resolution: "webpack@npm:5.81.0"
   dependencies:
     "@types/eslint-scope": ^3.7.3
     "@types/estree": ^1.0.0
@@ -7322,7 +7322,7 @@ fsevents@~2.3.1:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 7b9229d64439ceb20372e0b1452025e2a37cf136f7867102e095b99c3f2bbaf8b0e7e8ff093278238e45b0b1efaae4ed5f0709be48c20e8dab94e94f11c8e5c7
+  checksum: 1a6eecaffac3226d80f4e8f330b32e0ff117d9dafd8700166d230afbc171d68ea1ff55a9939fa789307f7b9d11881889ccb8e6cd79d4ccbaeef916788ce73fdb
   languageName: node
   linkType: hard
 
