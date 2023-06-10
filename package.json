@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/node": "18.16.17",
-    "@types/react": "18.2.10",
+    "@types/react": "18.2.11",
     "@types/react-dom": "18.2.4",
     "@types/three": "0.152.1",
     "http-proxy": "1.18.1",
