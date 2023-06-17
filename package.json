@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "9.74.8",
-    "@react-three/fiber": "8.13.1",
+    "@react-three/drei": "9.76.0",
+    "@react-three/fiber": "8.13.3",
     "@types/lodash": "4.14.195",
     "@types/platform": "1.3.4",
     "@use-gesture/react": "10.2.27",
@@ -22,7 +22,7 @@
     "classnames": "2.3.2",
     "framer-motion": "10.12.16",
     "lodash": "4.17.21",
-    "next": "13.4.5",
+    "next": "13.4.6",
     "next-pwa": "5.6.0",
     "next-seo": "6.0.0",
     "normalize.css": "8.0.1",
@@ -36,15 +36,15 @@
     "zustand": "4.3.8"
   },
   "devDependencies": {
-    "@types/node": "18.16.17",
-    "@types/react": "18.2.11",
-    "@types/react-dom": "18.2.4",
+    "@types/node": "18.16.18",
+    "@types/react": "18.2.12",
+    "@types/react-dom": "18.2.5",
     "@types/three": "0.152.1",
     "http-proxy": "1.18.1",
     "only-allow": "^1.1.1",
     "pwa-asset-generator": "6.3.1",
     "typescript": "5.1.3",
-    "webpack": "5.86.0"
+    "webpack": "5.87.0"
   },
   "packageManager": "yarn@3.6.0"
 }
