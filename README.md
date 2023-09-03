@@ -16,8 +16,8 @@ It's set up as a PWA so you can use the "Add to home screen" on your iOS or Andr
 Install it and run:
 
 ```bash
-yarn
-yarn dev
+pnpm
+pnpm dev
 ```
 
 ## Notes

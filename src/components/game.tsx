@@ -24,7 +24,7 @@ const COLORS = ['red', 'blue', 'yellow', 'pink'];
 const getColor = () => sample(COLORS);
 
 const Position = ['bottom', 'top', 'left', 'right'] as const;
-type Position = typeof Position[number];
+type Position = (typeof Position)[number];
 
 // NOTE: due to issues with use-cannon, try to replace with our own physics
 // https://github.com/react-spring/use-cannon/issues/63
@@ -221,7 +221,7 @@ export const TouchBackground: FC<{
       position={[0, 0, -100]}
     >
       {/* TODO: figure out how to set pure white color */}
-      <boxBufferGeometry
+      <boxGeometry
         attach="geometry"
         args={[camera.right - camera.left, camera.top - camera.bottom, 1]}
       />

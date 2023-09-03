@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "preinstall": "npx only-allow yarn",
+    "preinstall": "npx only-allow pnpm",
     "pwa": "pwa-asset-generator --type png ./assets/baby-smash.svg ./public/assets  --path-override '/assets' --xhtml --manifest ./public/assets/manifest.json"
   },
   "dependencies": {
@@ -46,5 +46,5 @@
     "typescript": "5.2.2",
     "webpack": "5.88.2"
   },
-  "packageManager": "yarn@3.6.3"
+  "packageManager": "pnpm@8.7.1"
 }
