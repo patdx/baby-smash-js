@@ -33,11 +33,11 @@
     "three": "0.158.0",
     "use-resize-observer": "9.1.0",
     "use-yarn": "2.4.0",
-    "zustand": "4.4.6"
+    "zustand": "4.4.7"
   },
   "devDependencies": {
     "@types/node": "20.10.0",
-    "@types/react": "18.2.38",
+    "@types/react": "18.2.39",
     "@types/react-dom": "18.2.17",
     "@types/three": "0.158.3",
     "http-proxy": "1.18.1",
