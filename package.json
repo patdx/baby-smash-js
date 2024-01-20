@@ -33,7 +33,7 @@
     "three": "0.160.0",
     "use-resize-observer": "9.1.0",
     "use-yarn": "2.4.0",
-    "zustand": "4.4.7"
+    "zustand": "4.5.0"
   },
   "devDependencies": {
     "@types/node": "20.11.5",
