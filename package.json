@@ -36,7 +36,7 @@
     "zustand": "4.5.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.7",
+    "@types/node": "20.11.8",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
     "@types/three": "0.160.0",
@@ -46,5 +46,5 @@
     "typescript": "5.3.3",
     "webpack": "5.90.0"
   },
-  "packageManager": "pnpm@8.14.3"
+  "packageManager": "pnpm@8.15.0"
 }
