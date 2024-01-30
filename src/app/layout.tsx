@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
+  formatDetection: {
+    telephone: false,
+  },
 };
 
 export const viewport: Viewport = {
