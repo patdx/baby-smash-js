@@ -2,7 +2,9 @@ import { Metadata, Viewport } from 'next';
 import { Layout } from '../components/layout';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://baby-smash-js.vercel.app'),
   title: 'Baby Smash JS',
+  description: 'Touch and play with the alphabet',
   applicationName: 'Baby Smash JS',
   appleWebApp: {
     capable: true,
@@ -13,9 +15,12 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     title: 'Baby Smash JS',
+    description: 'Touch and play with the alphabet',
   },
   twitter: {
     card: 'summary_large_image',
+    title: 'Baby Smash JS',
+    description: 'Touch and play with the alphabet',
   },
   formatDetection: {
     telephone: false,
