@@ -1,6 +1,13 @@
+'use client';
+
 import classnames from 'classnames';
-import Head from 'next/head';
-import React, { FC, ReactNode, useEffect, useState } from 'react';
+import {
+  FC,
+  ReactNode,
+  useEffect,
+  useState,
+  useSyncExternalStore,
+} from 'react';
 import styles from './layout.module.css';
 
 const useWindowSize = () => {
@@ -22,7 +29,6 @@ const useWindowSize = () => {
         width: window.innerWidth,
         height: window.innerHeight,
       });
-
 
       // if iOS use of regular app touches the top of the screen
       // in landscape, it can pop up the nav, shrinking the page,
@@ -74,34 +80,18 @@ const getIosStandaloneImmediate = () => {
   return (navigator as any).standalone ? true : false;
 };
 
-/**
- * use ios standalone value if it is available
- * (supports SSR)
- */
-export const useIosStandalone = () => {
-  const [isStandalone, setStandalone] = useState(false);
-
-  useEffect(() => setStandalone(getIosStandaloneImmediate()), []);
-
-  return isStandalone;
+const emptySubscribe = () => {
+  const unsubscribe = () => {};
+  return unsubscribe;
 };
 
-const Header: FC = () => {
+const getFalse = () => false;
+
+export const useIosStandalone = () =>
+  useSyncExternalStore(emptySubscribe, getIosStandaloneImmediate, getFalse);
+
+export const Layout: FC<{ children?: ReactNode }> = ({ children }) => {
   const isStandalone = useIosStandalone();
-
-  return (
-    <div
-      className={classnames(
-        isStandalone ? styles.headerIos : undefined,
-        styles.header
-      )}
-    ></div>
-  );
-};
-
-export const Layout: FC<{children?: ReactNode}> = ({ children }) => {
-  const isStandalone = useIosStandalone();
-
   const { height: windowHeight } = useWindowSize();
 
   const manuallyAssignedHeight = (() => {
@@ -120,24 +110,14 @@ export const Layout: FC<{children?: ReactNode}> = ({ children }) => {
   })();
 
   return (
-    <>
-      <Head>
-        <title>Baby Smash JS</title>
-      </Head>
-      <div
-        className={classnames(
-          styles.container,
-          isStandalone
-            ? styles.containerIosStandaloneSizing
-            : styles.containerRegularSizing
-        )}
-        style={{
-          height: manuallyAssignedHeight,
-        }}
-      >
-        <Header></Header>
-        <div className={styles.content}>{children}</div>
-      </div>
-    </>
+    <div
+      className={classnames(styles.container, styles.containerSizing)}
+      style={{
+        height: manuallyAssignedHeight,
+      }}
+    >
+      <div className={styles.header}></div>
+      <div className={styles.content}>{children}</div>
+    </div>
   );
 };

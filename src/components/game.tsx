@@ -1,8 +1,9 @@
+'use client';
+
 import * as CANNON from 'cannon-es';
 import { Text } from '@react-three/drei';
 import React, { FC, useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-// import { useDragOld } from 'react-use-gesture';
 import { useDrag, Vector2 } from '@use-gesture/react';
 import { OrthographicCamera, Vector3 } from 'three';
 import { LETTERS } from '../utils/letter-range';
@@ -11,6 +12,10 @@ import { DevTools } from './dev-tools';
 import sample from 'lodash/sample';
 import { useSpring } from 'framer-motion';
 import { Loading } from './loading';
+
+const roboto = new URL('../assets/roboto.woff', import.meta.url).toString();
+
+// import { useDragOld } from 'react-use-gesture';
 
 const getLetter = () => sample(LETTERS)!;
 
@@ -199,7 +204,13 @@ const Letter: FC<{
 
   return (
     <Suspense fallback={null}>
-      <Text ref={ref} fontSize={200} color={color} {...(bind() as any)}>
+      <Text
+        ref={ref}
+        fontSize={200}
+        color={color}
+        font={roboto}
+        {...(bind() as any)}
+      >
         {letter}
       </Text>
     </Suspense>
