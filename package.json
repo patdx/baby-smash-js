@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
     "@react-three/drei": "9.97.0",
-    "@react-three/fiber": "8.15.15",
+    "@react-three/fiber": "8.15.16",
     "@serwist/next": "^8.4.4",
     "@serwist/precaching": "^8.4.4",
     "@serwist/sw": "^8.4.4",
@@ -37,10 +37,10 @@
     "zustand": "4.5.0"
   },
   "devDependencies": {
-    "@types/node": "20.11.13",
+    "@types/node": "20.11.14",
     "@types/react": "18.2.48",
     "@types/react-dom": "18.2.18",
-    "@types/three": "0.160.0",
+    "@types/three": "0.161.1",
     "http-proxy": "1.18.1",
     "only-allow": "^1.2.1",
     "pwa-asset-generator": "6.3.1",
