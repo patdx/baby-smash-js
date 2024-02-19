@@ -9,14 +9,14 @@ dependencies:
     specifier: 3.1.1
     version: 3.1.1(react@18.2.0)
   '@react-three/drei':
-    specifier: 9.97.6
-    version: 9.97.6(@react-three/fiber@8.15.16)(@types/react@18.2.56)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
+    specifier: 9.99.0
+    version: 9.99.0(@react-three/fiber@8.15.16)(@types/react@18.2.56)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
   '@react-three/fiber':
     specifier: 8.15.16
     version: 8.15.16(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
   '@serwist/next':
     specifier: ^8.4.4
-    version: 8.4.4(next@14.1.0)(webpack@5.90.2)
+    version: 8.4.4(next@14.1.0)(webpack@5.90.3)
   '@serwist/precaching':
     specifier: ^8.4.4
     version: 8.4.4
@@ -101,8 +101,8 @@ devDependencies:
     specifier: 5.3.3
     version: 5.3.3
   webpack:
-    specifier: 5.90.2
-    version: 5.90.2
+    specifier: 5.90.3
+    version: 5.90.3
 
 packages:
 
@@ -436,8 +436,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.97.6(@react-three/fiber@8.15.16)(@types/react@18.2.56)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0):
-    resolution: {integrity: sha512-8Vdle+YklXTBEFNOaKlF0zgiQDvIZNU/OSKT2FPUmrFQiMrUFGaKXcYg7xUkOUq1ajqFscKOUETLnOD0yKCHhg==}
+  /@react-three/drei@9.99.0(@react-three/fiber@8.15.16)(@types/react@18.2.56)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0):
+    resolution: {integrity: sha512-F4Oyxn+t+7R+kA+NGuK2izog1KkwH7KmEBd6aTYTex43YDRY5AFXfCDoiD9SOU6jliQRW2Vx2qw/YHfPBYMUwA==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -468,7 +468,7 @@ packages:
       three: 0.161.0
       three-mesh-bvh: 0.7.0(three@0.161.0)
       three-stdlib: 2.29.4(three@0.161.0)
-      troika-three-text: 0.47.2(three@0.161.0)
+      troika-three-text: 0.49.0(three@0.161.0)
       tunnel-rat: 0.1.2(@types/react@18.2.56)(react@18.2.0)
       utility-types: 3.10.0
       uuid: 9.0.1
@@ -692,19 +692,19 @@ packages:
       '@serwist/core': 8.4.4
     dev: false
 
-  /@serwist/next@8.4.4(next@14.1.0)(webpack@5.90.2):
+  /@serwist/next@8.4.4(next@14.1.0)(webpack@5.90.3):
     resolution: {integrity: sha512-WUTMTqjGl4uEO61olHkbqTWCV8bsNSYpzHNmhWksg+RXJJKCENU3Io+UcJlPX+oBJVzlIHP0cHtPsQZx7I+2sw==}
     peerDependencies:
       next: '>=14.0.0'
       webpack: '>=5.9.0'
     dependencies:
       '@serwist/build': 8.4.4
-      '@serwist/webpack-plugin': 8.4.4(webpack@5.90.2)
+      '@serwist/webpack-plugin': 8.4.4(webpack@5.90.3)
       '@serwist/window': 8.4.4
-      clean-webpack-plugin: 4.0.0(webpack@5.90.2)
+      clean-webpack-plugin: 4.0.0(webpack@5.90.3)
       fast-glob: 3.3.2
       next: 14.1.0(react-dom@18.2.0)(react@18.2.0)
-      webpack: 5.90.2
+      webpack: 5.90.3
     dev: false
 
   /@serwist/precaching@8.4.4:
@@ -749,7 +749,7 @@ packages:
       '@serwist/strategies': 8.4.4
     dev: false
 
-  /@serwist/webpack-plugin@8.4.4(webpack@5.90.2):
+  /@serwist/webpack-plugin@8.4.4(webpack@5.90.3):
     resolution: {integrity: sha512-A4ONzZzVJNgY3vddhrV7lwRuLYHQQw/SxW8iEZ62VQR3Xvx/sdrovKBJ+cXokt7kIcNgNRtPAxAeddptoirZDw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -758,7 +758,7 @@ packages:
       '@serwist/build': 8.4.4
       fast-json-stable-stringify: 2.1.0
       upath: 2.0.1
-      webpack: 5.90.2
+      webpack: 5.90.3
     dev: false
 
   /@serwist/window@8.4.4:
@@ -1474,14 +1474,14 @@ packages:
     resolution: {integrity: sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow==}
     dev: false
 
-  /clean-webpack-plugin@4.0.0(webpack@5.90.2):
+  /clean-webpack-plugin@4.0.0(webpack@5.90.3):
     resolution: {integrity: sha512-WuWE1nyTNAyW5T7oNyys2EN0cfP2fdRxhxnIQWiAp0bMabPdHhoGxM8A6YL2GhqwgrPnnaemVE7nv5XJ2Fhh2w==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: '>=4.0.0 <6.0.0'
     dependencies:
       del: 4.1.1
-      webpack: 5.90.2
+      webpack: 5.90.3
     dev: false
 
   /client-only@0.0.1:
@@ -3370,7 +3370,7 @@ packages:
       yallist: 4.0.0
     dev: false
 
-  /terser-webpack-plugin@5.3.10(webpack@5.90.2):
+  /terser-webpack-plugin@5.3.10(webpack@5.90.3):
     resolution: {integrity: sha512-BKFPWlPDndPs+NGGCr1U59t0XScL5317Y0UReNrHaw9/FwhPENlq6bfgs+4yPfyP51vqC1bQ4rp1EfXW5ZSH9w==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -3391,7 +3391,7 @@ packages:
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.27.0
-      webpack: 5.90.2
+      webpack: 5.90.3
 
   /terser@5.27.0:
     resolution: {integrity: sha512-bi1HRwVRskAjheeYl291n3JC4GgO/Ty4z1nVs5AAsmonJulGxpSektecnNedrwK9C7vpvVtcX3cw00VSLt7U2A==}
@@ -3464,28 +3464,28 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /troika-three-text@0.47.2(three@0.161.0):
-    resolution: {integrity: sha512-qylT0F+U7xGs+/PEf3ujBdJMYWbn0Qci0kLqI5BJG2kW1wdg4T1XSxneypnF05DxFqJhEzuaOR9S2SjiyknMng==}
+  /troika-three-text@0.49.0(three@0.161.0):
+    resolution: {integrity: sha512-sn9BNC6eIX8OO3iAkPwjecJ7Pn21Ve8P1UNFMNeQzXx759rrqS4i4pSZs7FLMYdWyCKVXBFGimBySFwRKLjq/Q==}
     peerDependencies:
       three: '>=0.125.0'
     dependencies:
       bidi-js: 1.0.3
       three: 0.161.0
-      troika-three-utils: 0.47.2(three@0.161.0)
-      troika-worker-utils: 0.47.2
+      troika-three-utils: 0.49.0(three@0.161.0)
+      troika-worker-utils: 0.49.0
       webgl-sdf-generator: 1.1.1
     dev: false
 
-  /troika-three-utils@0.47.2(three@0.161.0):
-    resolution: {integrity: sha512-/28plhCxfKtH7MSxEGx8e3b/OXU5A0xlwl+Sbdp0H8FXUHKZDoksduEKmjQayXYtxAyuUiCRunYIv/8Vi7aiyg==}
+  /troika-three-utils@0.49.0(three@0.161.0):
+    resolution: {integrity: sha512-umitFL4cT+Fm/uONmaQEq4oZlyRHWwVClaS6ZrdcueRvwc2w+cpNQ47LlJKJswpqtMFWbEhOLy0TekmcPZOdYA==}
     peerDependencies:
       three: '>=0.125.0'
     dependencies:
       three: 0.161.0
     dev: false
 
-  /troika-worker-utils@0.47.2:
-    resolution: {integrity: sha512-mzss4MeyzUkYBppn4x5cdAqrhBHFEuVmMMgLMTyFV23x6GvQMyo+/R5E5Lsbrt7WSt5RfvewjcwD1DChRTA9lA==}
+  /troika-worker-utils@0.49.0:
+    resolution: {integrity: sha512-1xZHoJrG0HFfCvT/iyN41DvI/nRykiBtHqFkGaGgJwq5iXfIZFBiPPEHFpPpgyKM3Oo5ITHXP5wM2TNQszYdVg==}
     dev: false
 
   /tslib@2.6.2:
@@ -3634,8 +3634,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  /webpack@5.90.2:
-    resolution: {integrity: sha512-ziXu8ABGr0InCMEYFnHrYweinHK2PWrMqnwdHk2oK3rRhv/1B+2FnfwYv5oD+RrknK/Pp/Hmyvu+eAsaMYhzCw==}
+  /webpack@5.90.3:
+    resolution: {integrity: sha512-h6uDYlWCctQRuXBs1oYpVe6sFcWedl0dpcVaTf/YF67J9bKvwJajFulMVSYKHrksMB3I/pIagRzDxwxkebuzKA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -3665,7 +3665,7 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.90.2)
+      terser-webpack-plugin: 5.3.10(webpack@5.90.3)
       watchpack: 2.4.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
