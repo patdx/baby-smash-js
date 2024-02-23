@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "9.99.0",
+    "@react-three/drei": "9.99.1",
     "@react-three/fiber": "8.15.16",
     "@serwist/next": "^8.4.4",
     "@serwist/precaching": "^8.4.4",
@@ -24,7 +24,7 @@
     "@yarnpkg/pnpify": "4.0.1",
     "cannon-es": "0.20.0",
     "classnames": "2.5.1",
-    "framer-motion": "11.0.5",
+    "framer-motion": "11.0.6",
     "lodash": "4.17.21",
     "next": "14.1.0",
     "normalize.css": "8.0.1",
@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/node": "20.11.20",
-    "@types/react": "18.2.57",
+    "@types/react": "18.2.58",
     "@types/react-dom": "18.2.19",
     "@types/three": "0.161.2",
     "http-proxy": "1.18.1",
