@@ -37,9 +37,9 @@
     "zustand": "4.5.2"
   },
   "devDependencies": {
-    "@types/node": "20.12.3",
+    "@types/node": "20.12.4",
     "@types/react": "18.2.74",
-    "@types/react-dom": "18.2.23",
+    "@types/react-dom": "18.2.24",
     "@types/three": "0.163.0",
     "http-proxy": "1.18.1",
     "only-allow": "^1.2.1",
