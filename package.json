@@ -24,7 +24,7 @@
     "@yarnpkg/pnpify": "4.0.1",
     "cannon-es": "0.20.0",
     "classnames": "2.5.1",
-    "framer-motion": "11.0.24",
+    "framer-motion": "11.0.25",
     "lodash": "4.17.21",
     "next": "14.1.4",
     "normalize.css": "8.0.1",
