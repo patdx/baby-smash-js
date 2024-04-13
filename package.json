@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "9.105.3",
+    "@react-three/drei": "9.105.4",
     "@react-three/fiber": "8.16.1",
     "@serwist/next": "^8.4.4",
     "@serwist/precaching": "^8.4.4",
