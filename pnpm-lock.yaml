@@ -42,8 +42,8 @@ dependencies:
     specifier: 2.5.1
     version: 2.5.1
   framer-motion:
-    specifier: 11.1.5
-    version: 11.1.5(react-dom@18.2.0)(react@18.2.0)
+    specifier: 11.1.7
+    version: 11.1.7(react-dom@18.2.0)(react@18.2.0)
   lodash:
     specifier: 4.17.21
     version: 4.17.21
@@ -1931,8 +1931,8 @@ packages:
       signal-exit: 4.1.0
     dev: false
 
-  /framer-motion@11.1.5(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-ogK5fc0GBUT3AjzMXPx7f74m5V1ByRqkKQARBVHpdkYTNDxb/WriANYD+5JBo1wklQQJ1HayDZtmofQLqZFcbw==}
+  /framer-motion@11.1.7(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cW11Pu53eDAXUEhv5hEiWuIXWhfkbV32PlgVISn7jRdcAiVrJ1S03YQQ0/DzoswGYYwKi4qYmHHjCzAH52eSdQ==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
