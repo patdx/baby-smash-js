@@ -13,16 +13,16 @@ importers:
         version: 3.1.1(react@18.2.0)
       '@react-three/drei':
         specifier: 9.105.4
-        version: 9.105.4(@react-three/fiber@8.16.2)(@types/react@18.2.79)(@types/three@0.163.0)(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
+        version: 9.105.4(@react-three/fiber@8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0))(@types/react@18.2.79)(@types/three@0.163.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)
       '@react-three/fiber':
         specifier: 8.16.2
-        version: 8.16.2(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
+        version: 8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)
       '@serwist/next':
         specifier: ^8.4.4
-        version: 8.4.4(next@14.2.2)(webpack@5.91.0)
+        version: 8.4.4(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(webpack@5.91.0)
       '@serwist/precaching':
         specifier: ^9.0.0
-        version: 9.0.0(typescript@5.4.5)
+        version: 9.0.1(typescript@5.4.5)
       '@serwist/sw':
         specifier: ^8.4.4
         version: 8.4.4
@@ -46,13 +46,13 @@ importers:
         version: 2.5.1
       framer-motion:
         specifier: 11.1.7
-        version: 11.1.7(react-dom@18.2.0)(react@18.2.0)
+        version: 11.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       lodash:
         specifier: 4.17.21
         version: 4.17.21
       next:
         specifier: 14.2.2
-        version: 14.2.2(react-dom@18.2.0)(react@18.2.0)
+        version: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       normalize.css:
         specifier: 8.0.1
         version: 8.0.1
@@ -73,7 +73,7 @@ importers:
         version: 0.163.0
       use-resize-observer:
         specifier: 9.1.0
-        version: 9.1.0(react-dom@18.2.0)(react@18.2.0)
+        version: 9.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       zustand:
         specifier: 4.5.2
         version: 4.5.2(@types/react@18.2.79)(react@18.2.0)
@@ -401,9 +401,11 @@ packages:
 
   '@serwist/background-sync@8.4.4':
     resolution: {integrity: sha512-Rt1BwpUZb1G9lj4znrshC6di5hwB5xEmhilzFbHEbZuiFfeCNwn8tMc8JUMoGdj2Btx4/XlUDgvsFvqRi1BkTA==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/broadcast-update@8.4.4':
     resolution: {integrity: sha512-hN/S9xbVpg17NLcHqa/vEIMmZrpH/MnFN33bT1Wsh11QAj/IY6aOu5nq/8vbppMPM9OlkKimYT6bJDNRSbsIDA==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/build@8.4.4':
     resolution: {integrity: sha512-24BfRoVfbzlWAlra9m8fU6vutCZjcZ5QHaL2LEAexPBixsDGaTVjBrfbNipEbM7OejLPp99MqZaj3U3EgWU2ag==}
@@ -411,18 +413,23 @@ packages:
 
   '@serwist/cacheable-response@8.4.4':
     resolution: {integrity: sha512-oSPPaGDmfDhtAQfHC5LIIyYF2djCprYHdWntD8IQygnjEjbh2MP6xnD7zPD+Ztghlg9VX0aGRxEAFT8rDhW7tQ==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/core@8.4.4':
     resolution: {integrity: sha512-mB3XFoUFbfgxkqWUhn9khqZP9c+K3qsuY1WQazl7S00hd+JUH2We/FmNMoOpei5ydVK61rIX690ScfXO0FbjXw==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/expiration@8.4.4':
     resolution: {integrity: sha512-zn5Q3qkE2827RUDwta198QTeIWzQx+EtWikQog9LZZvXSDOuOogzYeyiuskrfvrGFLk11myOJLtpVbXpeNCHeA==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/google-analytics@8.4.4':
     resolution: {integrity: sha512-nkNLyLmSfiYeJGFtHDzRdLDcUabyTGvrjC2VAlduC97rLhfE1c1KUhWBwBO+ZR0TONsh9roJso2vooEZc2dWAQ==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/navigation-preload@8.4.4':
     resolution: {integrity: sha512-cMna+4avA66mHuZeVBxRYViy7/O+fR+NLSLkSl5TRdx6jdDFBnsBVj6LOWcohuGmtJ/XUV0ycpxyGSUxJCjVag==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/next@8.4.4':
     resolution: {integrity: sha512-WUTMTqjGl4uEO61olHkbqTWCV8bsNSYpzHNmhWksg+RXJJKCENU3Io+UcJlPX+oBJVzlIHP0cHtPsQZx7I+2sw==}
@@ -434,9 +441,8 @@ packages:
     resolution: {integrity: sha512-2HUiDKRpHxNirH37UnIuLx6Zc6HaIAgpTE2qWT6BfzqX1Fbmn2Zk67tvBTfCITWemCw1/dUH8VzI1k6vC3XmtA==}
     deprecated: This package has been deprecated. Please use serwist instead.
 
-  '@serwist/precaching@9.0.0':
-    resolution: {integrity: sha512-lDuUw+mMt4vU4LGBazJDEqGk8GJO671V0thxFH0aaoyreEUKMclXii4TP6kzt0crHDM0W3EpbreKWxW3XJfa6Q==}
-    deprecated: This package has been deprecated. Please use serwist instead.
+  '@serwist/precaching@9.0.1':
+    resolution: {integrity: sha512-0tEmLlAgSO/Yb7e26mKWZSTMw122L+kr2I2eQU/ClPTREAE0o+m1D8onWQQZ7EN8ivRU7tprUIxJptVSuYa1aA==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -445,15 +451,19 @@ packages:
 
   '@serwist/range-requests@8.4.4':
     resolution: {integrity: sha512-1VVhL42XnjFJKszAhgwkCUjcK4j28eudWhfGaYey5NYBk0xNqXNGTOuPBjvr5mLMo/NkmapiwDI/htAqOuK7Wg==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/routing@8.4.4':
     resolution: {integrity: sha512-TimZ54n5UpQoJMjGdLIXQ1VJlQ669yfJ8scdfZKwRjggILJ3f1rI13N8vicetwZMGqveTz2Q9sVYIXaeQuFmQg==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/strategies@8.4.4':
     resolution: {integrity: sha512-Yr/wKD16vXUqVbyfHhLM25qRWTtWgNJnY8Bot0yjCV/BvHM81cOIkG3sE76FIjcUntCvfemhaN9Zx53fbRzLPQ==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/sw@8.4.4':
     resolution: {integrity: sha512-TyFlhoJpo/S1hj7+j1iiELwoU4idKvqvITBYFzpYEUK3h/qXJ+eiNiGT1hl2R0znz8p35Hp3hxbyGYFt4BYpKw==}
+    deprecated: This package has been deprecated. Please use serwist instead.
 
   '@serwist/webpack-plugin@8.4.4':
     resolution: {integrity: sha512-A4ONzZzVJNgY3vddhrV7lwRuLYHQQw/SxW8iEZ62VQR3Xvx/sdrovKBJ+cXokt7kIcNgNRtPAxAeddptoirZDw==}
@@ -2418,25 +2428,25 @@ snapshots:
       '@react-spring/types': 9.6.1
       react: 18.2.0
 
-  '@react-spring/three@9.6.1(@react-three/fiber@8.16.2)(react@18.2.0)(three@0.163.0)':
+  '@react-spring/three@9.6.1(@react-three/fiber@8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0))(react@18.2.0)(three@0.163.0)':
     dependencies:
       '@react-spring/animated': 9.6.1(react@18.2.0)
       '@react-spring/core': 9.6.1(react@18.2.0)
       '@react-spring/shared': 9.6.1(react@18.2.0)
       '@react-spring/types': 9.6.1
-      '@react-three/fiber': 8.16.2(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
+      '@react-three/fiber': 8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)
       react: 18.2.0
       three: 0.163.0
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.105.4(@react-three/fiber@8.16.2)(@types/react@18.2.79)(@types/three@0.163.0)(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)':
+  '@react-three/drei@9.105.4(@react-three/fiber@8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0))(@types/react@18.2.79)(@types/three@0.163.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)':
     dependencies:
       '@babel/runtime': 7.22.11
       '@mediapipe/tasks-vision': 0.10.8
       '@monogrid/gainmap-js': 3.0.5(three@0.163.0)
-      '@react-spring/three': 9.6.1(@react-three/fiber@8.16.2)(react@18.2.0)(three@0.163.0)
-      '@react-three/fiber': 8.16.2(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
+      '@react-spring/three': 9.6.1(@react-three/fiber@8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0))(react@18.2.0)(three@0.163.0)
+      '@react-three/fiber': 8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)
       '@use-gesture/react': 10.3.1(react@18.2.0)
       camera-controls: 2.7.2(three@0.163.0)
       cross-env: 7.0.3
@@ -2447,7 +2457,6 @@ snapshots:
       meshline: 3.1.6(three@0.163.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
-      react-dom: 18.2.0(react@18.2.0)
       stats-gl: 2.0.1
       stats.js: 0.17.0
       suspend-react: 0.1.3(react@18.2.0)
@@ -2459,12 +2468,14 @@ snapshots:
       utility-types: 3.10.0
       uuid: 9.0.1
       zustand: 3.7.2(react@18.2.0)
+    optionalDependencies:
+      react-dom: 18.2.0(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/three'
       - immer
 
-  '@react-three/fiber@8.16.2(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)':
+  '@react-three/fiber@8.16.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(three@0.163.0)':
     dependencies:
       '@babel/runtime': 7.22.11
       '@types/react-reconciler': 0.26.7
@@ -2473,13 +2484,14 @@ snapshots:
       buffer: 6.0.3
       its-fine: 1.1.1(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
       react-reconciler: 0.27.0(react@18.2.0)
-      react-use-measure: 2.1.1(react-dom@18.2.0)(react@18.2.0)
+      react-use-measure: 2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       scheduler: 0.21.0
       suspend-react: 0.1.3(react@18.2.0)
       three: 0.163.0
       zustand: 3.7.2(react@18.2.0)
+    optionalDependencies:
+      react-dom: 18.2.0(react@18.2.0)
 
   '@rollup/rollup-android-arm-eabi@4.9.1':
     optional: true
@@ -2571,14 +2583,14 @@ snapshots:
     dependencies:
       '@serwist/core': 8.4.4
 
-  '@serwist/next@8.4.4(next@14.2.2)(webpack@5.91.0)':
+  '@serwist/next@8.4.4(next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(webpack@5.91.0)':
     dependencies:
       '@serwist/build': 8.4.4
       '@serwist/webpack-plugin': 8.4.4(webpack@5.91.0)
       '@serwist/window': 8.4.4
       clean-webpack-plugin: 4.0.0(webpack@5.91.0)
       fast-glob: 3.3.2
-      next: 14.2.2(react-dom@18.2.0)(react@18.2.0)
+      next: 14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       webpack: 5.91.0
 
   '@serwist/precaching@8.4.4':
@@ -2587,9 +2599,10 @@ snapshots:
       '@serwist/routing': 8.4.4
       '@serwist/strategies': 8.4.4
 
-  '@serwist/precaching@9.0.0(typescript@5.4.5)':
+  '@serwist/precaching@9.0.1(typescript@5.4.5)':
     dependencies:
       serwist: 9.0.0(typescript@5.4.5)
+    optionalDependencies:
       typescript: 5.4.5
 
   '@serwist/range-requests@8.4.4':
@@ -3376,11 +3389,12 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  framer-motion@11.1.7(react-dom@18.2.0)(react@18.2.0):
+  framer-motion@11.1.7(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
+      tslib: 2.6.2
+    optionalDependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      tslib: 2.6.2
 
   fs-constants@1.0.0: {}
 
@@ -3766,7 +3780,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@14.2.2(react-dom@18.2.0)(react@18.2.0):
+  next@14.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@next/env': 14.2.2
       '@swc/helpers': 0.5.5
@@ -4009,7 +4023,7 @@ snapshots:
       react: 18.2.0
       scheduler: 0.21.0
 
-  react-use-measure@2.1.1(react-dom@18.2.0)(react@18.2.0):
+  react-use-measure@2.1.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       debounce: 1.2.1
       react: 18.2.0
@@ -4121,6 +4135,7 @@ snapshots:
   serwist@9.0.0(typescript@5.4.5):
     dependencies:
       idb: 8.0.0
+    optionalDependencies:
       typescript: 5.4.5
 
   shebang-command@2.0.0:
@@ -4352,7 +4367,7 @@ snapshots:
     dependencies:
       punycode: 2.3.0
 
-  use-resize-observer@9.1.0(react-dom@18.2.0)(react@18.2.0):
+  use-resize-observer@9.1.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
     dependencies:
       '@juggle/resize-observer': 3.4.0
       react: 18.2.0
@@ -4462,11 +4477,12 @@ snapshots:
       fd-slicer: 1.1.0
 
   zustand@3.7.2(react@18.2.0):
-    dependencies:
+    optionalDependencies:
       react: 18.2.0
 
   zustand@4.5.2(@types/react@18.2.79)(react@18.2.0):
     dependencies:
+      use-sync-external-store: 1.2.0(react@18.2.0)
+    optionalDependencies:
       '@types/react': 18.2.79
       react: 18.2.0
-      use-sync-external-store: 1.2.0(react@18.2.0)
