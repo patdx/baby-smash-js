@@ -13,7 +13,7 @@ importers:
         version: 3.1.1(react@18.3.1)
       '@react-three/drei':
         specifier: 9.105.6
-        version: 9.105.6(@react-three/fiber@8.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1))(@types/react@18.3.2)(@types/three@0.164.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1)
+        version: 9.105.6(@react-three/fiber@8.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1))(@types/react@18.3.3)(@types/three@0.164.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1)
       '@react-three/fiber':
         specifier: 8.16.6
         version: 8.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1)
@@ -27,8 +27,8 @@ importers:
         specifier: ^8.4.4
         version: 8.4.4
       '@types/lodash':
-        specifier: 4.17.1
-        version: 4.17.1
+        specifier: 4.17.4
+        version: 4.17.4
       '@types/platform':
         specifier: 1.3.6
         version: 1.3.6
@@ -45,8 +45,8 @@ importers:
         specifier: 2.5.1
         version: 2.5.1
       framer-motion:
-        specifier: 11.2.2
-        version: 11.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 11.2.9
+        version: 11.2.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lodash:
         specifier: 4.17.21
         version: 4.17.21
@@ -76,20 +76,20 @@ importers:
         version: 9.1.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       zustand:
         specifier: 4.5.2
-        version: 4.5.2(@types/react@18.3.2)(react@18.3.1)
+        version: 4.5.2(@types/react@18.3.3)(react@18.3.1)
     devDependencies:
       '@types/node':
-        specifier: 20.12.12
-        version: 20.12.12
+        specifier: 20.12.13
+        version: 20.12.13
       '@types/react':
-        specifier: 18.3.2
-        version: 18.3.2
+        specifier: 18.3.3
+        version: 18.3.3
       '@types/react-dom':
         specifier: 18.3.0
         version: 18.3.0
       '@types/three':
-        specifier: 0.164.0
-        version: 0.164.0
+        specifier: 0.164.1
+        version: 0.164.1
       http-proxy:
         specifier: 1.18.1
         version: 1.18.1
@@ -521,8 +521,8 @@ packages:
   '@types/keyv@3.1.4':
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
 
-  '@types/lodash@4.17.1':
-    resolution: {integrity: sha512-X+2qazGS3jxLAIz5JDXDzglAF3KpijdhFxlf/V1+hEsOUc+HnWi81L/uv/EvGuV90WY+7mPGFCUDGfQC3Gj95Q==}
+  '@types/lodash@4.17.4':
+    resolution: {integrity: sha512-wYCP26ZLxaT3R39kiN2+HcJ4kTd3U1waI/cY7ivWYqFP6pW3ZNpvi6Wd6PHZx7T/t8z0vlkXMg3QYLa7DZ/IJQ==}
 
   '@types/minimatch@5.1.2':
     resolution: {integrity: sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==}
@@ -533,8 +533,8 @@ packages:
   '@types/node@18.18.7':
     resolution: {integrity: sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==}
 
-  '@types/node@20.12.12':
-    resolution: {integrity: sha512-eWLDGF/FOSPtAvEqeRAQ4C8LSA7M1I7i0ky1I8U7kD1J5ITyW3AsRhQrKVoWf5pFKZ2kILsEGJhsI9r93PYnOw==}
+  '@types/node@20.12.13':
+    resolution: {integrity: sha512-gBGeanV41c1L171rR7wjbMiEpEI/l5XFQdLLfhr/REwpgDy/4U8y89+i8kRiLzDyZdOkXh+cRaTetUnCYutoXA==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -557,8 +557,8 @@ packages:
   '@types/react-reconciler@0.28.4':
     resolution: {integrity: sha512-Xd55E2aLI9Q/ikDQEmfRzIwYJs4oO0h9ZHA3FZDakzt1WR6JMZcpqtCZlF97I72KVjoY4rHXU5TfvkRDOyr/rg==}
 
-  '@types/react@18.3.2':
-    resolution: {integrity: sha512-Btgg89dAnqD4vV7R3hlwOxgqobUQKgx3MmrQRi0yYbs/P0ym8XozIAlkqVilPqHQwXs4e9Tf63rrCgl58BcO4w==}
+  '@types/react@18.3.3':
+    resolution: {integrity: sha512-hti/R0pS0q1/xx+TsI73XIqk26eBsISZ2R0wUijXIngRK9R/e7Xw/cXVxQK7R5JjW+SV4zGcn5hXjudkN/pLIw==}
 
   '@types/responselike@1.0.0':
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
@@ -569,8 +569,8 @@ packages:
   '@types/stats.js@0.17.0':
     resolution: {integrity: sha512-9w+a7bR8PeB0dCT/HBULU2fMqf6BAzvKbxFboYhmDtDkKPiyXYbjoe2auwsXlEFI7CFNMF1dCv3dFH5Poy9R1w==}
 
-  '@types/three@0.164.0':
-    resolution: {integrity: sha512-SFDofn9dJVrE+1DKta7xj7lc4ru7B3S3yf10NsxOserW57aQlB6GxtAS1UK5To3LfEMN5HUHMu3n5v+M5rApgA==}
+  '@types/three@0.164.1':
+    resolution: {integrity: sha512-dR/trWDhyaNqJV38rl1TonlCA9DpnX7OPYDWD81bmBGn/+uEc3+zNalFxQcV4FlPTeDBhCY3SFWKvK6EJwL88g==}
 
   '@types/treeify@1.0.0':
     resolution: {integrity: sha512-ONpcZAEYlbPx4EtJwfTyCDQJGUpKf4sEcuySdCVjK5Fj/3vHp5HII1fqa1/+qrsLnpYELCQTfVW/awsGJePoIg==}
@@ -1134,8 +1134,8 @@ packages:
     resolution: {integrity: sha512-TMKDUnIte6bfb5nWv7V/caI169OHgvwjb7V4WkeUvbQQdjr5rWKqHFiKWb/fcOwB+CzBT+qbWjvj+DVwRskpIg==}
     engines: {node: '>=14'}
 
-  framer-motion@11.2.2:
-    resolution: {integrity: sha512-Jq65YXsRUUDPJ1VQ30pblGeE5g+a/oOKGiP3zlZT9whL652guO6KJjFhNXtcmatoVkyyNjZ2NDVPUlydpCprzA==}
+  framer-motion@11.2.9:
+    resolution: {integrity: sha512-gfxNSkp4dC3vpy2hGNQK3K9bNOKwfasqOhrqvmZzYxCPSJ9Tpv/9JlCkeCMgFdKefgPr8+JiouGjVmaDzu750w==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -1188,10 +1188,12 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globby@6.1.0:
     resolution: {integrity: sha512-KVbFv2TQtbzCoxAnfD6JcHZTYCzyliEaaeM/gH8qQdkKr5s0OP9scEgvdcngyk7AVdY6YVW/TJHd+lQ/Df3Daw==}
@@ -1269,6 +1271,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
@@ -1835,10 +1838,12 @@ packages:
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rollup@4.9.1:
@@ -2436,7 +2441,7 @@ snapshots:
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.105.6(@react-three/fiber@8.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1))(@types/react@18.3.2)(@types/three@0.164.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1)':
+  '@react-three/drei@9.105.6(@react-three/fiber@8.16.6(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1))(@types/react@18.3.3)(@types/three@0.164.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.164.1)':
     dependencies:
       '@babel/runtime': 7.22.11
       '@mediapipe/tasks-vision': 0.10.8
@@ -2449,7 +2454,7 @@ snapshots:
       detect-gpu: 5.0.37
       glsl-noise: 0.0.0
       hls.js: 1.3.5
-      maath: 0.10.7(@types/three@0.164.0)(three@0.164.1)
+      maath: 0.10.7(@types/three@0.164.1)(three@0.164.1)
       meshline: 3.1.6(three@0.164.1)
       react: 18.3.1
       react-composer: 5.0.3(react@18.3.1)
@@ -2460,7 +2465,7 @@ snapshots:
       three-mesh-bvh: 0.7.0(three@0.164.1)
       three-stdlib: 2.29.9(three@0.164.1)
       troika-three-text: 0.49.0(three@0.164.1)
-      tunnel-rat: 0.1.2(@types/react@18.3.2)(react@18.3.1)
+      tunnel-rat: 0.1.2(@types/react@18.3.3)(react@18.3.1)
       utility-types: 3.10.0
       uuid: 9.0.1
       zustand: 3.7.2(react@18.3.1)
@@ -2658,7 +2663,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       '@types/responselike': 1.0.0
 
   '@types/draco3d@1.4.2': {}
@@ -2680,7 +2685,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
 
   '@types/http-cache-semantics@4.0.1': {}
 
@@ -2688,9 +2693,9 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
 
-  '@types/lodash@4.17.1': {}
+  '@types/lodash@4.17.4': {}
 
   '@types/minimatch@5.1.2': {}
 
@@ -2700,7 +2705,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.12.12':
+  '@types/node@20.12.13':
     dependencies:
       undici-types: 5.26.5
 
@@ -2714,30 +2719,30 @@ snapshots:
 
   '@types/react-dom@18.3.0':
     dependencies:
-      '@types/react': 18.3.2
+      '@types/react': 18.3.3
 
   '@types/react-reconciler@0.26.7':
     dependencies:
-      '@types/react': 18.3.2
+      '@types/react': 18.3.3
 
   '@types/react-reconciler@0.28.4':
     dependencies:
-      '@types/react': 18.3.2
+      '@types/react': 18.3.3
 
-  '@types/react@18.3.2':
+  '@types/react@18.3.3':
     dependencies:
       '@types/prop-types': 15.7.5
       csstype: 3.1.2
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
 
   '@types/semver@7.5.1': {}
 
   '@types/stats.js@0.17.0': {}
 
-  '@types/three@0.164.0':
+  '@types/three@0.164.1':
     dependencies:
       '@tweenjs/tween.js': 23.1.1
       '@types/stats.js': 0.17.0
@@ -2753,7 +2758,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
     optional: true
 
   '@use-gesture/core@10.3.1': {}
@@ -3106,7 +3111,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -3377,7 +3382,7 @@ snapshots:
       cross-spawn: 7.0.3
       signal-exit: 4.1.0
 
-  framer-motion@11.2.2(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.2.9(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.2
     optionalDependencies:
@@ -3587,7 +3592,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.12.12
+      '@types/node': 20.12.13
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -3674,9 +3679,9 @@ snapshots:
     dependencies:
       yallist: 4.0.0
 
-  maath@0.10.7(@types/three@0.164.0)(three@0.164.1):
+  maath@0.10.7(@types/three@0.164.1)(three@0.164.1):
     dependencies:
-      '@types/three': 0.164.0
+      '@types/three': 0.164.1
       three: 0.164.1
 
   map-obj@1.0.1: {}
@@ -4314,9 +4319,9 @@ snapshots:
 
   tslib@2.6.2: {}
 
-  tunnel-rat@0.1.2(@types/react@18.3.2)(react@18.3.1):
+  tunnel-rat@0.1.2(@types/react@18.3.3)(react@18.3.1):
     dependencies:
-      zustand: 4.5.2(@types/react@18.3.2)(react@18.3.1)
+      zustand: 4.5.2(@types/react@18.3.3)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -4468,9 +4473,9 @@ snapshots:
     optionalDependencies:
       react: 18.3.1
 
-  zustand@4.5.2(@types/react@18.3.2)(react@18.3.1):
+  zustand@4.5.2(@types/react@18.3.3)(react@18.3.1):
     dependencies:
       use-sync-external-store: 1.2.0(react@18.3.1)
     optionalDependencies:
-      '@types/react': 18.3.2
+      '@types/react': 18.3.3
       react: 18.3.1
