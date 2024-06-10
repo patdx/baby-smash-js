@@ -22,7 +22,7 @@ importers:
         version: 8.4.4(next@14.2.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.91.0)
       '@serwist/precaching':
         specifier: ^9.0.0
-        version: 9.0.2(typescript@5.4.5)
+        version: 9.0.3(typescript@5.4.5)
       '@serwist/sw':
         specifier: ^8.4.4
         version: 8.4.4
@@ -441,8 +441,9 @@ packages:
     resolution: {integrity: sha512-2HUiDKRpHxNirH37UnIuLx6Zc6HaIAgpTE2qWT6BfzqX1Fbmn2Zk67tvBTfCITWemCw1/dUH8VzI1k6vC3XmtA==}
     deprecated: This package has been deprecated. Please use serwist instead.
 
-  '@serwist/precaching@9.0.2':
-    resolution: {integrity: sha512-esq9MCODaeAX9C07Xg1ON8xVrm4LY/Yqavdkleyo26fBmUhDRwuhKRX06t4FW7XRBK82Z/SdGdcdbGmkXuVAjQ==}
+  '@serwist/precaching@9.0.3':
+    resolution: {integrity: sha512-0sSUXrsWFHTze1llOxnhkyJCQ/MhUmTL2TFRjDnRqdg5TIiJqTqGnBU6FHgWxlMyiPb9jLbmsZcGaLIlwTOQWg==}
+    deprecated: This package has been deprecated. Please use serwist instead.
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -1879,8 +1880,8 @@ packages:
   serialize-javascript@6.0.1:
     resolution: {integrity: sha512-owoXEFjWRllis8/M1Q+Cw5k8ZH40e3zhp/ovX+Xr/vi1qj6QesbyXXViFbpNvWvPNAD62SutwEXavefrLJWj7w==}
 
-  serwist@9.0.2:
-    resolution: {integrity: sha512-36+GeVAd0nd6byRKrSVJJHdIF0mSJ+hwxPYBQKZ+8BJ9SGap9Udw4FeG1ohgbezvGteUWoOLXJwQqTl1I1BkyQ==}
+  serwist@9.0.3:
+    resolution: {integrity: sha512-WNan/+oethHd0YKyEVIETk9z7BWNnhbrhKWD5iE/n9eAIGUMUS4a3Ff5E6QHltxEVo+X3Dc3HtSIqXkSoEK9YA==}
     peerDependencies:
       typescript: '>=5.0.0'
     peerDependenciesMeta:
@@ -2600,9 +2601,9 @@ snapshots:
       '@serwist/routing': 8.4.4
       '@serwist/strategies': 8.4.4
 
-  '@serwist/precaching@9.0.2(typescript@5.4.5)':
+  '@serwist/precaching@9.0.3(typescript@5.4.5)':
     dependencies:
-      serwist: 9.0.2(typescript@5.4.5)
+      serwist: 9.0.3(typescript@5.4.5)
     optionalDependencies:
       typescript: 5.4.5
 
@@ -4125,7 +4126,7 @@ snapshots:
     dependencies:
       randombytes: 2.1.0
 
-  serwist@9.0.2(typescript@5.4.5):
+  serwist@9.0.3(typescript@5.4.5):
     dependencies:
       idb: 8.0.0
     optionalDependencies:
