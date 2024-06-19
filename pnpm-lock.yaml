@@ -19,7 +19,7 @@ importers:
         version: 8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.165.0)
       '@serwist/next':
         specifier: ^8.4.4
-        version: 8.4.4(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.92.0)
+        version: 8.4.4(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.92.1)
       '@serwist/precaching':
         specifier: ^9.0.0
         version: 9.0.3(typescript@5.4.5)
@@ -79,8 +79,8 @@ importers:
         version: 4.5.2(@types/react@18.3.3)(react@18.3.1)
     devDependencies:
       '@types/node':
-        specifier: 20.14.5
-        version: 20.14.5
+        specifier: 20.14.6
+        version: 20.14.6
       '@types/react':
         specifier: 18.3.3
         version: 18.3.3
@@ -103,8 +103,8 @@ importers:
         specifier: 5.4.5
         version: 5.4.5
       webpack:
-        specifier: 5.92.0
-        version: 5.92.0
+        specifier: 5.92.1
+        version: 5.92.1
 
 packages:
 
@@ -534,8 +534,8 @@ packages:
   '@types/node@18.18.7':
     resolution: {integrity: sha512-bw+lEsxis6eqJYW8Ql6+yTqkE6RuFtsQPSe5JxXbqYRFQEER5aJA9a5UH9igqDWm3X4iLHIKOHlnAXLM4mi7uQ==}
 
-  '@types/node@20.14.5':
-    resolution: {integrity: sha512-aoRR+fJkZT2l0aGOJhuA8frnCSoNX6W7U2mpNq63+BxBIj5BQFt8rHy627kijCmm63ijdSdwvGgpUsU6MBsZZA==}
+  '@types/node@20.14.6':
+    resolution: {integrity: sha512-JbA0XIJPL1IiNnU7PFxDXyfAwcwVVrOoqyzzyQTyMeVhBzkJVMSkC1LlVsRQ2lpqiY4n6Bb9oCS6lzDKVQxbZw==}
 
   '@types/normalize-package-data@2.4.1':
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -2185,8 +2185,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.92.0:
-    resolution: {integrity: sha512-Bsw2X39MYIgxouNATyVpCNVWBCuUwDgWtN78g6lSdPJRLaQ/PUVm/oXcaRAyY/sMFoKFQrsPeqvTizWtq7QPCA==}
+  webpack@5.92.1:
+    resolution: {integrity: sha512-JECQ7IwJb+7fgUFBlrJzbyu3GEuNBcdqr1LD7IbSzwkSmIevTm8PF+wej3Oxuz/JFBUZ6O1o43zsPkwm1C4TmA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2585,15 +2585,15 @@ snapshots:
     dependencies:
       '@serwist/core': 8.4.4
 
-  '@serwist/next@8.4.4(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.92.0)':
+  '@serwist/next@8.4.4(next@14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(webpack@5.92.1)':
     dependencies:
       '@serwist/build': 8.4.4
-      '@serwist/webpack-plugin': 8.4.4(webpack@5.92.0)
+      '@serwist/webpack-plugin': 8.4.4(webpack@5.92.1)
       '@serwist/window': 8.4.4
-      clean-webpack-plugin: 4.0.0(webpack@5.92.0)
+      clean-webpack-plugin: 4.0.0(webpack@5.92.1)
       fast-glob: 3.3.2
       next: 14.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      webpack: 5.92.0
+      webpack: 5.92.1
 
   '@serwist/precaching@8.4.4':
     dependencies:
@@ -2633,12 +2633,12 @@ snapshots:
       '@serwist/routing': 8.4.4
       '@serwist/strategies': 8.4.4
 
-  '@serwist/webpack-plugin@8.4.4(webpack@5.92.0)':
+  '@serwist/webpack-plugin@8.4.4(webpack@5.92.1)':
     dependencies:
       '@serwist/build': 8.4.4
       fast-json-stable-stringify: 2.1.0
       upath: 2.0.1
-      webpack: 5.92.0
+      webpack: 5.92.1
 
   '@serwist/window@8.4.4':
     dependencies:
@@ -2664,7 +2664,7 @@ snapshots:
     dependencies:
       '@types/http-cache-semantics': 4.0.1
       '@types/keyv': 3.1.4
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
       '@types/responselike': 1.0.0
 
   '@types/draco3d@1.4.2': {}
@@ -2686,7 +2686,7 @@ snapshots:
   '@types/glob@7.2.0':
     dependencies:
       '@types/minimatch': 5.1.2
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
 
   '@types/http-cache-semantics@4.0.1': {}
 
@@ -2694,7 +2694,7 @@ snapshots:
 
   '@types/keyv@3.1.4':
     dependencies:
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
 
   '@types/lodash@4.17.5': {}
 
@@ -2706,7 +2706,7 @@ snapshots:
     dependencies:
       undici-types: 5.26.5
 
-  '@types/node@20.14.5':
+  '@types/node@20.14.6':
     dependencies:
       undici-types: 5.26.5
 
@@ -2737,7 +2737,7 @@ snapshots:
 
   '@types/responselike@1.0.0':
     dependencies:
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
 
   '@types/semver@7.5.1': {}
 
@@ -2759,7 +2759,7 @@ snapshots:
 
   '@types/yauzl@2.10.3':
     dependencies:
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
     optional: true
 
   '@use-gesture/core@10.3.1': {}
@@ -3112,7 +3112,7 @@ snapshots:
 
   chrome-launcher@0.15.2:
     dependencies:
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
       escape-string-regexp: 4.0.0
       is-wsl: 2.2.0
       lighthouse-logger: 1.4.2
@@ -3125,10 +3125,10 @@ snapshots:
 
   classnames@2.5.1: {}
 
-  clean-webpack-plugin@4.0.0(webpack@5.92.0):
+  clean-webpack-plugin@4.0.0(webpack@5.92.1):
     dependencies:
       del: 4.1.1
-      webpack: 5.92.0
+      webpack: 5.92.1
 
   client-only@0.0.1: {}
 
@@ -3593,7 +3593,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 20.14.5
+      '@types/node': 20.14.6
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -4254,14 +4254,14 @@ snapshots:
       mkdirp: 1.0.4
       yallist: 4.0.0
 
-  terser-webpack-plugin@5.3.10(webpack@5.92.0):
+  terser-webpack-plugin@5.3.10(webpack@5.92.1):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.27.0
-      webpack: 5.92.0
+      webpack: 5.92.1
 
   terser@5.27.0:
     dependencies:
@@ -4397,7 +4397,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.92.0:
+  webpack@5.92.1:
     dependencies:
       '@types/eslint-scope': 3.7.4
       '@types/estree': 1.0.5
@@ -4420,7 +4420,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.92.0)
+      terser-webpack-plugin: 5.3.10(webpack@5.92.1)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
