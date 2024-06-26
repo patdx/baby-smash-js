@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "9.107.0",
+    "@react-three/drei": "9.107.1",
     "@react-three/fiber": "8.16.8",
     "@serwist/next": "^8.4.4",
     "@serwist/precaching": "^9.0.0",
@@ -34,10 +34,10 @@
     "react-dom": "18.3.1",
     "three": "0.165.0",
     "use-resize-observer": "9.1.0",
-    "zustand": "4.5.2"
+    "zustand": "4.5.3"
   },
   "devDependencies": {
-    "@types/node": "20.14.8",
+    "@types/node": "20.14.9",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "@types/three": "0.165.0",
