@@ -1,6 +1,4 @@
 import { MetadataRoute } from 'next';
-import icon192 from '../assets/manifest-icon-192.png';
-import icon512 from '../assets/manifest-icon-512.png';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
@@ -8,20 +6,33 @@ export default function manifest(): MetadataRoute.Manifest {
     short_name: 'Baby Smash JS',
     icons: [
       {
-        src: icon192.src,
+        src: '/assets/manifest-icon-192.maskable.png',
         sizes: '192x192',
         type: 'image/png',
         purpose: 'any',
       },
       {
-        src: icon512.src,
+        src: '/assets/manifest-icon-192.maskable.png',
+        sizes: '192x192',
+        type: 'image/png',
+        purpose: 'maskable',
+      },
+      {
+        src: '/assets/manifest-icon-512.maskable.png',
         sizes: '512x512',
         type: 'image/png',
         purpose: 'any',
       },
+      {
+        src: '/assets/manifest-icon-512.maskable.png',
+        sizes: '512x512',
+        type: 'image/png',
+        purpose: 'maskable',
+      },
     ],
     theme_color: '#ffffff',
     background_color: '#ffffff',
+    id: '/',
     start_url: '/',
     display: 'fullscreen',
   };

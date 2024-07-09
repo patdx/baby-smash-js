@@ -9,19 +9,16 @@
     "start": "next start",
     "type-check": "tsc",
     "preinstall": "npx only-allow pnpm",
-    "pwa": "pwa-asset-generator --type png ./assets/baby-smash.svg ./public/assets  --path-override '/assets' --xhtml --manifest ./public/assets/manifest.json"
+    "pwa": "pwa-asset-generator --type png ./original-assets/baby-smash.svg ./public/assets  --path-override '/assets' --xhtml --manifest ./public/assets/manifest.json"
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
     "@react-three/drei": "9.108.3",
     "@react-three/fiber": "8.16.8",
-    "@serwist/next": "^8.4.4",
-    "@serwist/precaching": "^9.0.0",
-    "@serwist/sw": "^8.4.4",
+    "@serwist/next": "9.0.3",
     "@types/lodash": "4.17.6",
     "@types/platform": "1.3.6",
     "@use-gesture/react": "10.3.1",
-    "@yarnpkg/pnpify": "4.1.0",
     "cannon-es": "0.20.0",
     "classnames": "2.5.1",
     "framer-motion": "11.2.14",
@@ -42,10 +39,11 @@
     "@types/react-dom": "18.3.0",
     "@types/three": "0.166.0",
     "http-proxy": "1.18.1",
-    "only-allow": "^1.2.1",
+    "only-allow": "1.2.1",
     "pwa-asset-generator": "6.3.1",
+    "serwist": "9.0.3",
     "typescript": "5.5.3",
     "webpack": "5.92.1"
   },
-  "packageManager": "pnpm@9.5.0"
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }
