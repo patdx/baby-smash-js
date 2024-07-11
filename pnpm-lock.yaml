@@ -19,7 +19,7 @@ importers:
         version: 8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)
       '@serwist/next':
         specifier: 9.0.3
-        version: 9.0.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.3)(webpack@5.92.1)
+        version: 9.0.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.3)(webpack@5.93.0)
       '@types/lodash':
         specifier: 4.17.6
         version: 4.17.6
@@ -97,8 +97,8 @@ importers:
         specifier: 5.5.3
         version: 5.5.3
       webpack:
-        specifier: 5.92.1
-        version: 5.92.1
+        specifier: 5.93.0
+        version: 5.93.0
 
 packages:
 
@@ -1794,8 +1794,8 @@ packages:
     resolution: {integrity: sha512-/DyMEOrDgLKKIG0fmvtz+4dUX/3Ghozwgm6iPp8KRhvn+eQf9+Q7GWxVNMk3+uCPWfdXYC4ExGBckIXdFEfH1w==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.92.1:
-    resolution: {integrity: sha512-JECQ7IwJb+7fgUFBlrJzbyu3GEuNBcdqr1LD7IbSzwkSmIevTm8PF+wej3Oxuz/JFBUZ6O1o43zsPkwm1C4TmA==}
+  webpack@5.93.0:
+    resolution: {integrity: sha512-Y0m5oEY1LRuwly578VqluorkXbvXKh7U3rLoQCEO04M97ScRr44afGVkI0FQFsXzysk5OgFAxjZAb9rsGQVihA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2146,10 +2146,10 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.3
 
-  '@serwist/next@9.0.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.3)(webpack@5.92.1)':
+  '@serwist/next@9.0.3(next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(typescript@5.5.3)(webpack@5.93.0)':
     dependencies:
       '@serwist/build': 9.0.3(typescript@5.5.3)
-      '@serwist/webpack-plugin': 9.0.3(typescript@5.5.3)(webpack@5.92.1)
+      '@serwist/webpack-plugin': 9.0.3(typescript@5.5.3)(webpack@5.93.0)
       '@serwist/window': 9.0.3(typescript@5.5.3)
       chalk: 5.3.0
       glob: 10.4.1
@@ -2161,7 +2161,7 @@ snapshots:
     transitivePeerDependencies:
       - webpack
 
-  '@serwist/webpack-plugin@9.0.3(typescript@5.5.3)(webpack@5.92.1)':
+  '@serwist/webpack-plugin@9.0.3(typescript@5.5.3)(webpack@5.93.0)':
     dependencies:
       '@serwist/build': 9.0.3(typescript@5.5.3)
       pretty-bytes: 6.1.1
@@ -2169,7 +2169,7 @@ snapshots:
       zod: 3.23.8
     optionalDependencies:
       typescript: 5.5.3
-      webpack: 5.92.1
+      webpack: 5.93.0
 
   '@serwist/window@9.0.3(typescript@5.5.3)':
     dependencies:
@@ -3434,14 +3434,14 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  terser-webpack-plugin@5.3.10(webpack@5.92.1):
+  terser-webpack-plugin@5.3.10(webpack@5.93.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.22
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
       terser: 5.27.0
-      webpack: 5.92.1
+      webpack: 5.93.0
 
   terser@5.27.0:
     dependencies:
@@ -3565,7 +3565,7 @@ snapshots:
 
   webpack-sources@3.2.3: {}
 
-  webpack@5.92.1:
+  webpack@5.93.0:
     dependencies:
       '@types/eslint-scope': 3.7.4
       '@types/estree': 1.0.5
@@ -3588,7 +3588,7 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 3.3.0
       tapable: 2.2.1
-      terser-webpack-plugin: 5.3.10(webpack@5.92.1)
+      terser-webpack-plugin: 5.3.10(webpack@5.93.0)
       watchpack: 2.4.1
       webpack-sources: 3.2.3
     transitivePeerDependencies:
