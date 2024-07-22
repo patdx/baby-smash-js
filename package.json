@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "9.108.4",
+    "@react-three/drei": "9.109.1",
     "@react-three/fiber": "8.16.8",
     "@serwist/next": "9.0.5",
     "@types/lodash": "4.17.7",
@@ -42,7 +42,7 @@
     "only-allow": "1.2.1",
     "pwa-asset-generator": "6.3.1",
     "serwist": "9.0.5",
-    "typescript": "5.5.3",
+    "typescript": "5.5.4",
     "webpack": "5.93.0"
   },
   "packageManager": "pnpm@9.6.0"
