@@ -242,7 +242,7 @@ export const TouchBackground: FC<{
 };
 
 export const Game: FC = () => {
-  const camera = useRef();
+  const camera = useRef(undefined);
   (window as any).camera = camera;
 
   // default camera has same width as canvas
