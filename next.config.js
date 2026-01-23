@@ -8,5 +8,9 @@ const withSerwist = withSerwistInit({
 });
 
 export default withSerwist({
-  // Your Next.js config
+  output: 'export',
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
+  },
 });
