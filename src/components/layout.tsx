@@ -1,5 +1,3 @@
-'use client';
-
 import classnames from 'classnames';
 import {
   FC,

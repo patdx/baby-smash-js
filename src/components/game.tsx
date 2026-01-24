@@ -1,5 +1,3 @@
-'use client';
-
 import * as CANNON from 'cannon-es';
 import { Text } from '@react-three/drei';
 import React, { FC, useRef, useState, useEffect, Suspense } from 'react';

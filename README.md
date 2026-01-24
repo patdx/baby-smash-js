@@ -9,7 +9,7 @@ Inspired by:
 
 It's using React and Three JS to run a 3D environment.
 
-It's set up as a PWA so you can use the "Add to home screen" on your iOS or Android device, and you should be able to open it offline too.
+It’s set up as a PWA (via [Serwist](https://serwist.pages.dev/docs/vite)) with a web app manifest and service worker, so you can use "Add to home screen" and open it offline.
 
 ## How to use it?
 
