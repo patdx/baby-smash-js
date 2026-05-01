@@ -14,7 +14,7 @@
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
     "@react-three/drei": "10.7.7",
-    "@react-three/fiber": "9.5.0",
+    "@react-three/fiber": "9.6.1",
     "@serwist/window": "^9.2.3",
     "@types/lodash": "4.17.24",
     "@types/platform": "1.3.6",
@@ -26,16 +26,16 @@
     "normalize.css": "8.0.1",
     "pepjs": "0.5.3",
     "platform": "1.3.6",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "three": "0.183.2"
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "three": "0.184.0"
   },
   "devDependencies": {
     "@serwist/vite": "^9.2.3",
-    "@types/node": "24.12.0",
+    "@types/node": "24.12.2",
     "@types/react": "19.2.14",
     "@types/react-dom": "19.2.3",
-    "@types/three": "0.183.1",
+    "@types/three": "0.184.0",
     "@vitejs/plugin-react": "5.2.0",
     "only-allow": "1.2.2",
     "pwa-asset-generator": "8.1.4",
@@ -43,7 +43,7 @@
     "typescript": "5.9.3",
     "vite": "7.3.2"
   },
-  "packageManager": "pnpm@10.33.0+sha512.10568bb4a6afb58c9eb3630da90cc9516417abebd3fabbe6739f0ae795728da1491e9db5a544c76ad8eb7570f5c4bb3d6c637b2cb41bfdcdb47fa823c8649319",
+  "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8",
   "pnpm": {
     "overrides": {
       "@types/react": "19.2.14",
