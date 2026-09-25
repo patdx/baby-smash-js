@@ -13,41 +13,41 @@
   },
   "dependencies": {
     "@react-hook/window-size": "3.1.1",
-    "@react-three/drei": "10.7.7",
-    "@react-three/fiber": "9.6.1",
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
     "@serwist/window": "^9.2.3",
-    "@types/lodash": "4.17.24",
+    "@types/lodash": "4.17.25",
     "@types/platform": "1.3.6",
     "@use-gesture/react": "10.3.1",
     "cannon-es": "0.20.0",
     "classnames": "2.5.1",
-    "framer-motion": "12.42.2",
+    "framer-motion": "12.43.0",
     "lodash": "4.18.1",
     "normalize.css": "8.0.1",
     "pepjs": "0.5.3",
     "platform": "1.3.6",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
-    "three": "0.185.1"
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "three": "0.186.1"
   },
   "devDependencies": {
     "@serwist/vite": "^9.2.3",
-    "@types/node": "24.13.2",
-    "@types/react": "19.2.17",
-    "@types/react-dom": "19.2.3",
-    "@types/three": "0.185.0",
+    "@types/node": "24.19.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
     "@vitejs/plugin-react": "5.2.0",
     "only-allow": "1.2.2",
-    "pwa-asset-generator": "8.1.5",
+    "pwa-asset-generator": "8.1.7",
     "serwist": "^9.2.3",
     "typescript": "5.9.3",
     "vite": "7.3.6"
   },
-  "packageManager": "pnpm@10.34.4+sha512.8768be55200ae3f2226b6527fcca2687e14bc4e5f12d7721a0f25da3df47915177058648db4177baf348120fa0ba2752d8d8d93f6beaf1fe64ae18da8de961af",
+  "packageManager": "pnpm@10.34.5",
   "pnpm": {
     "overrides": {
-      "@types/react": "19.2.17",
-      "@types/react-dom": "19.2.3"
+      "@types/react": "19.3.0",
+      "@types/react-dom": "19.3.0"
     }
   }
 }
